@@ -1,0 +1,21 @@
+.DS_STORE
+.env
+
+node_modules
+
+# python
+__pycache__/
+__init__.pyc
+venv
+
+# R files
+.Rproj.user
+
+# RD3
+data
+apps/app-get-started/dist
+
+downloads
+
+# excel
+~$*.xlsx
