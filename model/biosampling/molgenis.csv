@@ -1,0 +1,57 @@
+﻿tableName,tableType,tableExtends,columnName,columnType,key,required,refSchema,refTable,visible,semantics,label,description
+biospecimen,,,,,,,,,,http://purl.obolibrary.org/obo/NCIT_C70699,Biospecimen SOP,
+biospecimen,,,patient_id,string,1,TRUE,,,,http://purl.obolibrary.org/obo/NCIT_C164337,Patient identifier,Enter the Recon4IMD patient identifier. This identifier is generated upon patient registration into the IMDhub.
+biospecimen,,,clinician,ontology,,TRUE,,persons,,http://purl.obolibrary.org/obo/NCIT_C85499,Referring clinician,Please select the referring clinician for the list of options.
+biospecimen,,,barcode,string,,TRUE,,,,http://purl.obolibrary.org/obo/FLU_0001019,Barcode of the proband,Click or tap the field below to enter a new barcode. Use your barcode scanner to enter the code or you may manually type it in.
+biospecimen,,,gender_identity,ontology,,TRUE,,assignedGenderAtBirth,,http://purl.obolibrary.org/obo/GSSO_009418,Gender,
+biospecimen,,,status,ontology,,TRUE,,statuses,,http://purl.obolibrary.org/obo/NCIT_C27993,Status,
+biospecimen,,,biospecimen_information,heading,,,,,,http://purl.obolibrary.org/obo/NCIT_C70945,Biospecimen Information,
+biospecimen,,,sober_at_sampling,bool,,TRUE,,,,http://www.ebi.ac.uk/efo/EFO_0004329,Sober when blood is taken,"Indication that the patient is sober at the time of sampling. If not sober, please provide accurate time documentation."
+biospecimen,,,datetime_last_alcohol_ingest,datetime,,TRUE,,,,http://snomed.info/id/228329000,Time of last alcohol intake,Please enter the date and time.
+biospecimen,,,datetime_last_food_ingest,datetime,,TRUE,,,,http://snomed.info/id/301897001,Time of last food intake,Please enter the date and time.
+biospecimen,,,datetime_last_medication_ingest,datetime,,TRUE,,,,http://purl.obolibrary.org/obo/OBI_0002490,Time of last medication,
+biospecimen,,,datetime_of_collection,datetime,,TRUE,,,,http://purl.obolibrary.org/obo/NCIT_C178868,Date and time of blood sampling,
+biospecimen,,,edta_plasma,heading,,,,,,http://purl.obolibrary.org/obo/NCIT_C178916,EDTA-Tube/Plasma,
+biospecimen,,,edta_plasma_collected,bool,,,,,,http://purl.obolibrary.org/obo/NCIT_C170548,EDTA-Tube/Plasma collected,Indication if the specimen was collected.
+biospecimen,,,edta_plasma_centrifuge,ontology,,,,centrifugation,edta_plasma_collected ,http://purl.obolibrary.org/obo/MSIO_0000146,Centrifugation,"Centrifugation took place directly after collection. Select one of the options or select ""other"" to enter other information"
+biospecimen,,,edta_plasma_centrifuge_other_g,int,,,,,"edta_plasma_collected  & edta_plasma_centrifuge?.name===""other""",http://snomed.info/id/285649006,Force,
+biospecimen,,,edta_plasma_centrifuge_other_temp,int,,,,,"edta_plasma_collected  & edta_plasma_centrifuge?.name===""other""",http://purl.obolibrary.org/obo/NCIT_C25206,Centrifuge temperature,
+biospecimen,,,edta_plasma_centrifuge_other_min,int,,,,,"edta_plasma_collected  & edta_plasma_centrifuge?.name===""other""",http://purl.obolibrary.org/obo/NCIT_C178881,Minutes,
+biospecimen,,,edta_plasma_aliquots,ontology,,,,aliquots,edta_plasma_collected ,http://semanticscience.org/resource/SIO_010425,Supernatant aliquots,Select a value or enter a specific value
+biospecimen,,,edta_plasma_aliquots_other,int,,,,,"edta_plasma_collected  & edta_plasma_aliquots.name===""other""",http://semanticscience.org/resource/SIO_010425,Enter a number of aliquots,
+biospecimen,,,edta_plasma_storage,ontology,,,,storage,edta_plasma_collected ,http://purl.obolibrary.org/obo/NCIT_C96145,Storage,Select the temperature at which the sample was stored
+biospecimen,,,edta_plasma_deviation_remark,text,,,,,edta_plasma_collected ,http://purl.allotrope.org/ontologies/result#AFR_0002017,Remark in case of deviation,
+biospecimen,,,edta_plasma_reason_not_collected,text,,,,,!edta_plasma_collected,http://purl.obolibrary.org/obo/OBI_0002199,"If no biospecimen, please state the reason.",
+biospecimen,,,paxgene_rna,heading,,,,,,http://purl.obolibrary.org/obo/NCIT_C126394,PAXgene-RNA,
+biospecimen,,,paxgene_rna_collected,bool,,,,,,http://purl.obolibrary.org/obo/NCIT_C170548,PAXgene-RNA collected,Indication if the specimen was collected.
+biospecimen,,,paxgene_rna_storage_room,ontology,,,,storage,paxgene_rna_collected ,http://purl.obolibrary.org/obo/NCIT_C70719,Storage at room temperature,
+biospecimen,,,paxgene_rna_storage_room_other,int,,,,,"paxgene_rna_collected  && paxgene_rna_storage_room?.name===""other""",http://purl.obolibrary.org/obo/NCIT_C70719,Other room temperature storage,Enter number of hours stored at room temperature
+biospecimen,,,paxgene_rna_storage_freezer,ontology,,,,storage,paxgene_rna_collected ,http://snomed.info/id/69997009,Freezer storage,
+biospecimen,,,paxgene_rna_deviation_remark,text,,,,,paxgene_rna_collected ,http://purl.allotrope.org/ontologies/result#AFR_0002017,Remark in case of deviation,
+biospecimen,,,paxgene_rna_reason_not_collected,text,,,,,!paxgene_rna_collected,http://purl.obolibrary.org/obo/OBI_0002199,"If no biospecimen, please state the reason.",
+biospecimen,,,edta_blood,heading,,,,,,http://purl.obolibrary.org/obo/NCIT_C158462,EDTA-Blood/DNA,
+biospecimen,,,edta_blood_collected,bool,,,,,,http://purl.obolibrary.org/obo/NCIT_C170548,EDTA-Blood/DNA collected,Indication if the specimen was collected.
+biospecimen,,,edta_blood_storage,ontology,,,,storage,edta_blood_collected ,http://purl.obolibrary.org/obo/NCIT_C96145,Storage,
+biospecimen,,,edta_blood_deviation_remark,text,,,,,edta_blood_collected ,http://purl.allotrope.org/ontologies/result#AFR_0002017,Remark in case of deviation,
+biospecimen,,,edta_blook_reason_not_collected,text,,,,,!edta_blood_collected,http://purl.obolibrary.org/obo/OBI_0002199,"If no biospecimen, please state the reason.",
+biospecimen,,,urine,heading,,,,,,http://purl.obolibrary.org/obo/NCIT_C189126,Urine,
+biospecimen,,,urine_collected,bool,,,,,,http://purl.obolibrary.org/obo/NCIT_C170548,Urine collected,Indication if the specimen was collected.
+biospecimen,,,urine_centrifuge,ontology,,,,centrifugation,urine_collected ,http://purl.obolibrary.org/obo/MSIO_0000146,Centrifugation,
+biospecimen,,,urine_centrifuge_other_g,int,,,,,"urine_collected  && urine_centrifuge?.name===""other""",http://snomed.info/id/285649006,Force,
+biospecimen,,,urine_centrifuge_other_temp,int,,,,,"urine_collected  && urine_centrifuge?.name===""other""",http://purl.obolibrary.org/obo/NCIT_C25206,Centrifuge temperature,
+biospecimen,,,urine_centrifuge_other_min,int,,,,,"urine_collected  && urine_centrifuge?.name===""other""",http://purl.obolibrary.org/obo/NCIT_C178881,Minutes,
+biospecimen,,,urine_aliquots,ontology,,,,aliquots,,http://semanticscience.org/resource/SIO_010425,Supernatant aliquots,Select a value or enter a specific value
+biospecimen,,,urine_aliquots_other,int,,,,,"urine_collected  && urine_aliquots?.name===""other""",http://semanticscience.org/resource/SIO_010425,Enter a number of aliquots,
+biospecimen,,,urine_deviation_remark,text,,,,,urine_collected ,http://purl.allotrope.org/ontologies/result#AFR_0002017,Remark in case of deviation,
+biospecimen,,,urine_reason_not_collected,text,,,,,!urine_collected,http://purl.obolibrary.org/obo/OBI_0002199,"If no biospecimen, please state the reason.",
+aliquots,ONTOLOGIES,,,,,,,,,http://semanticscience.org/resource/SIO_010425,Supernatant aliquots,
+aliquots,ONTOLOGIES,,project_specimen,ontology,,,,specimens,,http://purl.obolibrary.org/obo/NCIT_C70713,,
+assignedGenderAtBirth,ONTOLOGIES,,,,,,,,,http://purl.obolibrary.org/obo/GSSO_009418,Assigned gender at birth,
+centrifugation,ONTOLOGIES,,,,,,,,,http://purl.obolibrary.org/obo/MSIO_0000146,Centrifugation,"centrifugation is a material component separation process which relies on centrifugational forces applied by means of high velocity rotation to a sample placed in a vial or tube in a rotor, fixed to an centrifugation instrument."
+centrifugation,ONTOLOGIES,,project_specimen,ontology,,,,specimens,,http://purl.obolibrary.org/obo/MSIO_0000146,,
+persons,ONTOLOGIES,,,,,,,,,http://purl.obolibrary.org/obo/NCIT_C25190,Persons,List of all known individuals
+specimens,ONTOLOGIES,,,,,,,,,http://purl.obolibrary.org/obo/NCIT_C70713,Recon4imd Biospecimen Types,Specimen types collected and submitted to IMDhub
+statuses,ONTOLOGIES,,,,,,,,,http://purl.obolibrary.org/obo/NCIT_C27993,Statuses,A term that helps define and render another concept unique.
+storage,ONTOLOGIES,,,,,,,,,http://purl.obolibrary.org/obo/NCIT_C96145,,
+storage,ONTOLOGIES,,project_specimen,ontology_array,,,,specimens,,http://purl.obolibrary.org/obo/NCIT_C70713,,
+storage,ONTOLOGIES,,project_storage_type,string,,,,,,http://purl.obolibrary.org/obo/NCIT_C96145,,
