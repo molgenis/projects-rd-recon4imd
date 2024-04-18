@@ -1,0 +1,27 @@
+label,ontologyTermURI,code,name,country,city,latitude,longitude,type
+Tübingen University Hospital,https://ror.org/00pjgxh97,ROR:00pjgxh97,Universitätsklinikum Tübingen,Germany,Tübingen,48.52266,9.05222,healthcare
+University Hospital Heidelberg,https://ror.org/013czdx64,ROR:013czdx64,University Hospital Heidelberg,Germany,Heidelberg,49.40768,8.69079,healthcare
+Mater Misericoridiae University Hospital,https://ror.org/040hqpc16,ROR:040hqpc16,Mater Misericordiae University Hospital,Ireland,Dublin,53.33306,-6.24889,healthcare
+Childrens Health Ireland,https://ror.org/025qedy81,ROR:025qedy81,"Children's Health Ireland at Crumlin",Ireland,Dublin,53.325833,-6.317222,healthcare
+Friuli Central University Hospital,https://ror.org/02zpc2253,ROR:02zpc2253,Ospedale Santa Maria della Misericordia di Udine,Italy,Udine,46.077371,13.228381,healthcare
+University Medical Centre Groningen,https://ror.org/012p63287,ROR:012p63287,University of Groningen,Netherlands,Groningen,53.219443,6.562966,education
+Oslo University Hospital,https://ror.org/00j9c2840,ROR:00j9c2840,Oslo University Hospital,Norway,Oslo,59.9486,10.7153,healthcare
+Belfast Health and Social Care Trust,https://ror.org/02tdmfk69,ROR:02tdmfk69,Belfast Health and Social Care Trust,United Kingdom,Belfast,54.540259,-5.90496,healthcare
+University College London (Great Ormond Street Hospital),https://ror.org/00zn2c847,ROR:00zn2c847,Great Ormond Street Hospital,United Kingdom,London,51.50853,-0.12574,healthcare
+KU Leuven Universitair Ziekenhuis Leuven,https://ror.org/05f950310,ROR:05f950310,KU Leuven,Belgium,Leuven,50.87959,4.70093,education
+University Hospital of Antwerp UZA,https://ror.org/01hwamj44,ROR:01hwamj44,Antwerp University Hospital,Belgium,Antwerp,51.22047,4.40026,healthcare
+General University Hospital in Prague,https://ror.org/04yg23125,ROR:04yg23125,General University Hospital in Prague,Czechia,Prague,50.08804,14.42076,healthcare
+"Copenhagen University Hospital, Rigshospitalet",https://ror.org/05bpbnx46,ROR:05bpbnx46,Copenhagen University Hospital,Denmark,Copenhagen,55.67594,12.56553,healthcare
+Universitaetsklinikum Freiburg,https://ror.org/03vzbgh69,ROR:03vzbgh69,University Medical Center Freiburg,Germany,Freiburg,48.006297,7.840624,healthcare
+Ospedale Pediatrico Bambino Gesu,https://ror.org/02sy42d13,ROR:02sy42d13,"Bambino Gesù Children's Hospital",Italy,Rome,41.897466,12.461168,healthcare
+Hospital Universitario de Cruces (ASOCIACION INSTITUTO DE INVESTIGACION SANITARIA BIOCRUCES BIZKAIA),https://ror.org/03nzegx43,ROR:03nzegx43,Hospital de Cruces,Spain,Barakaldo,43.282025,-2.984339,healthcare
+Fundación Instituto de Investigación Sanitaria de Santiago de Compostela,https://ror.org/05n7xcf53,ROR:05n7xcf53,Instituto de Investigación Sanitaria de Santiago,Spain,Santiago de Compostela,42.868175,-8.562744,facility
+Medizinische Universitaet Wien,https://ror.org/05n3x4p02,ROR:05n3x4p02,Medical University of Vienna,Austria,Vienna,48.20849,16.37208,education
+Medizinische Hochschule Hannover,https://ror.org/00f2yqf98,ROR:00f2yqf98,Medizinische Hochschule Hannover,Germany,Hanover,52.37052,9.73322,education
+Universitätsmedizin der Johannes Gutenberg-Universität Mainz,https://ror.org/023b0x485,ROR:023b0x485,Johannes Gutenberg University Mainz,Germany,Mainz,49.98419,8.2791,education
+Azienda Ospedaliero-Universitaria Meyer,https://ror.org/01n2xwm51,ROR:01n2xwm51,"Meyer Children's Hospital",Italy,Florence,43.810527,11.252438,healthcare
+"Erasmus Universitair Medisch Centrum, Rotterdam",https://ror.org/018906e22,ROR:018906e22,Erasmus MC,Netherlands,Rotterdam,51.9225,4.47917,healthcare
+Universitair Medish Centrum Utrecht,https://ror.org/0575yy874,ROR:0575yy874,University Medical Center Utrecht,Netherlands,Utrecht,52.09083,5.12222,healthcare
+Amsterdam University Medical Center,https://ror.org/05grdyy37,ROR:05grdyy37,Amsterdam University Medical Centers,Netherlands,Amsterdam,52.37403,4.88969,healthcare
+Sahlgrenska University Hospital at the University of Gothenburg,https://ror.org/04vgqjj36,ROR:04vgqjj36,Sahlgrenska University Hospital,Sweden,Gothenburg,57.70716,11.96679,healthcare
+Technical University of Munich,https://ror.org/02kkvpp62,ROR:02kkvpp62,Technical University of Munich,Germany,Munich,48.13743,11.57549,education
