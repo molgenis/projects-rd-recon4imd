@@ -1,0 +1,8 @@
+﻿name,codesystem,code,ontologyTermURI,definition,project_specimen,project_storage_type
+-20°C,NCIT,C185334,http://purl.obolibrary.org/obo/NCIT_C185334,A temperature of minus 20 celsius.,edta_tube_plasma,freezer
+-80°C,NCIT,C185336,http://purl.obolibrary.org/obo/NCIT_C185336,A temperature of minus 80 celsius.,edta_tube_plasma,freezer
+2-4 hours at room temperature,NCIT,C70719,http://purl.obolibrary.org/obo/NCIT_C70719,"A specimen that has been subjected to and adjusted to the average ambient temperature of a room, usually considered to be around 20 degrees C (68 degrees F).",pax_gene_rna,room
+2-24 hours at -20°C then -80°C,AFO,AFR_0002149,http://purl.allotrope.org/ontologies/result#AFR_0002149,A sample temperature result is a quality quantification facet that quantifies the temperature of the sample. [Allotrope],pax_gene_rna,freezer
+-20°C if -80°C is not possible,NCIT,C185334,http://purl.obolibrary.org/obo/NCIT_C185334,A temperature of minus 20 celsius.,"pax_gene_rna,edta_blood_dna",freezer
+I -80°C,NCIT,C185336,http://purl.obolibrary.org/obo/NCIT_C185336,A temperature of minus 80 celsius.,edta_blood_dna,freezer
+other,NCIT,C17649,http://purl.obolibrary.org/obo/NCIT_C17649,Different than the one(s) previously specified or mentioned.,pax_gene_rna,room

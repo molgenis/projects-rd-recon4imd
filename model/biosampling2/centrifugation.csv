@@ -1,0 +1,4 @@
+﻿name,codesystem,code,ontologyTermURI,description,project_specimen
+"2000 x g; 4°C, 10 min",,EDTA,,,edta_tube_plasma
+"4°C, 2500 x g, 15 min",,URINE,,,urine
+other,NCIT,C17649,http://purl.obolibrary.org/obo/NCIT_C17649,Different than the one(s) previously specified or mentioned.,
