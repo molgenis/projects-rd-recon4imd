@@ -49,11 +49,17 @@ if __name__ == '__main__':
     for code in tqdm(ror_codes):
         data = client.get_org(ror_id=code)
 
-        # retun displayed name
+        # retun displayed name and acronym
         source[f.code == code, 'name'] = ';'.join([
-            ror_name['value']
-            for ror_name in data['names']
-            if 'ror_display' in ror_name['types']
+            row['value']
+            for row in data['names']
+            if 'ror_display' in row['types']
+        ])
+
+        source[f.code == code, 'acronym'] = ''.join([
+            row['value']
+            for row in data['names']
+            if 'acronym' in row['types']
         ])
 
         # extract geonames metadata
@@ -76,4 +82,19 @@ if __name__ == '__main__':
         f"ROR:{value}" for value in source['code'].to_list()[0]
     ])
 
-    source.to_csv('model/lookups/organisations.csv')
+    source['codesystem'] = 'ROR'
+
+    source[:, (
+        f.name,
+        f.label,
+        f.acronym,
+        f.type,
+        f.codesystem,
+        f.code,
+        f.ontologyTermURI,
+        f.country,
+        f.city,
+        f.latitude,
+        f.longitude,
+    )] \
+        .to_csv('model/lookups/organisations.csv')
