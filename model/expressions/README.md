@@ -14,6 +14,25 @@ Some date fields are automically populated with today's date. Rather than having
 new Date().toISOString().split("T")[0]
 ```
 
+### Patient id
+
+During the patient registration process, it was decided that it would nice if we could automatically suggest the next available patient identifier. The following query retrieves the next unassigned identifier from the table `PatientIdentifer` (which is stored in the same schema).
+
+```js
+(function() {
+  const result = simplePostClient(
+    `query PatientIdentifiers($filter:PatientIdentifiersFilter, $orderby:PatientIdentifiersorderby ) { PatientIdentifiers( filter:$filter, limit:1, orderby:$orderby ) { identifier } }`,
+    {
+      filter: { status: { name: { equals: "Available" } } },
+      orderby: { mg_insertedOn: "ASC" },
+    }
+  );
+  return result?.PatientIdentifiers[0].identifier;
+})();
+```
+
+An additional script is needed to update the PatientIdentifier table when the record is saved.
+
 ## Validation Expressions
 
 ### Year of Birth
