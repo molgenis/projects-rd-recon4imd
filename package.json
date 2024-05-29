@@ -2,6 +2,7 @@
     "name": "projects-rd-recon4imd",
     "version": "1.0.0",
     "scripts": {
-        "pip:freeze": "rm -rf requirements.txt && pip freeze >> requirements.txt"
+        "pip:freeze": "rm -rf requirements.txt && pip freeze >> requirements.txt",
+        "pip:reinstall": "pip install -r requirements.txt"
     }
 }
