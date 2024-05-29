@@ -97,4 +97,4 @@ if __name__ == '__main__':
         f.latitude,
         f.longitude,
     )] \
-        .to_csv('model/lookups/organisations.csv')
+        .to_csv('model/lookups/Organisations.csv')
