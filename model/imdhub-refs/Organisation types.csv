@@ -1,0 +1,4 @@
+name,codesystem,code,ontologyTermURI
+clinical study site,NCIT,NCIT:C70777,http://purl.obolibrary.org/obo/NCIT_C70777
+planned study site,NCIT,NCIT:C93483,http://purl.obolibrary.org/obo/NCIT_C93483
+specimen storage location,GENEPIO,GENEPIO:0100594,http://purl.obolibrary.org/obo/GENEPIO_0100594

@@ -1,0 +1,5 @@
+name,codesystem,code,ontologyTermURI
+Affected,NCIT,NCIT:C64917,http://purl.obolibrary.org/obo/NCIT_C64917
+Unaffected,NCIT,NCIT:C94232,http://purl.obolibrary.org/obo/NCIT_C94232
+Unclear,NCIT,NCIT:C133644,http://purl.obolibrary.org/obo/NCIT_C133644
+Not applicable,NCIT,NCIT:C18902,http://purl.obolibrary.org/obo/NCIT_C18902

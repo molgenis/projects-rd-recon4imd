@@ -1,0 +1,3 @@
+name,codesystem,code,ontologyTermURI,definition
+data can be used for study,,,,
+data deleted,T4FS,T4FS:0000161,http://purl.obolibrary.org/obo/T4FS_0000161,"The process of destroying data stored on tapes, hard disks and other forms of electronic media so that it is completely unreadable and cannot be accessed or used."

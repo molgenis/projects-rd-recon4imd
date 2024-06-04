@@ -1,0 +1,22 @@
+tableName,columnName,columnType,label,description,isReadOnly,key,required,refSchema,refTable,refBack,visible,defaultValue,computed,semantics
+Participant identifiers,,,,Participant identifiers and assignment status,,,,,,,,,,
+Participant identifiers,identifier,string,Recon4imd identifier,,TRUE,1,TRUE,,,,,,,http://purl.obolibrary.org/obo/NCIT_C25364
+Participant identifiers,clinical_site,ref,Select your clinical site,,,,,IMDhub Refs,Organisations,,,,,http://purl.obolibrary.org/obo/NCIT_C70777
+Participant identifiers,status,ref,Change the status of the idenfier,"E.g., assigned, removed, etc.",,,TRUE,IMDhub Refs,Identifier status,,,,,http://purl.obolibrary.org/obo/NCIT_C25688
+Participant identifiers,status_removed,text,Provide additional details as to why the identifier was removed,,,,"status==""Deprecated""",,,,,,,http://purl.obolibrary.org/obo/NCIT_C25688
+Participant identifiers,status_other,text,"If other was selected, please provider additional information.",,,,"status==""Other""",,,,,,,http://purl.obolibrary.org/obo/NCIT_C25688
+Participant identifiers,date_created,date,Enter the date the identifier was created,,,,TRUE,,,,,,,http://schema.org/Date
+Participant identifiers,date_assigned,date,Enter the date the identifier was assigned,,,,"status==""Assigned""",,,,,,,http://schema.org/Date
+Participant identifiers,date_updated,date,Enter the date when the record was changed,,,,,,,,,,,http://schema.org/Date
+Participant identifiers,updated_by,string,Enter the name of the person that modified this record,,,,,,,,,,,http://schema.org/Date
+Participant identifiers,,,,Patient identifiers and assignment status,,,,,,,,,,http://purl.obolibrary.org/obo/NCIT_C164337
+Biospecimen identifiers,,,,Sample identifiers and assignment status,,,,,,,,,,
+Biospecimen identifiers,identifier,string,Recon4imd identifier,,TRUE,1,TRUE,,,,,,,http://purl.obolibrary.org/obo/NCIT_C25364
+Biospecimen identifiers,clinical_site,ref,Select your clinical site,,,,,IMDhub Refs,Organisations,,,,,http://purl.obolibrary.org/obo/NCIT_C70777
+Biospecimen identifiers,status,ref,Change the status of the idenfier,"E.g., assigned, removed, etc.",,,TRUE,IMDhub Refs,Identifier status,,,,,http://purl.obolibrary.org/obo/NCIT_C25688
+Biospecimen identifiers,status_removed,text,Provide additional details as to why the identifier was removed,,,,"status==""Deprecated""",,,,,,,http://purl.obolibrary.org/obo/NCIT_C25688
+Biospecimen identifiers,status_other,text,"If other was selected, please provider additional information.",,,,"status==""Other""",,,,,,,http://purl.obolibrary.org/obo/NCIT_C25688
+Biospecimen identifiers,date_created,date,Enter the date the identifier was created,,,,TRUE,,,,,,,http://schema.org/Date
+Biospecimen identifiers,date_assigned,date,Enter the date the identifier was assigned,,,,"status==""Assigned""",,,,,,,http://schema.org/Date
+Biospecimen identifiers,date_updated,date,Enter the date when the record was changed,,,,,,,,,,,http://schema.org/Date
+Biospecimen identifiers,updated_by,string,Enter the name of the person that modified this record,,,,,,,,,,,http://schema.org/Date

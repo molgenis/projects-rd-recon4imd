@@ -1,0 +1,8 @@
+name,codesystem,code,ontologyTermURI,definition
+Study completion,NCIT,C70735,http://purl.obolibrary.org/obo/NCIT_C70735,"The case where a subject ceases active participation in a trial because the subject has, or is presumed to have followed all appropriate conditions of a protocol."
+Extraordinary medical circumstances,NCIT,,,
+Lost to follow-up,NCIT,C159824,http://purl.obolibrary.org/obo/NCIT_C159824,The loss or lack of continuation of subject participation after a study has officially closed.
+Withdrawal of participant consent,NCIT,C173185,http://purl.obolibrary.org/obo/NCIT_C173185,A status indicating that a clinical trial subject is currently off the trial because they have not granted or received consent.
+Death,NCIT,C173184,http://purl.obolibrary.org/obo/NCIT_C173184,A status indicating that a clinical trial subject is currently off the trial because they are deceased.
+Sponsor decision,NCIT,C161410,http://purl.obolibrary.org/obo/NCIT_C161410,An indication that the study subject was removed from the study at the sponsor's request.
+Other,NCIT,C17649,http://purl.obolibrary.org/obo/NCIT_C17649,Different than the one(s) previously specified or mentioned.

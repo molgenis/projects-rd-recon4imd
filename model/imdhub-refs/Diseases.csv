@@ -1,0 +1,1392 @@
+name,parent,code,codesystem
+Congenital disorders of glycosylation,,,IEM
+Disorders of amino acid metabolism,,,IEM
+Disorders of carbohydrate metabolism,,,IEM
+Disorders of complex molecule degradation,,,IEM
+Disorders of energy substrate metabolism,,,IEM
+Disorders of fatty acid and ketone body metabolism,,,IEM
+Disorders of lipid metabolism,,,IEM
+Disorders of lipoprotein metabolism,,,IEM
+Disorders of mitochondrial DNA maintenance and replication,,,IEM
+Disorders of mitochondrial cofactor biosynthesis,,,IEM
+Disorders of mitochondrial gene expression,,,IEM
+"Disorders of nucleobase, nucleotide and nucleic acid metabolism",,,IEM
+"Disorders of organelle biogenesis, dynamics and interactions",,,IEM
+Disorders of peptide and amine metabolism,,,IEM
+Disorders of tetrapyrrole metabolism,,,IEM
+Disorders of trace elements and metals,,,IEM
+Disorders of vitamin and cofactor metabolism,,,IEM
+Endocrine metabolic disorders,,,IEM
+Neurotransmitter disorders,,,IEM
+Nuclear-encoded disorders of oxidative phosphorylation,,,IEM
+Other disorders of intermediary metabolism,,,IEM
+Other disorders of mitochondrial function,,,IEM
+mtDNA-related disorders,,,IEM
+Disorders of N-linked protein glycosylation,Congenital disorders of glycosylation,,IEM
+Disorders of O-linked protein glycosylation,Congenital disorders of glycosylation,,IEM
+Disorders of amino acid transport,Disorders of amino acid metabolism,,IEM
+Disorders of autophagy,Disorders of complex molecule degradation,,IEM
+Disorders of bile acid metabolism,Disorders of lipid metabolism,,IEM
+Disorders of biotin metabolism,Disorders of vitamin and cofactor metabolism,,IEM
+Disorders of branched-chain amino acid metabolism,Disorders of amino acid metabolism,,IEM
+Disorders of carbohydrate transmembrane transport and absorption,Disorders of carbohydrate metabolism,,IEM
+Disorders of carnitine metabolism,Disorders of fatty acid and ketone body metabolism,,IEM
+Disorders of cobalamin metabolism,Disorders of vitamin and cofactor metabolism,,IEM
+Disorders of coenzyme Q10 biosynthesis,Disorders of mitochondrial cofactor biosynthesis,,IEM
+Disorders of complex I subunits and assembly factors,Nuclear-encoded disorders of oxidative phosphorylation,,IEM
+Disorders of complex II subunits and assembly factors,Nuclear-encoded disorders of oxidative phosphorylation,,IEM
+Disorders of complex III subunits and assembly factors,Nuclear-encoded disorders of oxidative phosphorylation,,IEM
+Disorders of complex IV subunits and assembly factors,Nuclear-encoded disorders of oxidative phosphorylation,,IEM
+Disorders of complex V subunits and assembly factors,Nuclear-encoded disorders of oxidative phosphorylation,,IEM
+Disorders of copper metabolism,Disorders of trace elements and metals,,IEM
+Disorders of creatine metabolism,Disorders of energy substrate metabolism,,IEM
+Disorders of ectonucleotide and nucleic acid metabolism,"Disorders of nucleobase, nucleotide and nucleic acid metabolism",,IEM
+Disorders of eicosanoid metabolism,Disorders of lipid metabolism,,IEM
+"Disorders of fatty acyl synthesis, elongation, and recycling",Disorders of lipid metabolism,,IEM
+Disorders of folate metabolism,Disorders of vitamin and cofactor metabolism,,IEM
+Disorders of galactose and fructose metabolism,Disorders of carbohydrate metabolism,,IEM
+Disorders of gluconeogenesis,Disorders of carbohydrate metabolism,,IEM
+Disorders of glutamate/glutamine and aspartate/asparagine metabolism,Disorders of amino acid metabolism,,IEM
+Disorders of glutathione metabolism,Disorders of peptide and amine metabolism,,IEM
+Disorders of glycerolipid metabolism,Disorders of lipid metabolism,,IEM
+Disorders of glycerophospholipid metabolism,Disorders of lipid metabolism,,IEM
+Disorders of glycine and serine metabolism,Disorders of amino acid metabolism,,IEM
+Disorders of glycogen metabolism,Disorders of carbohydrate metabolism,,IEM
+Disorders of glycolysis,Disorders of carbohydrate metabolism,,IEM
+Disorders of glycoprotein degradation,Disorders of complex molecule degradation,,IEM
+Disorders of glycosaminoglycan degradation,Disorders of complex molecule degradation,,IEM
+Disorders of glyoxylate and oxalate metabolism,Other disorders of intermediary metabolism,,IEM
+Disorders of heme degradation and bilirubin metabolism,Disorders of tetrapyrrole metabolism,,IEM
+Disorders of heme synthesis and porphyrias,Disorders of tetrapyrrole metabolism,,IEM
+Disorders of high-density lipoprotein (HDL) metabolism,Disorders of lipoprotein metabolism,,IEM
+Disorders of histidine metabolism,Disorders of amino acid metabolism,,IEM
+Disorders of insulin metabolism,Endocrine metabolic disorders,,IEM
+Disorders of iron metabolism,Disorders of trace elements and metals,,IEM
+Disorders of ketone body metabolism,Disorders of fatty acid and ketone body metabolism,,IEM
+Disorders of lipid glycosylation,Congenital disorders of glycosylation,,IEM
+Disorders of lipoic acid and iron-sulfur metabolism,Disorders of mitochondrial cofactor biosynthesis,,IEM
+"Disorders of lysine, hydroxylysine, and tryptophan metabolism",Disorders of amino acid metabolism,,IEM
+Disorders of lysosome-related organelle biogenesis,"Disorders of organelle biogenesis, dynamics and interactions",,IEM
+Disorders of manganese metabolism,Disorders of trace elements and metals,,IEM
+Disorders of metabolite proofreading,Other disorders of intermediary metabolism,,IEM
+Disorders of methylamine metabolism,Disorders of peptide and amine metabolism,,IEM
+Disorders of mitochondrial aminoacyl-tRNA synthetases,Disorders of mitochondrial gene expression,,IEM
+Disorders of mitochondrial and peroxisomal dynamics,"Disorders of organelle biogenesis, dynamics and interactions",,IEM
+Disorders of mitochondrial cytochrome c biosynthesis,Disorders of mitochondrial cofactor biosynthesis,,IEM
+Disorders of mitochondrial fatty acid oxidation,Disorders of fatty acid and ketone body metabolism,,IEM
+Disorders of mitochondrial membrane biogenesis and remodeling,"Disorders of organelle biogenesis, dynamics and interactions",,IEM
+Disorders of mitochondrial nucleotide pool maintenance,Disorders of mitochondrial DNA maintenance and replication,,IEM
+Disorders of mitochondrial protein import,Other disorders of mitochondrial function,,IEM
+Disorders of mitochondrial protein quality control,Other disorders of mitochondrial function,,IEM
+Disorders of mitochondrial shuttles and carriers,Other disorders of mitochondrial function,,IEM
+Disorders of mitochondrial transcript processing and modification,Disorders of mitochondrial gene expression,,IEM
+Disorders of molybdenum cofactor metabolism,Disorders of vitamin and cofactor metabolism,,IEM
+Disorders of mtDNA replication and maintenance,Disorders of mitochondrial DNA maintenance and replication,,IEM
+Disorders of mtDNA-encoded respiratory chain proteins,mtDNA-related disorders,,IEM
+Disorders of mtDNA-encoded tRNA and rRNA,mtDNA-related disorders,,IEM
+Disorders of multiple glycosylation pathways,Congenital disorders of glycosylation,,IEM
+Disorders of niacin and NAD metabolism,Disorders of vitamin and cofactor metabolism,,IEM
+Disorders of organelle interplay,"Disorders of organelle biogenesis, dynamics and interactions",,IEM
+"Disorders of ornithine, proline and hydroxyproline metabolism",Disorders of amino acid metabolism,,IEM
+Disorders of pantothenate and CoA metabolism,Disorders of vitamin and cofactor metabolism,,IEM
+Disorders of pentose/polyol metabolism,Disorders of carbohydrate metabolism,,IEM
+Disorders of peroxisomal fatty acid oxidation,Disorders of lipid metabolism,,IEM
+Disorders of phenylalanine and tyrosine metabolism,Disorders of amino acid metabolism,,IEM
+Disorders of polyamine metabolism,Disorders of peptide and amine metabolism,,IEM
+Disorders of purine metabolism,"Disorders of nucleobase, nucleotide and nucleic acid metabolism",,IEM
+Disorders of pyridoxine metabolism,Disorders of vitamin and cofactor metabolism,,IEM
+Disorders of pyrimidine metabolism,"Disorders of nucleobase, nucleotide and nucleic acid metabolism",,IEM
+Disorders of pyruvate metabolism,Disorders of energy substrate metabolism,,IEM
+Disorders of riboflavin metabolism,Disorders of vitamin and cofactor metabolism,,IEM
+Disorders of ribosomal biogenesis,"Disorders of nucleobase, nucleotide and nucleic acid metabolism",,IEM
+Disorders of sphingolipid degradation,Disorders of complex molecule degradation,,IEM
+Disorders of sphingolipid synthesis and recycling,Disorders of lipid metabolism,,IEM
+Disorders of steroid metabolism,Endocrine metabolic disorders,,IEM
+Disorders of sterol biosynthesis,Disorders of lipid metabolism,,IEM
+Disorders of tetrahydrobiopterin metabolism,Disorders of vitamin and cofactor metabolism,,IEM
+Disorders of the Krebs cycle,Disorders of energy substrate metabolism,,IEM
+Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide,Disorders of amino acid metabolism,,IEM
+Disorders of the mitoribosome,Disorders of mitochondrial gene expression,,IEM
+Disorders of thiamine metabolism,Disorders of vitamin and cofactor metabolism,,IEM
+Disorders of vesicular trafficking,"Disorders of organelle biogenesis, dynamics and interactions",,IEM
+Disorders of zinc metabolism,Disorders of trace elements and metals,,IEM
+Disorders with decreased low-density lipoprotein (LDL) and/or triglycerides,Disorders of lipoprotein metabolism,,IEM
+Gamma-aminobutyric acid neurotransmitter disorders,Neurotransmitter disorders,,IEM
+Glutamate neurotransmitter disorders,Neurotransmitter disorders,,IEM
+Glycine neurotransmitter disorders,Neurotransmitter disorders,,IEM
+Hypercholesterolemias,Disorders of lipoprotein metabolism,,IEM
+Hypertriglyceridemias,Disorders of lipoprotein metabolism,,IEM
+Miscellaneous disorders associated with mitochondrial dysfunction,Other disorders of mitochondrial function,,IEM
+Miscellaneous disorders of intermediary metabolism,Other disorders of intermediary metabolism,,IEM
+Mixed hyperlipidemias,Disorders of lipoprotein metabolism,,IEM
+Monoamine neurotransmitter disorders,Neurotransmitter disorders,,IEM
+Neuronal ceroid lipofuscinosis,Disorders of complex molecule degradation,,IEM
+Organic acidurias,Disorders of amino acid metabolism,,IEM
+Other disorders of amino acid metabolism,Disorders of amino acid metabolism,,IEM
+Other disorders of complex molecule degradation,Disorders of complex molecule degradation,,IEM
+Other disorders of glycan metabolism,Congenital disorders of glycosylation,,IEM
+Other disorders of lipoprotein metabolism,Disorders of lipoprotein metabolism,,IEM
+Other disorders of peptide metabolism,Disorders of peptide and amine metabolism,,IEM
+Other disorders of trace element metabolism,Disorders of trace elements and metals,,IEM
+Other disorders of vitamin metabolism,Disorders of vitamin and cofactor metabolism,,IEM
+Peroxisomal biogenesis disorders,"Disorders of organelle biogenesis, dynamics and interactions",,IEM
+Urea cycle disorders and inherited hyperammonemias,Disorders of amino acid metabolism,,IEM
+Disorders of Golgi homeostasis,Disorders of multiple glycosylation pathways,,IEM
+Disorders of Golgi transport,Disorders of multiple glycosylation pathways,,IEM
+Disorders of O-fucosylation,Disorders of O-linked protein glycosylation,,IEM
+Disorders of O-mannosylation,Disorders of O-linked protein glycosylation,,IEM
+Disorders of dolichol metabolism,Disorders of multiple glycosylation pathways,,IEM
+Disorders of ether lipid metabolism,Disorders of glycerophospholipid metabolism,,IEM
+Disorders of glycosaminoglycan synthesis and O-xylosylation,Disorders of O-linked protein glycosylation,,IEM
+Disorders of glycosylphosphatidylinositol biosynthesis,Disorders of lipid glycosylation,,IEM
+"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",Disorders of glycerophospholipid metabolism,,IEM
+Disorders of phosphatidylinositol metabolism,Disorders of glycerophospholipid metabolism,,IEM
+Disorders of sialic acid metabolism,Disorders of multiple glycosylation pathways,,IEM
+Other disorders of O-linked protein glycosylation,Disorders of O-linked protein glycosylation,,IEM
+Other disorders of lipid glycosylation,Disorders of lipid glycosylation,,IEM
+Other disorders of multiple glycosylation pathways,Disorders of multiple glycosylation pathways,,IEM
+N-acetylglutamate synthase deficiency,Urea cycle disorders and inherited hyperammonemias,IEM0056,IEM
+Carbamoyl phosphate synthetase 1 deficiency,Urea cycle disorders and inherited hyperammonemias,IEM0057,IEM
+Ornithine transcarbamylase deficiency,Urea cycle disorders and inherited hyperammonemias,IEM0058,IEM
+Argininosuccinate synthetase deficiency,Urea cycle disorders and inherited hyperammonemias,IEM0059,IEM
+Argininosuccinate lyase deficiency,Urea cycle disorders and inherited hyperammonemias,IEM0060,IEM
+Arginase deficiency,Urea cycle disorders and inherited hyperammonemias,IEM0061,IEM
+Mitochondrial ornithine transporter deficiency,Urea cycle disorders and inherited hyperammonemias,IEM0062,IEM
+Citrin deficiency,Urea cycle disorders and inherited hyperammonemias,IEM0063,IEM
+Carbonic anhydrase VA deficiency,Urea cycle disorders and inherited hyperammonemias,IEM0064,IEM
+Glutamate dehydrogenase superactivity,Urea cycle disorders and inherited hyperammonemias,IEM0165,IEM
+Isovaleryl-CoA dehydrogenase deficiency,Organic acidurias,IEM0113,IEM
+Isobutyryl-CoA dehydrogenase deficiency,Organic acidurias,IEM0114,IEM
+2-Methylbutyryl-CoA dehydrogenase deficiency,Organic acidurias,IEM0115,IEM
+3-Methylcrotonyl-CoA carboxylase 1 deficiency,Organic acidurias,IEM0116,IEM
+3-Methylcrotonyl-CoA carboxylase 2 deficiency,Organic acidurias,IEM0117,IEM
+3-methylglutaconyl-CoA hydratase deficiency,Organic acidurias,IEM0118,IEM
+Mitochondrial short-chain enoyl-CoA hydratase 1 deficiency,Organic acidurias,IEM0119,IEM
+3-hydroxyisobutyryl-CoA hydrolase deficiency,Organic acidurias,IEM0120,IEM
+Methylmalonate semialdehyde dehydrogenase deficiency,Organic acidurias,IEM0123,IEM
+Propionic acidemia due to propionyl-CoA carboxylase subunit alpha deficiency,Organic acidurias,IEM0124,IEM
+Propionic acidemia due to propionyl-CoA carboxylase subunit beta deficiency,Organic acidurias,IEM0125,IEM
+Methylmalonic aciduria due to methylmalonyl-CoA epimerase deficiency,Organic acidurias,IEM0126,IEM
+Methylmalonic aciduria due to methylmalonyl-CoA mutase deficiency,Organic acidurias,IEM0127,IEM
+Glutaryl-CoA dehydrogenase deficiency,Organic acidurias,IEM0134,IEM
+Succinate-hydroxymethylglutarate-CoA transferase deficiency,Organic acidurias,IEM0135,IEM
+Malonyl-CoA decarboxylase deficiency,Organic acidurias,IEM0129,IEM
+Branched-chain aminotransferase 2 deficiency,Disorders of branched-chain amino acid metabolism,IEM0107,IEM
+Branched-chain ketoacid dehydrogenase E1 alpha deficiency,Disorders of branched-chain amino acid metabolism,IEM0108,IEM
+Branched-chain ketoacid dehydrogenase E1 beta deficiency,Disorders of branched-chain amino acid metabolism,IEM0109,IEM
+Dihydrolipoyl transacylase deficiency,Disorders of branched-chain amino acid metabolism,IEM0110,IEM
+Branched-chain ketoacid dehydrogenase kinase deficiency,Disorders of branched-chain amino acid metabolism,IEM0112,IEM
+Phenylalanine hydroxylase deficiency,Disorders of phenylalanine and tyrosine metabolism,IEM0082,IEM
+Tyrosinase deficiency,Disorders of phenylalanine and tyrosine metabolism,IEM0090,IEM
+Tyrosine aminotransferase deficiency,Disorders of phenylalanine and tyrosine metabolism,IEM0091,IEM
+4-hydroxyphenylpyruvate dioxygenase deficiency,Disorders of phenylalanine and tyrosine metabolism,IEM0092,IEM
+Hawkinsinuria,Disorders of phenylalanine and tyrosine metabolism,IEM0093,IEM
+Homogentisic acid oxidase deficiency,Disorders of phenylalanine and tyrosine metabolism,IEM0094,IEM
+Maleylacetoacetate isomerase deficiency,Disorders of phenylalanine and tyrosine metabolism,IEM0095,IEM
+Fumarylacetoacetase deficiency,Disorders of phenylalanine and tyrosine metabolism,IEM0096,IEM
+Methionine adenosyltransferase I/III deficiency,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide,IEM0097,IEM
+Methanethiol oxidase deficiency,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide,IEM0104,IEM
+Glycine N-methyltransferase deficiency,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide,IEM0099,IEM
+S-adenosylhomocysteine hydrolase deficiency,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide,IEM0100,IEM
+Adenosine kinase deficiency,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide,IEM0101,IEM
+Methionine synthase deficiency,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide,IEM0217,IEM
+Cystathionine beta-synthase deficiency,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide,IEM0102,IEM
+Cystathionine gamma-lyase deficiency,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide,IEM0103,IEM
+Mitochondrial sulfur dioxygenase deficiency,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide,IEM0106,IEM
+Isolated sulfite oxidase deficiency,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide,IEM0105,IEM
+Nonketotic hyperglycinemia due to glycine decarboxylase deficiency,Disorders of glycine and serine metabolism,IEM0185,IEM
+Nonketotic hyperglycinemia due to aminomethyltransferase deficiency,Disorders of glycine and serine metabolism,IEM0186,IEM
+3-phosphoglycerate dehydrogenase deficiency,Disorders of glycine and serine metabolism,IEM0181,IEM
+Phosphoserine aminotransferase deficiency,Disorders of glycine and serine metabolism,IEM0182,IEM
+Phosphoserine phosphatase deficiency,Disorders of glycine and serine metabolism,IEM0183,IEM
+ASCT1 transporter deficiency,Disorders of glycine and serine metabolism,IEM0184,IEM
+Ornithine aminotransferase deficiency,"Disorders of ornithine, proline and hydroxyproline metabolism",IEM0146,IEM
+"Delta-1-pyrroline-5-carboxylate synthase deficiency, cutis laxa phenotype","Disorders of ornithine, proline and hydroxyproline metabolism",IEM0137,IEM
+"Delta-1-pyrroline-5-carboxylate synthase deficiency, spastic paraplegia phenotype","Disorders of ornithine, proline and hydroxyproline metabolism",IEM0138,IEM
+Pyrroline-5-carboxylate reductase 1 deficiency,"Disorders of ornithine, proline and hydroxyproline metabolism",IEM0139,IEM
+Pyrroline-5-carboxylate reductase 2 deficiency,"Disorders of ornithine, proline and hydroxyproline metabolism",IEM0140,IEM
+Proline dehydrogenase deficiency,"Disorders of ornithine, proline and hydroxyproline metabolism",IEM0141,IEM
+Pyrroline-5-carboxylate dehydrogenase deficiency,"Disorders of ornithine, proline and hydroxyproline metabolism",IEM0142,IEM
+Hydroxyproline dehydrogenase deficiency,"Disorders of ornithine, proline and hydroxyproline metabolism",IEM0143,IEM
+4-hydroxy-2-oxoglutarate aldolase 1 deficiency,"Disorders of ornithine, proline and hydroxyproline metabolism",IEM0906,IEM
+Alpha-aminoadipic semialdehyde synthase deficiency,"Disorders of lysine, hydroxylysine, and tryptophan metabolism",IEM0130,IEM
+DHTKD1 deficiency,"Disorders of lysine, hydroxylysine, and tryptophan metabolism",IEM0132,IEM
+5-phosphohydroxylysine phospholyase deficiency,"Disorders of lysine, hydroxylysine, and tryptophan metabolism",IEM0136,IEM
+"Tryptophan 2,3-dioxygenase deficiency","Disorders of lysine, hydroxylysine, and tryptophan metabolism",IEM0164,IEM
+Kynureninase deficiency,"Disorders of lysine, hydroxylysine, and tryptophan metabolism",IEM0162,IEM
+"3-hydroxyanthranilic acid 3,4-dioxygenase deficiency","Disorders of lysine, hydroxylysine, and tryptophan metabolism",IEM0163,IEM
+Glutamate pyruvate transaminase 2 deficiency,Disorders of glutamate/glutamine and aspartate/asparagine metabolism,IEM1061,IEM
+Glutamine synthetase deficiency,Disorders of glutamate/glutamine and aspartate/asparagine metabolism,IEM0179,IEM
+Glutaminase deficiency,Disorders of glutamate/glutamine and aspartate/asparagine metabolism,IEM_1083,IEM
+Asparagine synthetase deficiency,Disorders of glutamate/glutamine and aspartate/asparagine metabolism,IEM0180,IEM
+Aspartoacylase deficiency,Disorders of glutamate/glutamine and aspartate/asparagine metabolism,IEM0074,IEM
+Histidase ammonia-lyase deficiency,Disorders of histidine metabolism,IEM0161,IEM
+Hartnup disorder,Disorders of amino acid transport,IEM0065,IEM
+Iminoglycinuria,Disorders of amino acid transport,IEM0066,IEM
+Hyperglycinuria,Disorders of amino acid transport,IEM0067,IEM
+Cystinuria type A,Disorders of amino acid transport,IEM0068,IEM
+Cystinuria type B,Disorders of amino acid transport,IEM0069,IEM
+Lysinuric protein intolerance,Disorders of amino acid transport,IEM0070,IEM
+Glutamate aspartate transporter deficiency,Disorders of amino acid transport,IEM0167,IEM
+Astroglial glutamate aspartate transporter deficiency,Disorders of amino acid transport,IEM0168,IEM
+Dicarboxylic aminoaciduria,Disorders of amino acid transport,IEM0071,IEM
+Large neutral amino acid transporter deficiency,Disorders of amino acid transport,IEM0072,IEM
+Neuronal system A amino acid transporter deficiency,Disorders of amino acid transport,IEM0073,IEM
+Vesicular neutral amino acid transporter 3 deficiency,Disorders of amino acid transport,IEM_1070,IEM
+Cystinosis,Disorders of amino acid transport,IEM0873,IEM
+Lysosomal cationic amino acid transporter deficiency,Disorders of amino acid transport,IEM_1071,IEM
+GABA transporter deficiency,Disorders of amino acid transport,IEM0154,IEM
+Aminoacylase 1 deficiency,Other disorders of amino acid metabolism,IEM0075,IEM
+Gamma-glutamylcysteine synthetase deficiency,Disorders of glutathione metabolism,IEM0049,IEM
+Glutathione synthetase deficiency,Disorders of glutathione metabolism,IEM0050,IEM
+Gamma-glutamyl transpeptidase deficiency,Disorders of glutathione metabolism,IEM0051,IEM
+5-Oxoprolinase deficiency,Disorders of glutathione metabolism,IEM0052,IEM
+Glutathione reductase deficiency,Disorders of glutathione metabolism,IEM0053,IEM
+Glutathione peroxidase 4 deficiency,Disorders of glutathione metabolism,IEM0054,IEM
+NRF2 superactivity,Disorders of glutathione metabolism,IEM0055,IEM
+Prolidase deficiency,Other disorders of peptide metabolism,IEM0144,IEM
+ X-prolyl aminopeptidase 3 deficiency,Other disorders of peptide metabolism,IEM0145,IEM
+Dimethylglycine dehydrogenase deficiency,Disorders of methylamine metabolism,IEM0046,IEM
+Sarcosine dehydrogenase deficiency,Disorders of methylamine metabolism,IEM0047,IEM
+Flavin monooxygenase 3 deficiency,Disorders of methylamine metabolism,IEM0048,IEM
+Ornithine decarboxylase superactivity,Disorders of polyamine metabolism,IEM_1069,IEM
+Spermine synthase deficiency,Disorders of polyamine metabolism,IEM0147,IEM
+Methylthioadenosine phosphorylase deficiency,Disorders of polyamine metabolism,IEM_1093,IEM
+Galactose-1-phosphate uridylyltransferase deficiency,Disorders of galactose and fructose metabolism,IEM0322,IEM
+Galactose epimerase deficiency,Disorders of galactose and fructose metabolism,IEM0323,IEM
+Galactokinase deficiency ,Disorders of galactose and fructose metabolism,IEM0324,IEM
+Galactose mutarotase deficiency,Disorders of galactose and fructose metabolism,IEM_1082,IEM
+Hepatic fructokinase deficiency,Disorders of galactose and fructose metabolism,IEM0325,IEM
+Aldolase B deficiency,Disorders of galactose and fructose metabolism,IEM0326,IEM
+D-glycerate kinase deficiency,Disorders of galactose and fructose metabolism,IEM0653,IEM
+"Fructose-1,6-bisphosphatase deficiency",Disorders of gluconeogenesis,IEM0371,IEM
+Pyruvate carboxylase deficiency,Disorders of gluconeogenesis,IEM0372,IEM
+Cytosolic phosphoenolpyruvate carboxykinase deficiency,Disorders of gluconeogenesis,IEM0373,IEM
+Glycerol kinase deficiency,Disorders of gluconeogenesis,IEM0652,IEM
+Hemolytic anemia due to hexokinase deficiency,Disorders of glycolysis,IEM0374,IEM
+"Hereditary motor and sensory neuropathy, Russe type",Disorders of glycolysis,IEM0375,IEM
+Retinitis pigmentosa type 79,Disorders of glycolysis,IEM0376,IEM
+Glucokinase deficiency,Disorders of glycolysis,IEM0377,IEM
+Glucokinase superactivity,Disorders of glycolysis,IEM0378,IEM
+Glucose-6-phosphate isomerase deficiency,Disorders of glycolysis,IEM0379,IEM
+Muscle phosphofructokinase deficiency,Disorders of glycolysis,IEM0380,IEM
+Aldolase A deficiency,Disorders of glycolysis,IEM0381,IEM
+Triose phosphate isomerase deficiency,Disorders of glycolysis,IEM0382,IEM
+Phosphoglycerate kinase deficiency,Disorders of glycolysis,IEM0383,IEM
+Muscle phosphoglycerate mutase deficiency,Disorders of glycolysis,IEM0384,IEM
+Enolase beta deficiency,Disorders of glycolysis,IEM0385,IEM
+Pyruvate kinase deficiency,Disorders of glycolysis,IEM0386,IEM
+Lactate dehydrogenase A deficiency,Disorders of glycolysis,IEM0387,IEM
+Lactate dehydrogenase B deficiency,Disorders of glycolysis,IEM0388,IEM
+D-lactate dehydrogenase deficiency,Disorders of glycolysis,IEM_1087,IEM
+Muscle glycogenin 1 deficiency,Disorders of glycogen metabolism,IEM0352,IEM
+Muscle glycogen synthase deficiency,Disorders of glycogen metabolism,IEM0353,IEM
+Hepatic glycogen synthase deficiency,Disorders of glycogen metabolism,IEM0354,IEM
+Glucose-6-phosphatase deficiency,Disorders of glycogen metabolism,IEM0370,IEM
+Glucose-6-phosphate transporter deficiency,Disorders of glycogen metabolism,IEM0355,IEM
+Glycogen debranching enzyme deficiency,Disorders of glycogen metabolism,IEM0357,IEM
+Glycogen branching enzyme deficiency,Disorders of glycogen metabolism,IEM0358,IEM
+Muscle glycogen phosphorylase deficiency,Disorders of glycogen metabolism,IEM0359,IEM
+Liver glycogen phosphorylase deficiency,Disorders of glycogen metabolism,IEM0360,IEM
+Hepatic phosphorylase kinase subunit alpha 2 deficiency,Disorders of glycogen metabolism,IEM0361,IEM
+Phosphorylase kinase subunit beta deficiency,Disorders of glycogen metabolism,IEM0362,IEM
+Hepatic phosphorylase kinase subunit gamma 2 deficiency,Disorders of glycogen metabolism,IEM0363,IEM
+Muscle phosphorylase kinase subunit alpha 1 deficiency,Disorders of glycogen metabolism,IEM0364,IEM
+Cardiac phosphorylase kinase deficiency,Disorders of glycogen metabolism,IEM0366,IEM
+HOIL1 deficiency,Disorders of glycogen metabolism,IEM0365,IEM
+Laforin deficiency,Disorders of glycogen metabolism,IEM0368,IEM
+Malin deficiency,Disorders of glycogen metabolism,IEM0369,IEM
+Glucose-6-phosphate dehydrogenase deficiency,Disorders of pentose/polyol metabolism,IEM0327,IEM
+Ribose 5-phosphate isomerase deficiency,Disorders of pentose/polyol metabolism,IEM0328,IEM
+Transaldolase deficiency,Disorders of pentose/polyol metabolism,IEM0329,IEM
+Transketolase deficiency,Disorders of pentose/polyol metabolism,IEM0330,IEM
+Sedoheptulose kinase deficiency,Disorders of pentose/polyol metabolism,IEM0331,IEM
+L-xylulose reductase deficiency,Disorders of pentose/polyol metabolism,IEM0332,IEM
+GLUT1 deficiency,Disorders of carbohydrate transmembrane transport and absorption,IEM0314,IEM
+Neuronal glucose transporter deficiency,Disorders of carbohydrate transmembrane transport and absorption,IEM0315,IEM
+Glucose transporter 2 deficiency,Disorders of carbohydrate transmembrane transport and absorption,IEM0316,IEM
+Intestinal sodium-glucose cotransporter 1 deficiency,Disorders of carbohydrate transmembrane transport and absorption,IEM0317,IEM
+Sodium-glucose cotransporter 2 deficiency,Disorders of carbohydrate transmembrane transport and absorption,IEM0321,IEM
+Congenital sucrase-isomaltase deficiency,Disorders of carbohydrate transmembrane transport and absorption,IEM0318,IEM
+Trehalase deficiency,Disorders of carbohydrate transmembrane transport and absorption,IEM0319,IEM
+Congenital lactase deficiency,Disorders of carbohydrate transmembrane transport and absorption,IEM0320,IEM
+Sialin deficiency,Disorders of carbohydrate transmembrane transport and absorption,IEM0874,IEM
+Primary carnitine deficiency,Disorders of carnitine metabolism,IEM0627,IEM
+Carnitine palmitoyltransferase 1A deficiency,Disorders of carnitine metabolism,IEM0628,IEM
+Carnitine palmitoyltransferase 2 deficiency,Disorders of carnitine metabolism,IEM0629,IEM
+Carnitine-acylcarnitine translocase deficiency,Disorders of carnitine metabolism,IEM0630,IEM
+Epsilon-N-trimethyllysine hydroxylase deficiency,Disorders of carnitine metabolism,IEM0631,IEM
+Short-chain acyl-CoA dehydrogenase deficiency,Disorders of mitochondrial fatty acid oxidation,IEM0632,IEM
+Medium-chain acyl-CoA dehydrogenase deficiency,Disorders of mitochondrial fatty acid oxidation,IEM0633,IEM
+Very long-chain acyl-CoA dehydrogenase deficiency,Disorders of mitochondrial fatty acid oxidation,IEM0634,IEM
+Short-chain 3-hydroxyacyl-CoA dehydrogenase deficiency,Disorders of mitochondrial fatty acid oxidation,IEM0635,IEM
+Trifunctional protein subunit alpha deficiency,Disorders of mitochondrial fatty acid oxidation,IEM0636,IEM
+Trifunctional protein subunit beta deficiency,Disorders of mitochondrial fatty acid oxidation,IEM0637,IEM
+Fatty acid transport protein 4 deficiency,Disorders of mitochondrial fatty acid oxidation,IEM0638,IEM
+Electron transfer flavoprotein subunit alpha deficiency,Disorders of mitochondrial fatty acid oxidation,IEM0238,IEM
+Electron transfer flavoprotein subunit beta deficiency,Disorders of mitochondrial fatty acid oxidation,IEM0239,IEM
+Electron transfer flavoprotein dehydrogenase deficiency,Disorders of mitochondrial fatty acid oxidation,IEM0240,IEM
+Mitochondrial 3-hydroxy-3-methylglutaryl-CoA synthase deficiency,Disorders of ketone body metabolism,IEM0641,IEM
+Succinyl-CoA:3-oxoacid-CoA transferase deficiency,Disorders of ketone body metabolism,IEM0642,IEM
+Mitochondrial acetoacetyl-CoA thiolase deficiency,Disorders of ketone body metabolism,IEM0643,IEM
+3-hydroxy-3-methylglutaryl-CoA lyase deficiency,Disorders of ketone body metabolism,IEM0122,IEM
+Monocarboxylate transporter 1 deficiency,Disorders of ketone body metabolism,IEM0644,IEM
+Monocarboxylate transporter 1 superactivity,Disorders of ketone body metabolism,IEM0645,IEM
+Pyruvate dehydrogenase E1 alpha deficiency,Disorders of pyruvate metabolism,IEM0389,IEM
+Pyruvate dehydrogenase E1 beta deficiency,Disorders of pyruvate metabolism,IEM0390,IEM
+Dihydrolipoamide acetyltransferase deficiency,Disorders of pyruvate metabolism,IEM0391,IEM
+Dihydrolipoamide dehydrogenase deficiency,Disorders of pyruvate metabolism,IEM0111,IEM
+Pyruvate dehydrogenase E3-binding protein deficiency,Disorders of pyruvate metabolism,IEM0392,IEM
+Pyruvate dehydrogenase phosphatase deficiency,Disorders of pyruvate metabolism,IEM0393,IEM
+Pyruvate dehydrogenase kinase isoenzyme 3 superactivity,Disorders of pyruvate metabolism,IEM0395,IEM
+Mitochondrial pyruvate carrier deficiency,Disorders of pyruvate metabolism,IEM0394,IEM
+Mitochondrial aconitase deficiency,Disorders of the Krebs cycle,IEM0396,IEM
+Cytosolic NADP+-dependent isocitrate dehydrogenase 1 superactivity,Disorders of the Krebs cycle,IEM_1090,IEM
+Mitochondrial NADP+-dependent isocitrate dehydrogenase 2 superactivity,Disorders of the Krebs cycle,IEM0397,IEM
+Mitochondrial NAD+-dependent isocitrate dehydrogenase 3 subunit beta deficiency,Disorders of the Krebs cycle,IEM0398,IEM
+Dihydrolipoamide succinyltransferase deficiency,Disorders of the Krebs cycle,IEM_1086,IEM
+ATP-specific succinyl-CoA synthetase subunit beta deficiency,Disorders of the Krebs cycle,IEM0399,IEM
+GTP-specific succinyl-CoA synthetase subunit alpha deficiency,Disorders of the Krebs cycle,IEM0400,IEM
+Fumarate hydratase deficiency,Disorders of the Krebs cycle,IEM0401,IEM
+"Fumarate hydratase deficiency, tumoral phenotype",Disorders of the Krebs cycle,IEM0402,IEM
+Mitochondrial malate dehydrogenase deficiency,Disorders of the Krebs cycle,IEM0403,IEM
+Plasma membrane citrate transporter deficiency,Disorders of the Krebs cycle,IEM1053,IEM
+Sodium dicarboxylate cotransporter 3 deficiency,Disorders of the Krebs cycle,IEM1051,IEM
+Arginine:glycine amidinotransferase (AGAT) deficiency,Disorders of creatine metabolism,IEM0042,IEM
+Arginine:glycine amidinotransferase aggregation syndrome,Disorders of creatine metabolism,IEM0043,IEM
+Guanidinoacetate methyltransferase deficiency,Disorders of creatine metabolism,IEM0044,IEM
+Creatine transporter deficiency,Disorders of creatine metabolism,IEM0045,IEM
+NADH dehydrogenase core subunit 1 deficiency,Disorders of mtDNA-encoded respiratory chain proteins,IEM0430,IEM
+NADH dehydrogenase core subunit 2 deficiency,Disorders of mtDNA-encoded respiratory chain proteins,IEM0431,IEM
+NADH dehydrogenase core subunit 3 deficiency,Disorders of mtDNA-encoded respiratory chain proteins,IEM0432,IEM
+NADH dehydrogenase core subunit 4 deficiency,Disorders of mtDNA-encoded respiratory chain proteins,IEM0433,IEM
+NADH dehydrogenase core subunit 4L deficiency,Disorders of mtDNA-encoded respiratory chain proteins,IEM0434,IEM
+NADH dehydrogenase core subunit 5 deficiency,Disorders of mtDNA-encoded respiratory chain proteins,IEM0435,IEM
+NADH dehydrogenase core subunit 6 deficiency,Disorders of mtDNA-encoded respiratory chain proteins,IEM0436,IEM
+Mitochondrial cytochrome b deficiency,Disorders of mtDNA-encoded respiratory chain proteins,IEM0487,IEM
+Cytochrome c oxidase subunit 1 deficiency,Disorders of mtDNA-encoded respiratory chain proteins,IEM0462,IEM
+Cytochrome c oxidase subunit 2 deficiency,Disorders of mtDNA-encoded respiratory chain proteins,IEM0463,IEM
+Cytochrome c oxidase subunit 3 deficiency,Disorders of mtDNA-encoded respiratory chain proteins,IEM0464,IEM
+Mitochondrial ATP synthase F0 subunit 6 deficiency,Disorders of mtDNA-encoded respiratory chain proteins,IEM0484,IEM
+Mitochondrial ATP synthase F0 subunit 8 deficiency,Disorders of mtDNA-encoded respiratory chain proteins,IEM0485,IEM
+Mitochondrial tRNA-Ala deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0530,IEM
+Mitochondrial tRNA-Arg deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0531,IEM
+Mitochondrial tRNA-Asn deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0532,IEM
+Mitochondrial tRNA-Asp deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0533,IEM
+Mitochondrial tRNA-Cys deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0534,IEM
+Mitochondrial tRNA-Glu deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0535,IEM
+Mitochondrial tRNA-Gln deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0536,IEM
+Mitochondrial tRNA-Gly deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0537,IEM
+Mitochondrial tRNA-His deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0538,IEM
+Mitochondrial tRNA-Ile deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0539,IEM
+Mitochondrial tRNA-Leu 1 deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0540,IEM
+Mitochondrial tRNA-Leu 2 deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0541,IEM
+Mitochondrial tRNA-Lys deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0542,IEM
+Mitochondrial tRNA-Met deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0543,IEM
+Mitochondrial tRNA-Phe deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0544,IEM
+Mitochondrial tRNA-Pro deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0545,IEM
+Mitochondrial tRNA-Ser 1 deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0546,IEM
+Mitochondrial tRNA-Ser 2 deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0547,IEM
+Mitochondrial tRNA-Thr deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0548,IEM
+Mitochondrial tRNA-Trp deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0549,IEM
+Mitochondrial tRNA-Tyr deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0550,IEM
+Mitochondrial tRNA-Val deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0551,IEM
+Mitochondrial ribosomal RNA 12S deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0522,IEM
+Mitochondrial ribosomal RNA 16S deficiency,Disorders of mtDNA-encoded tRNA and rRNA,IEM0523,IEM
+NADH dehydrogenase flavoprotein 1 deficiency,Disorders of complex I subunits and assembly factors,IEM0413,IEM
+NADH dehydrogenase flavoprotein 2 deficiency,Disorders of complex I subunits and assembly factors,IEM0414,IEM
+NADH dehydrogenase iron-sulfur protein 1 deficiency,Disorders of complex I subunits and assembly factors,IEM0415,IEM
+NADH dehydrogenase iron-sulfur protein 2 deficiency,Disorders of complex I subunits and assembly factors,IEM0416,IEM
+NADH dehydrogenase iron-sulfur protein 3 deficiency,Disorders of complex I subunits and assembly factors,IEM0417,IEM
+NADH dehydrogenase iron-sulfur protein 4 deficiency,Disorders of complex I subunits and assembly factors,IEM0420,IEM
+NADH dehydrogenase iron-sulfur protein 6 deficiency,Disorders of complex I subunits and assembly factors,IEM0421,IEM
+NADH dehydrogenase iron-sulfur protein 7 deficiency,Disorders of complex I subunits and assembly factors,IEM0418,IEM
+NADH dehydrogenase iron-sulfur protein 8 deficiency,Disorders of complex I subunits and assembly factors,IEM0419,IEM
+NADH dehydrogenase alpha subcomplex subunit 1 deficiency,Disorders of complex I subunits and assembly factors,IEM0422,IEM
+NADH dehydrogenase alpha subcomplex subunit 2 deficiency,Disorders of complex I subunits and assembly factors,IEM0423,IEM
+NADH dehydrogenase alpha subcomplex subunit 6 deficiency,Disorders of complex I subunits and assembly factors,IEM1056,IEM
+NADH dehydrogenase alpha subcomplex subunit 9 deficiency,Disorders of complex I subunits and assembly factors,IEM0424,IEM
+NADH dehydrogenase alpha subcomplex subunit 10 deficiency,Disorders of complex I subunits and assembly factors,IEM0425,IEM
+NADH dehydrogenase alpha subcomplex subunit 12 deficiency,Disorders of complex I subunits and assembly factors,IEM0426,IEM
+NADH dehydrogenase beta subcomplex subunit 3 deficiency,Disorders of complex I subunits and assembly factors,IEM0427,IEM
+NADH dehydrogenase beta subcomplex subunit 8 deficiency,Disorders of complex I subunits and assembly factors,IEM0428,IEM
+NADH dehydrogenase beta subcomplex subunit 11 deficiency,Disorders of complex I subunits and assembly factors,IEM0429,IEM
+Complex I assembly factor 1 deficiency,Disorders of complex I subunits and assembly factors,IEM0437,IEM
+Complex I assembly factor 2 deficiency,Disorders of complex I subunits and assembly factors,IEM0438,IEM
+Complex I assembly factor 3 deficiency,Disorders of complex I subunits and assembly factors,IEM0439,IEM
+Complex I assembly factor 4 deficiency,Disorders of complex I subunits and assembly factors,IEM0440,IEM
+Complex I assembly factor 5 deficiency,Disorders of complex I subunits and assembly factors,IEM0441,IEM
+Complex I assembly factor 6 deficiency,Disorders of complex I subunits and assembly factors,IEM0442,IEM
+FOXRED1 deficiency,Disorders of complex I subunits and assembly factors,IEM0443,IEM
+NUBPL deficiency,Disorders of complex I subunits and assembly factors,IEM0444,IEM
+ACAD9 deficiency,Disorders of complex I subunits and assembly factors,IEM0445,IEM
+Transmembrane protein 126A deficiency,Disorders of complex I subunits and assembly factors,IEM0612,IEM
+Transmembrane protein 126B deficiency,Disorders of complex I subunits and assembly factors,IEM0446,IEM
+TIMMDC1 deficiency,Disorders of complex I subunits and assembly factors,IEM_1076,IEM
+Succinate dehydrogenase subunit A deficiency,Disorders of complex II subunits and assembly factors,IEM0447,IEM
+"Succinate dehydrogenase subunit A deficiency, tumoral phenotype",Disorders of complex II subunits and assembly factors,IEM0448,IEM
+Succinate dehydrogenase subunit B deficiency,Disorders of complex II subunits and assembly factors,IEM0449,IEM
+"Succinate dehydrogenase subunit B deficiency, tumoral phenotype",Disorders of complex II subunits and assembly factors,IEM0450,IEM
+"Succinate dehydrogenase subunit C deficiency, tumoral phenotype",Disorders of complex II subunits and assembly factors,IEM0451,IEM
+Succinate dehydrogenase subunit D deficiency,Disorders of complex II subunits and assembly factors,IEM0452,IEM
+"Succinate dehydrogenase subunit D deficiency, tumoral phenotype",Disorders of complex II subunits and assembly factors,IEM0453,IEM
+Succinate dehydrogenase complex assembly factor 1 deficiency,Disorders of complex II subunits and assembly factors,IEM0454,IEM
+"Succinate dehydrogenase complex assembly factor 2 deficiency, tumoral phenotype",Disorders of complex II subunits and assembly factors,IEM0455,IEM
+UQCRB deficiency,Disorders of complex III subunits and assembly factors,IEM0456,IEM
+UQCRC2 deficiency,Disorders of complex III subunits and assembly factors,IEM0457,IEM
+UQCC2 deficiency,Disorders of complex III subunits and assembly factors,IEM0460,IEM
+Mitochondrial cytochrome c1 deficiency,Disorders of complex III subunits and assembly factors,IEM0488,IEM
+Holocytochrome c synthase deficiency,Disorders of complex III subunits and assembly factors,IEM0490,IEM
+BCS1L deficiency,Disorders of complex III subunits and assembly factors,IEM0458,IEM
+TTC19 deficiency,Disorders of complex III subunits and assembly factors,IEM0459,IEM
+LYRM7 deficiency,Disorders of complex III subunits and assembly factors,IEM0461,IEM
+Cytochrome c oxidase subunit 4I2 deficiency,Disorders of complex IV subunits and assembly factors,IEM0465,IEM
+Cytochrome c oxidase subunit 6A1 deficiency,Disorders of complex IV subunits and assembly factors,IEM0466,IEM
+Cytochrome c oxidase subunit 6B1 deficiency,Disorders of complex IV subunits and assembly factors,IEM0467,IEM
+Cytochrome c oxidase subunit 7B deficiency,Disorders of complex IV subunits and assembly factors,IEM0468,IEM
+Cytochrome c oxidase assembly factor 6 deficiency,Disorders of complex IV subunits and assembly factors,IEM0469,IEM
+Cytochrome c oxidase assembly factor 7 deficiency,Disorders of complex IV subunits and assembly factors,IEM_1088,IEM
+Cytochrome c oxidase assembly factor 10 deficiency,Disorders of complex IV subunits and assembly factors,IEM0470,IEM
+Cytochrome c oxidase assembly factor 15 deficiency,Disorders of complex IV subunits and assembly factors,IEM0471,IEM
+Cytochrome c oxidase assembly factor 20 deficiency,Disorders of complex IV subunits and assembly factors,IEM0472,IEM
+SCO1 deficiency,Disorders of complex IV subunits and assembly factors,IEM0473,IEM
+SCO2 deficiency,Disorders of complex IV subunits and assembly factors,IEM0474,IEM
+SURF1 deficiency,Disorders of complex IV subunits and assembly factors,IEM0475,IEM
+LRPPRC deficiency,Disorders of complex IV subunits and assembly factors,IEM0476,IEM
+TACO1 deficiency,Disorders of complex IV subunits and assembly factors,IEM0477,IEM
+PET100 deficiency,Disorders of complex IV subunits and assembly factors,IEM0478,IEM
+FASTKD2 deficiency,Disorders of complex IV subunits and assembly factors,IEM0479,IEM
+APOPT1 deficiency,Disorders of complex IV subunits and assembly factors,IEM0480,IEM
+Mitochondrial ATP synthase F1 subunit alpha deficiency,Disorders of complex V subunits and assembly factors,IEM0481,IEM
+Mitochondrial ATP synthase F1 subunit delta deficiency,Disorders of complex V subunits and assembly factors,IEM0482,IEM
+Mitochondrial ATP synthase F1 subunit epsilon deficiency,Disorders of complex V subunits and assembly factors,IEM0483,IEM
+DAPIT deficiency,Disorders of complex V subunits and assembly factors,IEM1034,IEM
+Transmembrane protein 70 deficiency,Disorders of complex V subunits and assembly factors,IEM0486,IEM
+Prenyl diphosphate synthase subunit 1 deficiency,Disorders of coenzyme Q10 biosynthesis,IEM0618,IEM
+Prenyl diphosphate synthase subunit 2 deficiency,Disorders of coenzyme Q10 biosynthesis,IEM0619,IEM
+Coenzyme Q2 polyprenyltranferase deficiency,Disorders of coenzyme Q10 biosynthesis,IEM0620,IEM
+Coenzyme Q4 deficiency,Disorders of coenzyme Q10 biosynthesis,IEM0621,IEM
+Coenzyme Q6 monooxygenase deficiency,Disorders of coenzyme Q10 biosynthesis,IEM0622,IEM
+Coenzyme Q7 hydroxylase deficiency,Disorders of coenzyme Q10 biosynthesis,IEM0623,IEM
+Coenzyme Q8A (ADCK3) deficiency,Disorders of coenzyme Q10 biosynthesis,IEM0624,IEM
+Coenzyme Q8B (ADCK4) deficiency,Disorders of coenzyme Q10 biosynthesis,IEM0625,IEM
+Coenzyme 9 deficiency,Disorders of coenzyme Q10 biosynthesis,IEM0626,IEM
+Lipoyltransferase 2 deficiency,Disorders of lipoic acid and iron-sulfur metabolism,IEM0192,IEM
+Lipoic acid synthase deficiency,Disorders of lipoic acid and iron-sulfur metabolism,IEM0193,IEM
+Lipoyltransferase 1 deficiency,Disorders of lipoic acid and iron-sulfur metabolism,IEM0194,IEM
+NFU1 deficiency,Disorders of lipoic acid and iron-sulfur metabolism,IEM0195,IEM
+BOLA3 deficiency,Disorders of lipoic acid and iron-sulfur metabolism,IEM0196,IEM
+Glutaredoxin 5 deficiency,Disorders of lipoic acid and iron-sulfur metabolism,IEM0197,IEM
+IBA57 deficiency,Disorders of lipoic acid and iron-sulfur metabolism,IEM0198,IEM
+ISCA1 deficiency,Disorders of lipoic acid and iron-sulfur metabolism,IEM0199,IEM
+ISCA2 deficiency,Disorders of lipoic acid and iron-sulfur metabolism,IEM0200,IEM
+ISCU deficiency,Disorders of lipoic acid and iron-sulfur metabolism,IEM0201,IEM
+ABCB7 deficiency,Disorders of lipoic acid and iron-sulfur metabolism,IEM0202,IEM
+Ferredoxin reductase deficiency,Disorders of lipoic acid and iron-sulfur metabolism,IEM0203,IEM
+Frataxin deficiency,Disorders of lipoic acid and iron-sulfur metabolism,IEM0204,IEM
+Mitochondrial cytochrome c deficiency,Disorders of mitochondrial cytochrome c biosynthesis,IEM0489,IEM
+Mitochondrial deoxyguanosine kinase deficiency,Disorders of mitochondrial nucleotide pool maintenance,IEM0493,IEM
+Mitochondrial thymidine kinase deficiency,Disorders of mitochondrial nucleotide pool maintenance,IEM0496,IEM
+MPV17 deficiency,Disorders of mitochondrial nucleotide pool maintenance,IEM0494,IEM
+Mitochondrial ribonucleotide reductase small subunit deficiency,Disorders of mitochondrial nucleotide pool maintenance,IEM0497,IEM
+Thymidine phosphorylase deficiency,Disorders of mitochondrial nucleotide pool maintenance,IEM0498,IEM
+SAMHD1 deficiency,Disorders of mitochondrial nucleotide pool maintenance,IEM0031,IEM
+Mitochondrial DNA polymerase gamma catalytic subunit deficiency,Disorders of mtDNA replication and maintenance,IEM0491,IEM
+Mitochondrial DNA polymerase gamma accessory subunit deficiency,Disorders of mtDNA replication and maintenance,IEM0492,IEM
+TWINKLE mitochondrial DNA helicase deficiency,Disorders of mtDNA replication and maintenance,IEM0495,IEM
+DNA2 helicase deficiency,Disorders of mtDNA replication and maintenance,IEM0499,IEM
+Mitochondrial genome maintenance exonuclease 1 deficiency,Disorders of mtDNA replication and maintenance,IEM0501,IEM
+Mitochondrial ribonuclease H1 deficiency,Disorders of mtDNA replication and maintenance,IEM0500,IEM
+Topoisomerase 3 alpha deficiency,Disorders of mtDNA replication and maintenance,IEM_1073,IEM
+Mitochondrial RNA import protein deficiency,Disorders of mitochondrial transcript processing and modification,IEM0503,IEM
+"Ribonuclease P 5' tRNA processing enzyme deficiency",Disorders of mitochondrial transcript processing and modification,IEM0504,IEM
+HSD10 disease,Disorders of mitochondrial transcript processing and modification,IEM0121,IEM
+"Ribonuclease Z 3' tRNA processing enzyme deficiency",Disorders of mitochondrial transcript processing and modification,IEM0505,IEM
+Mitochondrial poly(A) polymerase deficiency,Disorders of mitochondrial transcript processing and modification,IEM0506,IEM
+CCA-adding tRNA-nucleotidyltransferase deficiency,Disorders of mitochondrial transcript processing and modification,IEM0507,IEM
+Mitochondrial methionyl-tRNA formyltransferase deficiency,Disorders of mitochondrial transcript processing and modification,IEM0508,IEM
+tRNA 5-taurinomethyluridine modifier deficiency,Disorders of mitochondrial transcript processing and modification,IEM0509,IEM
+tRNA 5-carboxymethylaminomethyl transferase deficiency,Disorders of mitochondrial transcript processing and modification,IEM0510,IEM
+Pseudouridine synthase 1 deficiency,Disorders of mitochondrial transcript processing and modification,IEM0511,IEM
+tRNA isopentenyl transferase deficiency,Disorders of mitochondrial transcript processing and modification,IEM0512,IEM
+tRNA methyltransferase 5 deficiency,Disorders of mitochondrial transcript processing and modification,IEM0513,IEM
+tRNA 5-methylaminomethyl-2-thiouridylate-methyltransferase deficiency,Disorders of mitochondrial transcript processing and modification,IEM0514,IEM
+tRNA-His guanylyltransferase 1 like deficiency,Disorders of mitochondrial transcript processing and modification,IEM_1074,IEM
+Mitochondrial alanyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0552,IEM
+Mitochondrial arginyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0553,IEM
+Mitochondrial asparaginyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0554,IEM
+Mitochondrial aspartyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0555,IEM
+Mitochondrial cysteinyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0556,IEM
+Mitochondrial glutamyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0557,IEM
+Mitochondrial histidyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0558,IEM
+Mitochondrial isoleucyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0559,IEM
+Mitochondrial leucyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0560,IEM
+Mitochondrial methionyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0561,IEM
+Mitochondrial phenylalanyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0562,IEM
+Mitochondrial prolyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM_1078,IEM
+Mitochondrial seryl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0563,IEM
+Mitochondrial tyrosyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0564,IEM
+Mitochondrial valyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0565,IEM
+Mitochondrial tryptophanyl-tRNA synthetase deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0566,IEM
+Mitochondrial glutamyl-tRNA(Gln) amidotransferase subunit A deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0569,IEM
+Mitochondrial glutamyl-tRNA(Gln) amidotransferase subunit C deficiency,Disorders of mitochondrial aminoacyl-tRNA synthetases,IEM0570,IEM
+Mitochondrial ribosomal large subunit 3 deficiency,Disorders of the mitoribosome,IEM0516,IEM
+Mitochondrial ribosomal large subunit 44 deficiency,Disorders of the mitoribosome,IEM0517,IEM
+Mitochondrial ribosomal small subunit 2 deficiency,Disorders of the mitoribosome,IEM0518,IEM
+Mitochondrial ribosomal small subunit 16 deficiency,Disorders of the mitoribosome,IEM0519,IEM
+Mitochondrial ribosomal small subunit 22 deficiency,Disorders of the mitoribosome,IEM0520,IEM
+Mitochondrial ribosomal small subunit 34 deficiency,Disorders of the mitoribosome,IEM0521,IEM
+ERAL1 deficiency,Disorders of the mitoribosome,IEM_1079,IEM
+RMND1 deficiency,Disorders of the mitoribosome,IEM0524,IEM
+Mitochondrial elongation factor G1 deficiency,Disorders of the mitoribosome,IEM0525,IEM
+Mitochondrial elongation factor G2 deficiency,Disorders of the mitoribosome,IEM0526,IEM
+Mitochondrial elongation factor Ts deficiency,Disorders of the mitoribosome,IEM0527,IEM
+Mitochondrial elongation factor Tu deficiency,Disorders of the mitoribosome,IEM0528,IEM
+C12orf65 release factor deficiency,Disorders of the mitoribosome,IEM0529,IEM
+GUF1 deficiency,Disorders of the mitoribosome,IEM_1080,IEM
+Mitochondrial citrate carrier deficiency,Disorders of mitochondrial shuttles and carriers,IEM0411,IEM
+Mitochondrial phosphate carrier deficiency,Disorders of mitochondrial shuttles and carriers,IEM0407,IEM
+Adenine nucleotide translocator deficiency,Disorders of mitochondrial shuttles and carriers,IEM0406,IEM
+Mitochondrial oxoglutarate/malate carrier deficiency,Disorders of mitochondrial shuttles and carriers,IEM_1091,IEM
+Mitochondrial aspartate-glutamate carrier isoform 1 deficiency,Disorders of mitochondrial shuttles and carriers,IEM0408,IEM
+Cytosolic glycerol-3-phosphate dehydrogenase deficiency,Disorders of mitochondrial shuttles and carriers,IEM0409,IEM
+Mitochondrial glutamate transporter deficiency,Disorders of mitochondrial shuttles and carriers,IEM0166,IEM
+Mitochondrial ATP-Mg/phosphate transporter deficiency,Disorders of mitochondrial shuttles and carriers,IEM0412,IEM
+S-adenosylmethionine carrier deficiency,Disorders of mitochondrial shuttles and carriers,IEM0410,IEM
+Mitochondrial glycine transporter deficiency,Disorders of mitochondrial shuttles and carriers,IEM0191,IEM
+Mitochondrial calcium uniporter deficiency,Disorders of mitochondrial shuttles and carriers,IEM0615,IEM
+TIMM8A deficiency,Disorders of mitochondrial protein import,IEM0586,IEM
+TIMM14 deficiency,Disorders of mitochondrial protein import,IEM0585,IEM
+Acylglycerol kinase deficiency,Disorders of mitochondrial protein import,IEM0581,IEM
+TIMM50 deficiency,Disorders of mitochondrial protein import,IEM0588,IEM
+MAGMAS deficiency,Disorders of mitochondrial protein import,IEM0590,IEM
+Mitochondrial-processing peptidase alpha deficiency,Disorders of mitochondrial protein quality control,IEM0591,IEM
+Mitochondrial-processing peptidase beta deficiency,Disorders of mitochondrial protein quality control,IEM0592,IEM
+Mitochondrial intermediate peptidase deficiency,Disorders of mitochondrial protein quality control,IEM0593,IEM
+CLPB deficiency,Disorders of mitochondrial protein quality control,IEM0594,IEM
+CLPP deficiency,Disorders of mitochondrial protein quality control,IEM0595,IEM
+LONP1 deficiency,Disorders of mitochondrial protein quality control,IEM0596,IEM
+HSPA9 deficiency,Disorders of mitochondrial protein quality control,IEM0597,IEM
+HSP60 deficiency,Disorders of mitochondrial protein quality control,IEM0598,IEM
+FBXL4 deficiency,Disorders of mitochondrial protein quality control,IEM0502,IEM
+Sacsin deficiency,Disorders of mitochondrial protein quality control,IEM0599,IEM
+m-AAA protease subunit AFG3L2 deficiency,Disorders of mitochondrial protein quality control,IEM0600,IEM
+Paraplegin deficiency,Disorders of mitochondrial protein quality control,IEM0601,IEM
+ATAD3A deficiency,Disorders of mitochondrial protein quality control,IEM0611,IEM
+HTRA2 deficiency,Disorders of mitochondrial protein quality control,IEM0602,IEM
+Parkin deficiency,Disorders of mitochondrial protein quality control,IEM0603,IEM
+PINK1 deficiency,Disorders of mitochondrial protein quality control,IEM0604,IEM
+Pitrilysin metallopeptidase 1 deficiency,Disorders of mitochondrial protein quality control,IEM0607,IEM
+Mitochondrial inorganic pyrophosphatase 2 deficiency,Miscellaneous disorders associated with mitochondrial dysfunction,IEM0608,IEM
+Sideroflexin 4 deficiency,Miscellaneous disorders associated with mitochondrial dysfunction,IEM0609,IEM
+AIFM1 deficiency,Miscellaneous disorders associated with mitochondrial dysfunction,IEM0610,IEM
+C1q binding protein deficiency,Miscellaneous disorders associated with mitochondrial dysfunction,IEM0613,IEM
+Nogo-interacting mitochondrial protein deficiency,Miscellaneous disorders associated with mitochondrial dysfunction,IEM0616,IEM
+Peptidyl-tRNA hydrolase 2 deficiency,Miscellaneous disorders associated with mitochondrial dysfunction,IEM0571,IEM
+GFER deficiency,Miscellaneous disorders associated with mitochondrial dysfunction,IEM0589,IEM
+Glyoxylate reductase/hydroxypyruvate reductase deficiency,Disorders of glyoxylate and oxalate metabolism,IEM0905,IEM
+Hydroxyacid oxidase 1 deficiency,Disorders of glyoxylate and oxalate metabolism,IEM0904,IEM
+Alanine-glyoxylate aminotransferase deficiency,Disorders of glyoxylate and oxalate metabolism,IEM0903,IEM
+Oxalate transporter deficiency,Disorders of glyoxylate and oxalate metabolism,IEM0907,IEM
+D-2-hydroxyglutarate dehydrogenase deficiency,Disorders of metabolite proofreading,IEM0404,IEM
+L-2-hydroxyglutarate dehydrogenase deficiency,Disorders of metabolite proofreading,IEM0405,IEM
+Ubiquitous glucose-6-phosphatase deficiency,Disorders of metabolite proofreading,IEM1005,IEM
+Combined malonic and methylmalonic aciduria,Disorders of metabolite proofreading,IEM0128,IEM
+Catalase deficiency,Miscellaneous disorders of intermediary metabolism,IEM0902,IEM
+Mitochondrial enoyl-CoA reductase deficiency,"Disorders of fatty acyl synthesis, elongation, and recycling",IEM0646,IEM
+Very long-chain fatty acid elongase 1 deficiency,"Disorders of fatty acyl synthesis, elongation, and recycling",IEM0647,IEM
+"Very long-chain fatty acid elongase 4 deficiency, neurologic phenotype","Disorders of fatty acyl synthesis, elongation, and recycling",IEM0648,IEM
+"Very long-chain fatty acid elongase 4 deficiency, retinal phenotype","Disorders of fatty acyl synthesis, elongation, and recycling",IEM0649,IEM
+Very long-chain fatty acid elongase 5 deficiency,"Disorders of fatty acyl synthesis, elongation, and recycling",IEM0650,IEM
+Long-chain fatty acid-CoA ligase 4 deficiency,"Disorders of fatty acyl synthesis, elongation, and recycling",IEM0655,IEM
+Fatty aldehyde dehydrogenase deficiency,"Disorders of fatty acyl synthesis, elongation, and recycling",IEM0651,IEM
+X-linked adrenoleukodystrophy,Disorders of peroxisomal fatty acid oxidation,IEM0883,IEM
+Peroxisomal straight-chain acyl-CoA oxidase deficiency,Disorders of peroxisomal fatty acid oxidation,IEM0884,IEM
+D-bifunctional protein deficiency,Disorders of peroxisomal fatty acid oxidation,IEM0885,IEM
+L-bifunctional protein deficiency,Disorders of peroxisomal fatty acid oxidation,IEM0886,IEM
+Sterol carrier protein 2 deficiency,Disorders of peroxisomal fatty acid oxidation,IEM0887,IEM
+Phytanoyl-CoA hydroxylase deficiency,Disorders of peroxisomal fatty acid oxidation,IEM0888,IEM
+Cytosolic phospholipase A2 alpha deficiency,Disorders of eicosanoid metabolism,IEM_1072,IEM
+Thromboxane synthase deficiency,Disorders of eicosanoid metabolism,IEM0684,IEM
+15-hydroxy prostaglandin dehydrogenase deficiency,Disorders of eicosanoid metabolism,IEM0685,IEM
+Prostaglandin transporter deficiency,Disorders of eicosanoid metabolism,IEM0686,IEM
+Lysophosphatidic acid acyltransferase deficiency,Disorders of glycerolipid metabolism,IEM0656,IEM
+Lipin 1 deficiency,Disorders of glycerolipid metabolism,IEM0657,IEM
+Lipin 2 deficiency,Disorders of glycerolipid metabolism,IEM0658,IEM
+Diacylglycerol acyltransferase deficiency,Disorders of glycerolipid metabolism,IEM0659,IEM
+CGI-58 deficiency,Disorders of glycerolipid metabolism,IEM0660,IEM
+Adipose triglyceride lipase deficiency,Disorders of glycerolipid metabolism,IEM0661,IEM
+Perilipin 1 deficiency,Disorders of glycerolipid metabolism,IEM0662,IEM
+Hormone-sensitive lipase deficiency,Disorders of glycerolipid metabolism,IEM0663,IEM
+Seipin deficiency,Disorders of glycerolipid metabolism,IEM1054,IEM
+Seipin superactivity,Disorders of glycerolipid metabolism,IEM1055,IEM
+Ethanolaminephosphotransferase 1 deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM1050,IEM
+Choline kinase beta deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM0664,IEM
+"Phosphocholine cytidylyltransferase 1 alpha deficiency, retinoskeletal phenotype","Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM0665,IEM
+"Phosphocholine cytidylyltransferase 1 alpha deficiency, lipodystrophy phenotype","Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM0666,IEM
+Phosphatidylserine synthase 1 superactivity,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM0667,IEM
+Phosphatidylserine flippase deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM0668,IEM
+Lysophosphatidylinositol acyltransferase 1 deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM1058,IEM
+Phospholipase A2 group 6 deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM0669,IEM
+DDHD1 deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM0670,IEM
+DDHD2 deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM0671,IEM
+PNPLA6 deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM0672,IEM
+ABHD12 deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM0674,IEM
+CYP2U1 deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM0673,IEM
+Diacylglycerol kinase epsilon deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM0675,IEM
+Lipase H deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM_1064,IEM
+Lysophosphatidic acid receptor 6 deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM_1065,IEM
+Lysophosphatidylcholine-esterified long-chain fatty acid transporter deficiency,"Disorders of phosphatidylcholine, phosphatidylserine and phosphatidylethanolamine metabolism",IEM0639,IEM
+"Phosphatidylinositol-3,5-bisphosphate 5-phosphatase deficiency, neurologic phenotype",Disorders of phosphatidylinositol metabolism,IEM0690,IEM
+"Phosphatidylinositol-3,5-bisphosphate 5-phosphatase deficiency, neuroskeletal phenotype",Disorders of phosphatidylinositol metabolism,IEM0691,IEM
+"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase deficiency",Disorders of phosphatidylinositol metabolism,IEM0692,IEM
+Synaptojanin 1 deficiency,Disorders of phosphatidylinositol metabolism,IEM0693,IEM
+Myotubularin 1 deficiency,Disorders of phosphatidylinositol metabolism,IEM0694,IEM
+Myotubularin-related protein 2 deficiency,Disorders of phosphatidylinositol metabolism,IEM0695,IEM
+Myotubularin-related protein 2 regulatory protein deficiency,Disorders of phosphatidylinositol metabolism,IEM0696,IEM
+Myotubularin-related protein 2 activator deficiency,Disorders of phosphatidylinositol metabolism,IEM0697,IEM
+Catalytic phosphatidylinositol 3-kinase subunit alpha superactivity,Disorders of phosphatidylinositol metabolism,IEM0698,IEM
+Catalytic phosphatidylinositol 3-kinase subunit delta superactivity,Disorders of phosphatidylinositol metabolism,IEM0699,IEM
+Phosphatidylinositol 3-kinase regulatory subunit 1 deficiency,Disorders of phosphatidylinositol metabolism,IEM0700,IEM
+Phosphatidylinositol 3-kinase regulatory subunit 2 superactivity,Disorders of phosphatidylinositol metabolism,IEM0701,IEM
+Phosphatidylinositol-3-phosphate 5-kinase deficiency,Disorders of phosphatidylinositol metabolism,IEM0702,IEM
+Phosphatidylinositol-4-phosphate 5-kinase deficiency,Disorders of phosphatidylinositol metabolism,IEM0703,IEM
+"Phosphatidylinositol-3,4,5-trisphosphate 3-phosphatase deficiency",Disorders of phosphatidylinositol metabolism,IEM0704,IEM
+"Phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase deficiency",Disorders of phosphatidylinositol metabolism,IEM0705,IEM
+Inositol polyphosphate 5-phosphatase E deficiency,Disorders of phosphatidylinositol metabolism,IEM0706,IEM
+Inositol polyphosphate 5-phosphatase K deficiency,Disorders of phosphatidylinositol metabolism,IEM1037,IEM
+"Phosphatidylinositol-4,5-bisphosphate phospholipase C beta 1 deficiency",Disorders of phosphatidylinositol metabolism,IEM0707,IEM
+"Phosphatidylinositol-4,5-bisphosphate phospholipase C beta 4 deficiency",Disorders of phosphatidylinositol metabolism,IEM0708,IEM
+"Phosphatidylinositol-4,5-bisphosphate phospholipase C gamma 2 deficiency",Disorders of phosphatidylinositol metabolism,IEM0709,IEM
+"Phosphatidylinositol-4,5-bisphosphate phospholipase C delta 1 deficiency",Disorders of phosphatidylinositol metabolism,IEM0710,IEM
+"Phosphatidylinositol-4,5-bisphosphate phospholipase C epsilon 1 deficiency",Disorders of phosphatidylinositol metabolism,IEM0711,IEM
+"Inositol-1,4,5-triphosphate receptor type 1 deficiency",Disorders of phosphatidylinositol metabolism,IEM0712,IEM
+Peroxisomal targeting signal 2 receptor deficiency,Disorders of ether lipid metabolism,IEM0878,IEM
+Glycerone 3-phosphate acyltransferase deficiency,Disorders of ether lipid metabolism,IEM0879,IEM
+Alkylglycerone 3-phosphate synthase deficiency,Disorders of ether lipid metabolism,IEM0880,IEM
+Fatty acyl-CoA reductase 1 deficiency,Disorders of ether lipid metabolism,IEM0881,IEM
+Peroxin 5 long isoform deficiency,Disorders of ether lipid metabolism,IEM0882,IEM
+Serine palmitoyltransferase subunit 1 deficiency,Disorders of sphingolipid synthesis and recycling,IEM0676,IEM
+Serine palmitoyltransferase subunit 2 deficiency,Disorders of sphingolipid synthesis and recycling,IEM0677,IEM
+Ceramide synthase 3 deficiency,Disorders of sphingolipid synthesis and recycling,IEM0678,IEM
+Dihydroceramide desaturase deficiency,Disorders of sphingolipid synthesis and recycling,IEM_1077,IEM
+CYP4F22 omega hydroxylase deficiency,Disorders of sphingolipid synthesis and recycling,IEM0679,IEM
+Acylceramide transacylase deficiency,Disorders of sphingolipid synthesis and recycling,IEM1033,IEM
+SDR9C7 deficiency,Disorders of sphingolipid synthesis and recycling,IEM0261,IEM
+Nonlysosomal glucosylceramidase deficiency,Disorders of sphingolipid synthesis and recycling,IEM0680,IEM
+Fatty acid 2-hydroxylase deficiency,Disorders of sphingolipid synthesis and recycling,IEM0681,IEM
+Sphingosine-1-phosphate lyase deficiency,Disorders of sphingolipid synthesis and recycling,IEM0682,IEM
+Sphingomyelin synthase 2 deficiency,Disorders of sphingolipid synthesis and recycling,IEM_1085,IEM
+Mevalonate kinase deficiency,Disorders of sterol biosynthesis,IEM0740,IEM
+"Mevalonate kinase deficiency, porokeratosis phenotype",Disorders of sterol biosynthesis,IEM0741,IEM
+Phosphomevalonate kinase deficiency,Disorders of sterol biosynthesis,IEM0742,IEM
+Mevalonate pyrophosphate decarboxylase deficiency,Disorders of sterol biosynthesis,IEM0743,IEM
+Farnesyl diphosphate synthase deficiency,Disorders of sterol biosynthesis,IEM0744,IEM
+Squalene synthase deficiency,Disorders of sterol biosynthesis,IEM1036,IEM
+Lanosterol synthase deficiency,Disorders of sterol biosynthesis,IEM_1066,IEM
+Sterol C14 reductase deficiency,Disorders of sterol biosynthesis,IEM0745,IEM
+Sterol-C4-methyl oxidase deficiency,Disorders of sterol biosynthesis,IEM0746,IEM
+Congenital Hemidysplasia with Ichthyosiform Erythroderma and Limb Defects (CHILD syndrome),Disorders of sterol biosynthesis,IEM0747,IEM
+CK syndrome,Disorders of sterol biosynthesis,IEM0748,IEM
+Conradi-Hünermann syndrome,Disorders of sterol biosynthesis,IEM0749,IEM
+Male EBP disorder with Neurologic Defects (MEND syndrome),Disorders of sterol biosynthesis,IEM0750,IEM
+Sterol Delta-5-desaturase deficiency,Disorders of sterol biosynthesis,IEM0751,IEM
+24-dehydrocholesterol reductase deficiency,Disorders of sterol biosynthesis,IEM0752,IEM
+7-dehydrocholesterol reductase deficiency,Disorders of sterol biosynthesis,IEM0753,IEM
+3-Beta-hydroxy-Delta-5-C27-steroid oxidoreductase deficiency,Disorders of bile acid metabolism,IEM0779,IEM
+Delta-4-3-oxosteroid 5-beta-reductase deficiency,Disorders of bile acid metabolism,IEM0780,IEM
+Oxysterol 7-alpha-hydroxylase deficiency,Disorders of bile acid metabolism,IEM0781,IEM
+Sterol 27-hydroxylase deficiency,Disorders of bile acid metabolism,IEM0782,IEM
+Alpha-methylacyl-CoA racemase (AMACR) deficiency,Disorders of bile acid metabolism,IEM0783,IEM
+Peroxisomal branched-chain acyl-CoA oxidase deficiency,Disorders of bile acid metabolism,IEM0784,IEM
+Bile acid-CoA:amino acid N-acyltransferase deficiency,Disorders of bile acid metabolism,IEM0785,IEM
+Phosphatidylserine translocator deficiency,Disorders of bile acid metabolism,IEM0802,IEM
+Bile salt export pump deficiency,Disorders of bile acid metabolism,IEM0802,IEM
+Phosphatidylcholine translocator deficiency,Disorders of bile acid metabolism,IEM0802,IEM
+Bile acid receptor deficiency,Disorders of bile acid metabolism,IEM0802,IEM
+Apical bile salt transporter deficiency,Disorders of bile acid metabolism,IEM0802,IEM
+Sodium-taurocholate cotransporting polypeptide (NTCP) deficiency,Disorders of bile acid metabolism,IEM0802,IEM
+LDL receptor deficiency,Hypercholesterolemias,IEM0713,IEM
+LDL receptor adaptor protein 1 deficiency,Hypercholesterolemias,IEM0714,IEM
+Hypercholesterolemia due to ligand-defective apo B,Hypercholesterolemias,IEM0715,IEM
+PCSK9 superactivity,Hypercholesterolemias,IEM0717,IEM
+STAP1 deficiency,Hypercholesterolemias,IEM0719,IEM
+Sitosterolemia due to ABCG5 deficiency,Hypercholesterolemias,IEM0720,IEM
+Sitosterolemia due to ABCG8 deficiency,Hypercholesterolemias,IEM0721,IEM
+Lipoprotein lipase deficiency,Hypertriglyceridemias,IEM0728,IEM
+Apolipoprotein C2 deficiency,Hypertriglyceridemias,IEM0729,IEM
+GPIHBP1 deficiency,Hypertriglyceridemias,IEM0730,IEM
+Lipase maturation factor 1 deficiency,Hypertriglyceridemias,IEM0732,IEM
+Apolipoprotein A5 deficiency,Hypertriglyceridemias,IEM0733,IEM
+Apolipoprotein E deficiency,Mixed hyperlipidemias,IEM0726,IEM
+Apolipoprotein E superactivity,Mixed hyperlipidemias,IEM0725,IEM
+Lipoprotein glomerulopathy,Mixed hyperlipidemias,IEM0727,IEM
+Hepatic lipase deficiency,Mixed hyperlipidemias,IEM0731,IEM
+Lecithin:cholesterol acyltransferase deficiency,Disorders of high-density lipoprotein (HDL) metabolism,IEM0734,IEM
+Tangier disease,Disorders of high-density lipoprotein (HDL) metabolism,IEM0735,IEM
+Apolipoprotein A1 deficiency,Disorders of high-density lipoprotein (HDL) metabolism,IEM0736,IEM
+Cholesteryl ester transfer protein deficiency,Disorders of high-density lipoprotein (HDL) metabolism,IEM0738,IEM
+Apolipoprotein C3 deficiency,Disorders of high-density lipoprotein (HDL) metabolism,IEM0739,IEM
+SCARB1 deficiency,Disorders of high-density lipoprotein (HDL) metabolism,IEM1039,IEM
+Apolipoprotein B deficiency,Disorders with decreased low-density lipoprotein (LDL) and/or triglycerides,IEM0716,IEM
+PCSK9 deficiency,Disorders with decreased low-density lipoprotein (LDL) and/or triglycerides,IEM0718,IEM
+Angiopoietin-like 3 deficiency,Disorders with decreased low-density lipoprotein (LDL) and/or triglycerides,IEM0722,IEM
+Microsomal triglyceride transfer protein deficiency,Disorders with decreased low-density lipoprotein (LDL) and/or triglycerides,IEM0723,IEM
+Chylomicron retention disease,Disorders with decreased low-density lipoprotein (LDL) and/or triglycerides,IEM0724,IEM
+Hereditary apolipoprotein A1-related amyloidosis,Other disorders of lipoprotein metabolism,IEM0737,IEM
+Congenital lipoprotein(a) deficiency,Other disorders of lipoprotein metabolism,IEM1040,IEM
+CAD trifunctional protein deficiency,Disorders of pyrimidine metabolism,IEM0001,IEM
+Dihydroorotate dehydrogenase deficiency,Disorders of pyrimidine metabolism,IEM0002,IEM
+Uridine monophosphate synthase deficiency,Disorders of pyrimidine metabolism,IEM0003,IEM
+dUTP pyrophosphatase deficiency,Disorders of pyrimidine metabolism,IEM_1084,IEM
+Pyrimidine nucleoside transporter deficiency,Disorders of pyrimidine metabolism,IEM_1089,IEM
+"Cytosolic pyrimidine 5'-nucleotidase deficiency",Disorders of pyrimidine metabolism,IEM0004,IEM
+Dihydropyrimidine dehydrogenase deficiency,Disorders of pyrimidine metabolism,IEM0148,IEM
+Dihydropyrimidinase deficiency,Disorders of pyrimidine metabolism,IEM0149,IEM
+Beta-ureidopropionase deficiency,Disorders of pyrimidine metabolism,IEM0150,IEM
+Hyper-beta-aminoisobutyric aciduria,Disorders of pyrimidine metabolism,IEM0151,IEM
+Phosphoribosylpyrophosphate synthetase superactivity,Disorders of purine metabolism,IEM0007,IEM
+Phosphoribosylpyrophosphate synthetase deficiency,Disorders of purine metabolism,IEM0008,IEM
+Adenylosuccinate lyase deficiency,Disorders of purine metabolism,IEM0009,IEM
+Myoadenylate deaminase deficiency,Disorders of purine metabolism,IEM0010,IEM
+Adenosine monophosphate deaminase 2 deficiency,Disorders of purine metabolism,IEM0011,IEM
+Erythrocyte adenosine monophosphate deaminase 3 deficiency,Disorders of purine metabolism,IEM0012,IEM
+Adenosine deaminase 1 deficiency,Disorders of purine metabolism,IEM0013,IEM
+Adenosine deaminase 2 deficiency,Disorders of purine metabolism,IEM0014,IEM
+Purine nucleoside phosphorylase deficiency,Disorders of purine metabolism,IEM0015,IEM
+Xanthine oxidase deficiency,Disorders of purine metabolism,IEM0016,IEM
+Hypoxanthine guanine phosphoribosyltransferase deficiency,Disorders of purine metabolism,IEM0017,IEM
+Adenine phosphoribosyltransferase deficiency,Disorders of purine metabolism,IEM0018,IEM
+Adenylate kinase 1 deficiency,Disorders of purine metabolism,IEM0019,IEM
+Adenylate kinase 2 deficiency,Disorders of purine metabolism,IEM0020,IEM
+"Inosine-5'-monophosphate dehydrogenase deficiency",Disorders of purine metabolism,IEM0021,IEM
+Thiopurine methyltransferase deficiency,Disorders of purine metabolism,IEM0022,IEM
+Inosine triphosphatase deficiency,Disorders of purine metabolism,IEM0023,IEM
+Urate transporter 1 deficiency,Disorders of purine metabolism,IEM0024,IEM
+Urate voltage-driven efflux transporter 1 deficiency,Disorders of purine metabolism,IEM0025,IEM
+"3' repair exonuclease 1 deficiency",Disorders of ectonucleotide and nucleic acid metabolism,IEM0026,IEM
+Ribonuclease H2 subunit A deficiency,Disorders of ectonucleotide and nucleic acid metabolism,IEM0029,IEM
+Ribonuclease H2 subunit B deficiency,Disorders of ectonucleotide and nucleic acid metabolism,IEM0027,IEM
+Ribonuclease H2 subunit C deficiency,Disorders of ectonucleotide and nucleic acid metabolism,IEM0028,IEM
+Ribonuclease T2 deficiency,Disorders of ectonucleotide and nucleic acid metabolism,IEM0030,IEM
+RNA-specific adenosine deaminase 1 deficiency,Disorders of ectonucleotide and nucleic acid metabolism,IEM0032,IEM
+MDA5 superactivity,Disorders of ectonucleotide and nucleic acid metabolism,IEM0033,IEM
+STING superactivity,Disorders of ectonucleotide and nucleic acid metabolism,IEM0034,IEM
+"2',5'-oligoadenylate synthetase 1 deficiency",Disorders of ectonucleotide and nucleic acid metabolism,IEM0035,IEM
+Activation-induced cytidine deaminase deficiency,Disorders of ectonucleotide and nucleic acid metabolism,IEM0005,IEM
+Uracil-DNA glycosylase deficiency,Disorders of ectonucleotide and nucleic acid metabolism,IEM0006,IEM
+ABCC6 deficiency,Disorders of ectonucleotide and nucleic acid metabolism,IEM0036,IEM
+Ectonucleotide pyrophosphatase/ phosphodiesterase 1 deficiency,Disorders of ectonucleotide and nucleic acid metabolism,IEM0037,IEM
+Ectonucleotide pyrophosphatase/ phosphodiesterase 1 dimerization deficiency,Disorders of ectonucleotide and nucleic acid metabolism,IEM0038,IEM
+"Ecto-5'-nucleotidase deficiency",Disorders of ectonucleotide and nucleic acid metabolism,IEM0039,IEM
+Equilibrative nucleoside transporter 1 deficiency,Disorders of ectonucleotide and nucleic acid metabolism,IEM0040,IEM
+Equilibrative nucleoside transporter 3 deficiency,Disorders of ectonucleotide and nucleic acid metabolism,IEM0041,IEM
+Cartilage-hair hypoplasia (more severe form: anauxetic dysplasia type 1),Disorders of ribosomal biogenesis,IEM0515,IEM
+GATA1 deficiency,Disorders of heme synthesis and porphyrias,IEM0796,IEM
+Delta-aminolevulinic acid synthase deficiency,Disorders of heme synthesis and porphyrias,IEM0786,IEM
+Delta-aminolevulinic acid synthase superactivity,Disorders of heme synthesis and porphyrias,IEM0787,IEM
+Delta-aminolevulinic acid dehydratase deficiency,Disorders of heme synthesis and porphyrias,IEM0788,IEM
+Porphobilinogen deaminase deficiency,Disorders of heme synthesis and porphyrias,IEM0789,IEM
+Uroporphyrinogen III synthase deficiency,Disorders of heme synthesis and porphyrias,IEM0790,IEM
+Uroporphyrinogen decarboxylase deficiency,Disorders of heme synthesis and porphyrias,IEM0791,IEM
+Coproporphyrinogen oxidase deficiency,Disorders of heme synthesis and porphyrias,IEM0792,IEM
+Harderoporphyria,Disorders of heme synthesis and porphyrias,IEM0793,IEM
+Protoporphyrinogen oxidase deficiency,Disorders of heme synthesis and porphyrias,IEM0794,IEM
+Ferrochelatase deficiency,Disorders of heme synthesis and porphyrias,IEM0795,IEM
+Mitochondrial porphyrin transporter deficiency,Disorders of heme synthesis and porphyrias,IEM0797,IEM
+Heme oxygenase 1 deficiency,Disorders of heme degradation and bilirubin metabolism,IEM0800,IEM
+NADH-cytochrome b5 reductase deficiency,Disorders of heme degradation and bilirubin metabolism,IEM0798,IEM
+Cytochrome b5 deficiency,Disorders of heme degradation and bilirubin metabolism,IEM0799,IEM
+Biliverdin reductase alpha deficiency,Disorders of heme degradation and bilirubin metabolism,IEM0801,IEM
+UDP-glucuronosyltransferase A1 deficiency,Disorders of heme degradation and bilirubin metabolism,IEM0802,IEM
+Canalicular bilirubin glucuronide transporter deficiency,Disorders of heme degradation and bilirubin metabolism,IEM0802,IEM
+Rotor syndrome,Disorders of heme degradation and bilirubin metabolism,IEM0802,IEM
+PMM2-CDG,Disorders of N-linked protein glycosylation,IEM0908,IEM
+MPI-CDG,Disorders of N-linked protein glycosylation,IEM0909,IEM
+DPAGT1-CDG,Disorders of N-linked protein glycosylation,IEM0910,IEM
+ALG13-CDG,Disorders of N-linked protein glycosylation,IEM0911,IEM
+ALG14-CDG,Disorders of N-linked protein glycosylation,IEM0913,IEM
+ALG1-CDG,Disorders of N-linked protein glycosylation,IEM0914,IEM
+ALG2-CDG,Disorders of N-linked protein glycosylation,IEM0915,IEM
+ALG11-CDG,Disorders of N-linked protein glycosylation,IEM0916,IEM
+RFT1-CDG,Disorders of N-linked protein glycosylation,IEM0917,IEM
+ALG3-CDG,Disorders of N-linked protein glycosylation,IEM0918,IEM
+ALG9-CDG,Disorders of N-linked protein glycosylation,IEM0919,IEM
+ALG12-CDG,Disorders of N-linked protein glycosylation,IEM0920,IEM
+ALG6-CDG,Disorders of N-linked protein glycosylation,IEM0921,IEM
+ALG8-CDG,Disorders of N-linked protein glycosylation,IEM0922,IEM
+TUSC3-CDG,Disorders of N-linked protein glycosylation,IEM0923,IEM
+STT3A-CDG,Disorders of N-linked protein glycosylation,IEM0924,IEM
+MAGT1-CDG,Disorders of N-linked protein glycosylation,IEM0925,IEM
+SSR4-CDG,Disorders of N-linked protein glycosylation,IEM0926,IEM
+MOGS-CDG,Disorders of N-linked protein glycosylation,IEM0927,IEM
+GANAB-CDG,Disorders of N-linked protein glycosylation,IEM0928,IEM
+PRKCSH-CDG,Disorders of N-linked protein glycosylation,IEM0929,IEM
+MAN1B1-CDG,Disorders of N-linked protein glycosylation,IEM0930,IEM
+MGAT2-CDG,Disorders of N-linked protein glycosylation,IEM0931,IEM
+FUT8-CDG,Disorders of N-linked protein glycosylation,IEM0932,IEM
+FUK-CDG,Disorders of N-linked protein glycosylation,IEM_1068,IEM
+POMT1-CDG,Disorders of O-mannosylation,IEM0933,IEM
+POMT2-CDG,Disorders of O-mannosylation,IEM0934,IEM
+POMGNT1-CDG,Disorders of O-mannosylation,IEM0935,IEM
+POMGNT2-CDG,Disorders of O-mannosylation,IEM0936,IEM
+B3GALNT2-CDG,Disorders of O-mannosylation,IEM0937,IEM
+POMK-CDG,Disorders of O-mannosylation,IEM0938,IEM
+CRPPA-CDG,Disorders of O-mannosylation,IEM0939,IEM
+FKTN-CDG,Disorders of O-mannosylation,IEM0940,IEM
+FKRP-CDG,Disorders of O-mannosylation,IEM0941,IEM
+RXYLT1-CDG,Disorders of O-mannosylation,IEM0942,IEM
+B4GAT1-CDG,Disorders of O-mannosylation,IEM0943,IEM
+LARGE1-CDG,Disorders of O-mannosylation,IEM0944,IEM
+POFUT1-CDG,Disorders of O-fucosylation,IEM0968,IEM
+LFNG-CDG,Disorders of O-fucosylation,IEM0969,IEM
+B3GLCT-CDG,Disorders of O-fucosylation,IEM0970,IEM
+XYLT1-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0945,IEM
+XYLT2-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0946,IEM
+B4GALT7-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0947,IEM
+B3GALT6-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0948,IEM
+B3GAT3-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0949,IEM
+Multiple hereditary exostoses type 1,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0950,IEM
+Multiple hereditary exostoses type 2,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0951,IEM
+Autosomal recessive EXT2-related syndrome,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM1052,IEM
+EXTL3-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0952,IEM
+NDST1-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM1041,IEM
+HS6ST1-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM1042,IEM
+CHSY1-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0953,IEM
+CHST11-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0955,IEM
+CHST3-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0954,IEM
+CHST14-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0956,IEM
+DSE-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0957,IEM
+CHST6-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0958,IEM
+CANT1-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0959,IEM
+Sulfate transporter deficiency,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0960,IEM
+"Phosphoadenosine 5'-phosphosulfate synthetase 2 deficiency",Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0961,IEM
+Golgi-resident phosphoadenosine phosphate phosphatase deficiency,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM0962,IEM
+SLC10A7-CDG,Disorders of glycosaminoglycan synthesis and O-xylosylation,IEM1049,IEM
+GALNT3-CDG,Other disorders of O-linked protein glycosylation,IEM0963,IEM
+C1GALT1C-CDG,Other disorders of O-linked protein glycosylation,IEM0964,IEM
+OGT-CDG,Other disorders of O-linked protein glycosylation,IEM0965,IEM
+EOGT-CDG,Other disorders of O-linked protein glycosylation,IEM0966,IEM
+POGLUT1-CDG,Other disorders of O-linked protein glycosylation,IEM0967,IEM
+PIGA-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0971,IEM
+PIGC-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0972,IEM
+PIGQ-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0973,IEM
+PIGH-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0974,IEM
+PIGL-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0975,IEM
+PIGW-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0976,IEM
+PIGM-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0977,IEM
+PIGV-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0978,IEM
+PIGN-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0979,IEM
+PIGB-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM_1092,IEM
+PIGO-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0980,IEM
+PIGG-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0981,IEM
+PIGT-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0982,IEM
+PIGS-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM1059,IEM
+PIGU-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM_1096,IEM
+GPAA1-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0983,IEM
+PGAP1-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0984,IEM
+PGAP3-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0985,IEM
+PGAP2-CDG,Disorders of glycosylphosphatidylinositol biosynthesis,IEM0986,IEM
+ST3GAL5-CDG,Other disorders of lipid glycosylation,IEM0987,IEM
+B4GALNT1-CDG,Other disorders of lipid glycosylation,IEM0988,IEM
+ST3GAL3-CDG,Other disorders of lipid glycosylation,IEM0989,IEM
+A4GALT-CDG,Other disorders of lipid glycosylation,IEM0990,IEM
+DHDDS-CDG,Disorders of dolichol metabolism,IEM0991,IEM
+NUS1-CDG,Disorders of dolichol metabolism,IEM0992,IEM
+SRD5A3-CDG,Disorders of dolichol metabolism,IEM0993,IEM
+DOLK-CDG,Disorders of dolichol metabolism,IEM0994,IEM
+DPM1-CDG,Disorders of dolichol metabolism,IEM0995,IEM
+DPM2-CDG,Disorders of dolichol metabolism,IEM0996,IEM
+DPM3-CDG,Disorders of dolichol metabolism,IEM0997,IEM
+MPDU1-CDG,Disorders of dolichol metabolism,IEM0998,IEM
+SLC35A1-CDG,Disorders of Golgi transport,IEM1008,IEM
+SLC35A2-CDG,Disorders of Golgi transport,IEM1009,IEM
+SLC35A3-CDG,Disorders of Golgi transport,IEM1010,IEM
+SLC35C1-CDG,Disorders of Golgi transport,IEM1011,IEM
+SLC35D1-CDG,Disorders of Golgi transport,IEM1012,IEM
+ATP6V0A2-CDG,Disorders of Golgi homeostasis,IEM1024,IEM
+ATP6V1A-CDG,Disorders of Golgi homeostasis,IEM1025,IEM
+ATP6V1E1-CDG,Disorders of Golgi homeostasis,IEM1026,IEM
+ATP6AP1-CDG,Disorders of Golgi homeostasis,IEM1027,IEM
+ATP6AP2-CDG,Disorders of Golgi homeostasis,IEM1028,IEM
+TMEM199-CDG,Disorders of Golgi homeostasis,IEM1029,IEM
+CCDC115-CDG,Disorders of Golgi homeostasis,IEM1030,IEM
+TMEM165-CDG,Disorders of Golgi homeostasis,IEM1031,IEM
+SLC9A7-CDG,Disorders of Golgi homeostasis,IEM1063,IEM
+UDP-N-acetylglucosamine-2-epimerase/N-acetylmannosamine kinase deficiency,Disorders of sialic acid metabolism,IEM0999,IEM
+UDP-N-acetylglucosamine-2-epimerase/N-acetylmannosamine kinase superactivity,Disorders of sialic acid metabolism,IEM1000,IEM
+N-acetylneuraminic acid-9-phosphate synthase deficiency,Disorders of sialic acid metabolism,IEM1001,IEM
+GFPT1-CDG,Other disorders of multiple glycosylation pathways,IEM1002,IEM
+PGM1-CDG,Other disorders of multiple glycosylation pathways,IEM1003,IEM
+PGM3-CDG,Other disorders of multiple glycosylation pathways,IEM1004,IEM
+GMPPA-CDG,Other disorders of multiple glycosylation pathways,IEM1006,IEM
+GMPPB-CDG,Other disorders of multiple glycosylation pathways,IEM1007,IEM
+N-glycanase 1 deficiency,Other disorders of glycan metabolism,IEM1032,IEM
+SERAC1 deficiency,Disorders of mitochondrial membrane biogenesis and remodeling,IEM0582,IEM
+Tafazzin deficiency,Disorders of mitochondrial membrane biogenesis and remodeling,IEM0583,IEM
+PNPLA8 deficiency,Disorders of mitochondrial membrane biogenesis and remodeling,IEM0584,IEM
+CHCHD10 deficiency,Disorders of mitochondrial membrane biogenesis and remodeling,IEM_1081,IEM
+OPA1 deficiency,Disorders of mitochondrial and peroxisomal dynamics,IEM0577,IEM
+OPA3 deficiency,Disorders of mitochondrial and peroxisomal dynamics,IEM0578,IEM
+Mitofusin 2 deficiency,Disorders of mitochondrial and peroxisomal dynamics,IEM0579,IEM
+MSTO1 deficiency,Disorders of mitochondrial and peroxisomal dynamics,IEM0580,IEM
+Dynamin-like protein 1 deficiency,Disorders of mitochondrial and peroxisomal dynamics,IEM0572,IEM
+Mitochondrial fission factor deficiency,Disorders of mitochondrial and peroxisomal dynamics,IEM0573,IEM
+GDAP1 deficiency,Disorders of mitochondrial and peroxisomal dynamics,IEM0574,IEM
+STAT2 deficiency,Disorders of mitochondrial and peroxisomal dynamics,IEM0575,IEM
+UGO-1 like protein deficiency,Disorders of mitochondrial and peroxisomal dynamics,IEM0576,IEM
+Trafficking kinesin-binding protein 1 deficiency,Disorders of mitochondrial and peroxisomal dynamics,IEM0614,IEM
+Peroxin 1 deficiency,Peroxisomal biogenesis disorders,IEM0889,IEM
+Peroxin 2 deficiency,Peroxisomal biogenesis disorders,IEM0890,IEM
+Peroxin 3 deficiency,Peroxisomal biogenesis disorders,IEM0891,IEM
+Peroxin 5 deficiency,Peroxisomal biogenesis disorders,IEM0882,IEM
+Peroxin 6 deficiency,Peroxisomal biogenesis disorders,IEM0893,IEM
+Peroxin 10 deficiency,Peroxisomal biogenesis disorders,IEM0894,IEM
+Peroxin 11B deficiency,Peroxisomal biogenesis disorders,IEM0895,IEM
+Peroxin 12 deficiency,Peroxisomal biogenesis disorders,IEM0896,IEM
+Peroxin 13 deficiency,Peroxisomal biogenesis disorders,IEM0897,IEM
+Peroxin 14 deficiency,Peroxisomal biogenesis disorders,IEM0898,IEM
+Peroxin 16 deficiency,Peroxisomal biogenesis disorders,IEM0899,IEM
+Peroxin 19 deficiency,Peroxisomal biogenesis disorders,IEM0900,IEM
+Peroxin 26 deficiency,Peroxisomal biogenesis disorders,IEM0901,IEM
+Mucopolysaccharidosis-plus syndrome,Disorders of lysosome-related organelle biogenesis,IEM0869,IEM
+Ceramide transfer protein superactivity,Disorders of organelle interplay,IEM0683,IEM
+Cohen syndrome,Disorders of organelle interplay,IEM1023,IEM
+Conserved oligomeric Golgi complex subunit 1 deficiency,Disorders of vesicular trafficking,IEM1013,IEM
+Conserved oligomeric Golgi complex subunit 4 deficiency,Disorders of vesicular trafficking,IEM1014,IEM
+Conserved oligomeric Golgi complex subunit 4 superactivity,Disorders of vesicular trafficking,IEM1057,IEM
+Conserved oligomeric Golgi complex subunit 5 deficiency,Disorders of vesicular trafficking,IEM1015,IEM
+Conserved oligomeric Golgi complex subunit 6 deficiency,Disorders of vesicular trafficking,IEM1016,IEM
+Conserved oligomeric Golgi complex subunit 7 deficiency,Disorders of vesicular trafficking,IEM1017,IEM
+Conserved oligomeric Golgi complex subunit 8 deficiency,Disorders of vesicular trafficking,IEM1018,IEM
+Jagunal 1 deficiency,Disorders of vesicular trafficking,IEM1019,IEM
+Congenital dyserythropoietic anemia type 2,Disorders of vesicular trafficking,IEM1020,IEM
+TRIP11-CDG,Disorders of vesicular trafficking,IEM1021,IEM
+TRAPPC11-CDG,Disorders of vesicular trafficking,IEM1022,IEM
+GOSR2-CDG,Disorders of vesicular trafficking,IEM1062,IEM
+TANGO2 deficiency,Disorders of vesicular trafficking,IEM0640,IEM
+Glucocerebrosidase deficiency,Disorders of sphingolipid degradation,IEM0832,IEM
+Atypical Gaucher disease due to saposin C deficiency,Disorders of sphingolipid degradation,IEM0833,IEM
+Acid sphingomyelinase deficiency,Disorders of sphingolipid degradation,IEM0834,IEM
+Neutral sphingomyelinase 3 deficiency,Disorders of sphingolipid degradation,IEM_1096,IEM
+"Beta-galactosidase deficiency, GM1 gangliosidosis phenotype",Disorders of sphingolipid degradation,IEM0835,IEM
+Beta-hexosaminidase subunit alpha deficiency,Disorders of sphingolipid degradation,IEM0836,IEM
+Beta-hexosaminidase subunit beta deficiency,Disorders of sphingolipid degradation,IEM0837,IEM
+GM2 activator protein deficiency,Disorders of sphingolipid degradation,IEM0838,IEM
+Beta-galactosylceramidase deficiency,Disorders of sphingolipid degradation,IEM0839,IEM
+Atypical Krabbe disease due to saposin A deficiency,Disorders of sphingolipid degradation,IEM0840,IEM
+Arylsulfatase A deficiency,Disorders of sphingolipid degradation,IEM0841,IEM
+Metachromatic leukodystrophy due to saposin B deficiency,Disorders of sphingolipid degradation,IEM0842,IEM
+Formyl-glycine generating enzyme deficiency,Disorders of sphingolipid degradation,IEM0843,IEM
+Alpha-galactosidase A deficiency,Disorders of sphingolipid degradation,IEM0844,IEM
+"Acid ceramidase deficiency, inflammatory phenotype",Disorders of sphingolipid degradation,IEM0845,IEM
+"Acid ceramidase deficiency, primary neurologic phenotype",Disorders of sphingolipid degradation,IEM0846,IEM
+Combined saposin deficiency,Disorders of sphingolipid degradation,IEM0847,IEM
+Alpha-iduronidase deficiency,Disorders of glycosaminoglycan degradation,IEM0858,IEM
+Iduronate sulfatase deficiency,Disorders of glycosaminoglycan degradation,IEM0859,IEM
+Heparan N-sulfatase deficiency,Disorders of glycosaminoglycan degradation,IEM0860,IEM
+N-acetylglucosaminidase deficiency,Disorders of glycosaminoglycan degradation,IEM0861,IEM
+Heparan-alpha-glucosaminide N-acetyltransferase deficiency,Disorders of glycosaminoglycan degradation,IEM0862,IEM
+N-acetylglucosamine 6-sulfatase deficiency,Disorders of glycosaminoglycan degradation,IEM0863,IEM
+N-acetylgalactosamine 6-sulfatase deficiency,Disorders of glycosaminoglycan degradation,IEM0864,IEM
+"Beta-galactosidase deficiency, Morquio syndrome phenotype",Disorders of glycosaminoglycan degradation,IEM0835,IEM
+N-acetylgalactosamine 4-sulfatase deficiency,Disorders of glycosaminoglycan degradation,IEM0866,IEM
+Beta-glucuronidase deficiency,Disorders of glycosaminoglycan degradation,IEM0867,IEM
+Hyaluronidase deficiency,Disorders of glycosaminoglycan degradation,IEM0868,IEM
+Arylsulfatase G deficiency,Disorders of glycosaminoglycan degradation,IEM1060,IEM
+Alpha-neuraminidase deficiency,Disorders of glycoprotein degradation,IEM0848,IEM
+Cathepsin A deficiency,Disorders of glycoprotein degradation,IEM0849,IEM
+Alpha-mannosidase deficiency,Disorders of glycoprotein degradation,IEM0850,IEM
+Beta-mannosidase deficiency,Disorders of glycoprotein degradation,IEM0851,IEM
+Alpha-N-acetylgalactosaminidase deficiency,Disorders of glycoprotein degradation,IEM0852,IEM
+Alpha-fucosidase deficiency,Disorders of glycoprotein degradation,IEM0853,IEM
+Aspartylglucosaminidase deficiency,Disorders of glycoprotein degradation,IEM0854,IEM
+Palmitoyl-protein thioesterase 1 deficiency,Neuronal ceroid lipofuscinosis,IEM0689,IEM
+Tripeptidyl-peptidase 1 deficiency,Neuronal ceroid lipofuscinosis,IEM0820,IEM
+CLN3 disease,Neuronal ceroid lipofuscinosis,IEM0821,IEM
+CLN4 disease,Neuronal ceroid lipofuscinosis,IEM0822,IEM
+CLN5 disease,Neuronal ceroid lipofuscinosis,IEM0823,IEM
+CLN6 disease,Neuronal ceroid lipofuscinosis,IEM0824,IEM
+CLN7 disease,Neuronal ceroid lipofuscinosis,IEM0825,IEM
+CLN8 disease,Neuronal ceroid lipofuscinosis,IEM0826,IEM
+Cathepsin D deficiency,Neuronal ceroid lipofuscinosis,IEM0827,IEM
+Progranulin deficiency,Neuronal ceroid lipofuscinosis,IEM0828,IEM
+ATP13A2 deficiency,Neuronal ceroid lipofuscinosis,IEM0829,IEM
+Cathepsin F deficiency,Neuronal ceroid lipofuscinosis,IEM0830,IEM
+CLN14 disease,Neuronal ceroid lipofuscinosis,IEM0831,IEM
+EPG5 deficiency,Disorders of autophagy,IEM0811,IEM
+WDR45 deficiency,Disorders of autophagy,IEM0812,IEM
+SNX14 deficiency,Disorders of autophagy,IEM0813,IEM
+Spatacsin deficiency,Disorders of autophagy,IEM0814,IEM
+Spastizin deficiency,Disorders of autophagy,IEM0815,IEM
+AP5Z1 deficiency,Disorders of autophagy,IEM0816,IEM
+TECPR2 deficiency,Disorders of autophagy,IEM0817,IEM
+TBK1 deficiency,Disorders of autophagy,IEM0818,IEM
+RAB7 deficiency,Disorders of autophagy,IEM0819,IEM
+Alpha-glucosidase deficiency,Other disorders of complex molecule degradation,IEM0356,IEM
+Lysosome-associated membrane protein 2 deficiency,Other disorders of complex molecule degradation,IEM0367,IEM
+Glucocerebrosidase receptor deficiency,Other disorders of complex molecule degradation,IEM0875,IEM
+Niemann-Pick disease type C1,Other disorders of complex molecule degradation,IEM0870,IEM
+Niemann-Pick disease type C2,Other disorders of complex molecule degradation,IEM0871,IEM
+Lysosomal acid lipase deficiency,Other disorders of complex molecule degradation,IEM0872,IEM
+UDP-N-acetylglucosamine-1-phosphotransferase subunit alpha/beta deficiency,Other disorders of complex molecule degradation,IEM0855,IEM
+UDP-N-acetylglucosamine-1-phosphotransferase subunit gamma deficiency,Other disorders of complex molecule degradation,IEM0856,IEM
+Mucolipin 1 deficiency,Other disorders of complex molecule degradation,IEM0857,IEM
+Cathepsin K deficiency,Other disorders of complex molecule degradation,IEM0876,IEM
+Cathepsin C deficiency,Other disorders of complex molecule degradation,IEM0877,IEM
+Cathepsin B superactivity,Other disorders of complex molecule degradation,IEM1045,IEM
+Autosomal recessive GTP cyclohydrolase 1 deficiency,Disorders of tetrahydrobiopterin metabolism,IEM0083,IEM
+Autosomal dominant GTP cyclohydrolase 1 deficiency,Disorders of tetrahydrobiopterin metabolism,IEM0084,IEM
+6-pyruvoyl-tetrahydropterin synthase deficiency,Disorders of tetrahydrobiopterin metabolism,IEM0085,IEM
+Sepiapterin reductase deficiency,Disorders of tetrahydrobiopterin metabolism,IEM0086,IEM
+Dihydropteridine reductase deficiency,Disorders of tetrahydrobiopterin metabolism,IEM0087,IEM
+Pterin-4-alpha-carbinolamine dehydratase deficiency ,Disorders of tetrahydrobiopterin metabolism,IEM0088,IEM
+Thiamine transporter 1 deficiency,Disorders of thiamine metabolism,IEM0229,IEM
+Thiamine transporter 2 deficiency,Disorders of thiamine metabolism,IEM0230,IEM
+Thiamine pyrophosphokinase deficiency,Disorders of thiamine metabolism,IEM0231,IEM
+Mitochondrial thiamine pyrophosphate transporter deficiency,Disorders of thiamine metabolism,IEM0232,IEM
+Riboflavin transporter 1 deficiency,Disorders of riboflavin metabolism,IEM0233,IEM
+Riboflavin transporter 2 deficiency,Disorders of riboflavin metabolism,IEM0234,IEM
+Riboflavin transporter 3 deficiency,Disorders of riboflavin metabolism,IEM0235,IEM
+Flavin adenine dinucleotide synthetase deficiency,Disorders of riboflavin metabolism,IEM0236,IEM
+Mitochondrial flavin adenine dinucleotide transporter deficiency,Disorders of riboflavin metabolism,IEM0237,IEM
+Nicotinamide mononucleotide adenylyl transferase 1 deficiency,Disorders of niacin and NAD metabolism,IEM0241,IEM
+Mitochondrial NAD kinase 2 deficiency,Disorders of niacin and NAD metabolism,IEM0242,IEM
+NAD(P)HX dehydratase deficiency,Disorders of niacin and NAD metabolism,IEM0244,IEM
+NAD(P)HX epimerase deficiency,Disorders of niacin and NAD metabolism,IEM0243,IEM
+Nicotinamide nucleotide transhydrogenase deficiency,Disorders of niacin and NAD metabolism,IEM0245,IEM
+Pantothenate kinase 2 deficiency,Disorders of pantothenate and CoA metabolism,IEM0246,IEM
+Phosphopantothenoylcysteine synthetase deficiency,Disorders of pantothenate and CoA metabolism,IEM0247,IEM
+Coenzyme A synthase deficiency,Disorders of pantothenate and CoA metabolism,IEM0248,IEM
+Mitochondrial coenzyme A transporter deficiency,Disorders of pantothenate and CoA metabolism,IEM0249,IEM
+Alpha-aminoadipic semialdehyde dehydrogenase deficiency,Disorders of pyridoxine metabolism,IEM0131,IEM
+"Pyridoxamine 5'-phosphate oxidase deficiency",Disorders of pyridoxine metabolism,IEM0250,IEM
+Pyridoxal kinase deficiency,Disorders of pyridoxine metabolism,IEM_1094,IEM
+"Pyridoxal 5'-phosphate binding protein deficiency",Disorders of pyridoxine metabolism,IEM0251,IEM
+Tissue-nonspecific alkaline phosphatase deficiency,Disorders of pyridoxine metabolism,IEM0252,IEM
+Biotinidase deficiency,Disorders of biotin metabolism,IEM0227,IEM
+Holocarboxylase synthetase deficiency,Disorders of biotin metabolism,IEM0228,IEM
+Proton-coupled folate transporter deficiency,Disorders of folate metabolism,IEM0221,IEM
+Folate receptor alpha deficiency,Disorders of folate metabolism,IEM0222,IEM
+"5,10-methylenetetrahydrofolate reductase deficiency",Disorders of folate metabolism,IEM0223,IEM
+Methylenetetrahydrofolate dehydrogenase 1 deficiency,Disorders of folate metabolism,IEM0224,IEM
+"5,10-methenyltetrahydrofolate synthetase deficiency",Disorders of folate metabolism,IEM1035,IEM
+Dihydrofolate reductase deficiency,Disorders of folate metabolism,IEM0225,IEM
+Formimidoyltransferase cyclodeaminase deficiency,Disorders of folate metabolism,IEM0226,IEM
+Cubilin deficiency,Disorders of cobalamin metabolism,IEM0206,IEM
+Amnionless deficiency,Disorders of cobalamin metabolism,IEM0207,IEM
+Haptocorrin deficiency,Disorders of cobalamin metabolism,IEM0208,IEM
+Transcobalamin II deficiency,Disorders of cobalamin metabolism,IEM0209,IEM
+Transcobalamin receptor deficiency,Disorders of cobalamin metabolism,IEM0210,IEM
+"Methylmalonic aciduria and homocystinuria, cblF type",Disorders of cobalamin metabolism,IEM0211,IEM
+"Methylmalonic aciduria and homocystinuria, cblJ type",Disorders of cobalamin metabolism,IEM0212,IEM
+"Methylmalonic aciduria and homocystinuria, cblC type",Disorders of cobalamin metabolism,IEM0213,IEM
+Epi-cblC,Disorders of cobalamin metabolism,IEM0214,IEM
+"Methylmalonic aciduria and homocystinuria, cblD type",Disorders of cobalamin metabolism,IEM0215,IEM
+"Homocystinuria, cblDv1 type",Disorders of cobalamin metabolism,IEM0215,IEM
+"Methylmalonic aciduria, cblDv2 type",Disorders of cobalamin metabolism,IEM0215,IEM
+"Methylmalonic aciduria, cblA type",Disorders of cobalamin metabolism,IEM0218,IEM
+"Methylmalonic aciduria, cblB type",Disorders of cobalamin metabolism,IEM0219,IEM
+Methionine synthase reductase deficiency,Disorders of cobalamin metabolism,IEM0216,IEM
+"Methylmalonic aciduria and homocystinuria, cblX type",Disorders of cobalamin metabolism,IEM0220,IEM
+Cyclic pyranopterin monophosphate synthase deficiency,Disorders of molybdenum cofactor metabolism,IEM0275,IEM
+Molybdopterin synthase deficiency,Disorders of molybdenum cofactor metabolism,IEM0276,IEM
+Gephyrin deficiency,Disorders of molybdenum cofactor metabolism,IEM0277,IEM
+Molybdenum cofactor sulfurase deficiency,Disorders of molybdenum cofactor metabolism,IEM0278,IEM
+Alpha-tocopherol transfer protein deficiency,Other disorders of vitamin metabolism,IEM0270,IEM
+Gamma-glutamyl carboxylase deficiency,Other disorders of vitamin metabolism,IEM0271,IEM
+Vitamin K epoxide reductase deficiency,Other disorders of vitamin metabolism,IEM0272,IEM
+Microsomal epoxide hydrolase deficiency,Other disorders of vitamin metabolism,IEM0273,IEM
+Menaquinone-4 synthetase deficiency,Other disorders of vitamin metabolism,IEM0274,IEM
+L-dehydroascorbate transporter deficiency,Other disorders of vitamin metabolism,IEM0253,IEM
+Copper-transporting ATPase subunit beta deficiency,Disorders of copper metabolism,IEM0279,IEM
+Copper-transporting ATPase subunit alpha deficiency,Disorders of copper metabolism,IEM0280,IEM
+X-linked distal spinal muscular atrophy type 3,Disorders of copper metabolism,IEM0281,IEM
+MEDNIK syndrome,Disorders of copper metabolism,IEM0282,IEM
+Acetyl-CoA transporter deficiency,Disorders of copper metabolism,IEM0283,IEM
+Hereditary hemochromatosis type 1,Disorders of iron metabolism,IEM0284,IEM
+Hemojuvelin deficiency,Disorders of iron metabolism,IEM285,IEM
+Hepcidin deficiency,Disorders of iron metabolism,IEM0286,IEM
+Transferrin receptor 2 deficiency,Disorders of iron metabolism,IEM0287,IEM
+Ferroportin deficiency,Disorders of iron metabolism,IEM0288,IEM
+Ferritin light chain deficiency,Disorders of iron metabolism,IEM0289,IEM
+Ferritin light chain superactivity,Disorders of iron metabolism,IEM0290,IEM
+Hyperferritinemia-cataract syndrome,Disorders of iron metabolism,IEM0291,IEM
+Hereditary ceruloplasmin deficiency,Disorders of iron metabolism,IEM0292,IEM
+Matriptrase 2 deficiency,Disorders of iron metabolism,IEM0293,IEM
+Hereditary transferrin deficiency,Disorders of iron metabolism,IEM0294,IEM
+Transferrin receptor deficiency,Disorders of iron metabolism,IEM0295,IEM
+Divalent metal transporter 1 deficiency,Disorders of iron metabolism,IEM0296,IEM
+Hypermanganesemia with dystonia type 1,Disorders of manganese metabolism,IEM0301,IEM
+SLC39A14 deficiency,Disorders of manganese metabolism,IEM0302,IEM
+SLC39A8 deficiency,Disorders of manganese metabolism,IEM0303,IEM
+Acrodermatitis enteropathica,Disorders of zinc metabolism,IEM0297,IEM
+Transient neonatal zinc deficiency,Disorders of zinc metabolism,IEM0298,IEM
+Spondylocheirodysplastic Ehlers-Danlos syndrome,Disorders of zinc metabolism,IEM0299,IEM
+Birk-Landau-Perez syndrome,Disorders of zinc metabolism,IEM0300,IEM
+Selenocysteine insertion sequence-binding protein 2 deficiency,Other disorders of trace element metabolism,IEM0304,IEM
+O-phosphoseryl-tRNA(Sec) selenium transferase deficiency,Other disorders of trace element metabolism,IEM0305,IEM
+Tyrosine hydroxylase deficiency,Monoamine neurotransmitter disorders,IEM0076,IEM
+DNAJC12 deficiency,Monoamine neurotransmitter disorders,IEM0089,IEM
+Aromatic L-amino acid decarboxylase deficiency,Monoamine neurotransmitter disorders,IEM0077,IEM
+Dopamine beta-hydroxylase deficiency,Monoamine neurotransmitter disorders,IEM0078,IEM
+Monoamine oxidase A deficiency,Monoamine neurotransmitter disorders,IEM0079,IEM
+Dopamine transporter deficiency,Monoamine neurotransmitter disorders,IEM0080,IEM
+Vesicular monoamine transporter 2 deficiency,Monoamine neurotransmitter disorders,IEM0081,IEM
+Cytochrome b561 deficiency,Monoamine neurotransmitter disorders,IEM1049,IEM
+GABA transaminase deficiency,Gamma-aminobutyric acid neurotransmitter disorders,IEM0152,IEM
+Succinic semialdehyde dehydrogenase deficiency,Gamma-aminobutyric acid neurotransmitter disorders,IEM0153,IEM
+GABA type A receptor subunit alpha 1 deficiency,Gamma-aminobutyric acid neurotransmitter disorders,IEM0155,IEM
+GABA type A receptor subunit beta 1 deficiency,Gamma-aminobutyric acid neurotransmitter disorders,IEM0156,IEM
+GABA type A receptor subunit beta 2 deficiency,Gamma-aminobutyric acid neurotransmitter disorders,IEM0157,IEM
+GABA type A receptor subunit beta 3 deficiency,Gamma-aminobutyric acid neurotransmitter disorders,IEM0158,IEM
+GABA type A receptor subunit gamma 2 deficiency,Gamma-aminobutyric acid neurotransmitter disorders,IEM0159,IEM
+GABA type B receptor subunit 2 deficiency,Gamma-aminobutyric acid neurotransmitter disorders,IEM0160,IEM
+Ionotropic glutamate receptor NMDA type subunit 1 dysregulation,Glutamate neurotransmitter disorders,IEM0169,IEM
+Ionotropic glutamate receptor NMDA type subunit 2A dysregulation,Glutamate neurotransmitter disorders,IEM0170,IEM
+Ionotropic glutamate receptor NMDA type subunit 2B dysregulation,Glutamate neurotransmitter disorders,IEM0171,IEM
+Ionotropic glutamate receptor NMDA type subunit 2D superactivity,Glutamate neurotransmitter disorders,IEM0172,IEM
+Ionotropic glutamate receptor AMPA type subunit 3 deficiency,Glutamate neurotransmitter disorders,IEM0173,IEM
+Ionotropic glutamate receptor AMPA type subunit 4 dysregulation,Glutamate neurotransmitter disorders,IEM0174,IEM
+Thorase deficiency,Glutamate neurotransmitter disorders,IEM0175,IEM
+Metabotropic glutamate receptor 1 deficiency,Glutamate neurotransmitter disorders,IEM0176,IEM
+Metabotropic glutamate receptor 1 superactivity,Glutamate neurotransmitter disorders,IEM0177,IEM
+Metabotropic glutamate receptor 6 deficiency,Glutamate neurotransmitter disorders,IEM0178,IEM
+Glycine transporter 1 deficiency,Glycine neurotransmitter disorders,IEM0187,IEM
+Glycine transporter 2 deficiency,Glycine neurotransmitter disorders,IEM0188,IEM
+Glycine receptor subunit alpha 1 deficiency,Glycine neurotransmitter disorders,IEM0189,IEM
+Glycine receptor subunit beta deficiency,Glycine neurotransmitter disorders,IEM0190,IEM
+ATP-sensitive potassium channel regulatory subunit deficiency,Disorders of insulin metabolism,IEM0333,IEM
+ATP-sensitive potassium channel regulatory subunit superactivity,Disorders of insulin metabolism,IEM0334,IEM
+ATP-sensitive potassium channel pore-forming subunit deficiency,Disorders of insulin metabolism,IEM0335,IEM
+ATP-sensitive potassium channel pore-forming subunit superactivity,Disorders of insulin metabolism,IEM0336,IEM
+Hepatocyte nuclear factor-4 alpha deficiency,Disorders of insulin metabolism,IEM0337,IEM
+Hepatocyte nuclear factor-1 alpha deficiency,Disorders of insulin metabolism,IEM0338,IEM
+Hepatocyte nuclear factor-1 beta deficiency,Disorders of insulin metabolism,IEM0339,IEM
+Uncoupling protein 2 deficiency,Disorders of insulin metabolism,IEM0340,IEM
+Primary congenital insulin deficiency,Disorders of insulin metabolism,IEM0341,IEM
+Proinsulin cleavage deficiency,Disorders of insulin metabolism,IEM0342,IEM
+Insulin receptor deficiency,Disorders of insulin metabolism,IEM0343,IEM
+Insulin promoter factor 1 deficiency,Disorders of insulin metabolism,IEM0344,IEM
+Neurogenic differentiation factor 1 deficiency,Disorders of insulin metabolism,IEM0345,IEM
+Krüppel-like factor 11 deficiency,Disorders of insulin metabolism,IEM0346,IEM
+PAX4 deficiency,Disorders of insulin metabolism,IEM0347,IEM
+BLK deficiency,Disorders of insulin metabolism,IEM0348,IEM
+APPL1 deficiency,Disorders of insulin metabolism,IEM0349,IEM
+AKT2 superactivity,Disorders of insulin metabolism,IEM0350,IEM
+RFX6 deficiency,Disorders of insulin metabolism,IEM0351,IEM
+21-hydroxylase deficiency,Disorders of steroid metabolism,IEM0754,IEM
+11-beta-hydroxylase deficiency,Disorders of steroid metabolism,IEM0755,IEM
+11-beta-hydroxylase superactivity,Disorders of steroid metabolism,IEM0756,IEM
+3-beta-hydroxysteroid dehydrogenase deficiency,Disorders of steroid metabolism,IEM0757,IEM
+"17-hydroxylase/17,20-lyase deficiency",Disorders of steroid metabolism,IEM0758,IEM
+Steroidogenic acute regulatory protein deficiency,Disorders of steroid metabolism,IEM0759,IEM
+Cytochrome P450 oxidoreductase deficiency,Disorders of steroid metabolism,IEM0760,IEM
+Steroid 18-hydroxylase deficiency,Disorders of steroid metabolism,IEM0761,IEM
+Steroid 18-oxidase deficiency,Disorders of steroid metabolism,IEM0762,IEM
+Hexose-6-phosphate dehydrogenase deficiency,Disorders of steroid metabolism,IEM0763,IEM
+11-beta-hydroxysteroid dehydrogenase deficiency,Disorders of steroid metabolism,IEM0764,IEM
+Glucocorticoid receptor deficiency,Disorders of steroid metabolism,IEM0765,IEM
+Mineralocorticoid receptor deficiency,Disorders of steroid metabolism,IEM1038,IEM
+ACTH receptor deficiency,Disorders of steroid metabolism,IEM0766,IEM
+Melanocortin-2 receptor accessory protein deficiency,Disorders of steroid metabolism,IEM0767,IEM
+Aromatase deficiency,Disorders of steroid metabolism,IEM0768,IEM
+Aromatase superactivity,Disorders of steroid metabolism,IEM0769,IEM
+Estrogen receptor deficiency,Disorders of steroid metabolism,IEM0770,IEM
+Estrogen receptor 2 deficiency,Disorders of steroid metabolism,IEM1043,IEM
+Side-chain cleavage enzyme deficiency,Disorders of steroid metabolism,IEM0771,IEM
+17-beta-hydroxysteroid dehydrogenase deficiency,Disorders of steroid metabolism,IEM0772,IEM
+3-alpha-hydroxysteroid dehydrogenase type 3 deficiency,Disorders of steroid metabolism,IEM0773,IEM
+11-beta-hydroxysteroid dehydrogenase type 2 deficiency,Disorders of steroid metabolism,IEM0774,IEM
+Steroid 5-alpha-reductase 2 deficiency,Disorders of steroid metabolism,IEM0775,IEM
+Androgen receptor deficiency,Disorders of steroid metabolism,IEM0776,IEM
+X-linked spinal and bulbar muscular atrophy,Disorders of steroid metabolism,IEM0777,IEM
+Hydroxysteroid sulfotransferase deficiency,Disorders of steroid metabolism,IEM1046,IEM
+Steroid sulfatase deficiency,Disorders of steroid metabolism,IEM0778,IEM
+Chloride channel 2 superactivity,Disorders of steroid metabolism,IEM1047,IEM
+Spastizin deficiency,"",IEM0815,IEM
+AP5Z1 deficiency,"",IEM0816,IEM
+TECPR2 deficiency,"",IEM0817,IEM
+TBK1 deficiency,"",IEM0818,IEM
+RAB7 deficiency,"",IEM0819,IEM
+Alpha-glucosidase deficiency,"",IEM0356,IEM
+Lysosome-associated membrane protein 2 deficiency,"",IEM0367,IEM
+Glucocerebrosidase receptor deficiency,"",IEM0875,IEM
+Niemann-Pick disease type C1,"",IEM0870,IEM
+Niemann-Pick disease type C2,"",IEM0871,IEM
+Lysosomal acid lipase deficiency,"",IEM0872,IEM
+UDP-N-acetylglucosamine-1-phosphotransferase subunit alpha/beta deficiency,"",IEM0855,IEM
+UDP-N-acetylglucosamine-1-phosphotransferase subunit gamma deficiency,"",IEM0856,IEM
+Mucolipin 1 deficiency,"",IEM0857,IEM
+Cathepsin K deficiency,"",IEM0876,IEM
+Cathepsin C deficiency,"",IEM0877,IEM
+Cathepsin B superactivity,"",IEM1045,IEM
+Autosomal recessive GTP cyclohydrolase 1 deficiency,"",IEM0083,IEM
+Autosomal dominant GTP cyclohydrolase 1 deficiency,"",IEM0084,IEM
+6-pyruvoyl-tetrahydropterin synthase deficiency,"",IEM0085,IEM
+Sepiapterin reductase deficiency,"",IEM0086,IEM
+Dihydropteridine reductase deficiency,"",IEM0087,IEM
+Pterin-4-alpha-carbinolamine dehydratase deficiency ,"",IEM0088,IEM
+Thiamine transporter 1 deficiency,"",IEM0229,IEM
+Thiamine transporter 2 deficiency,"",IEM0230,IEM
+Thiamine pyrophosphokinase deficiency,"",IEM0231,IEM
+Mitochondrial thiamine pyrophosphate transporter deficiency,"",IEM0232,IEM
+Riboflavin transporter 1 deficiency,"",IEM0233,IEM
+Riboflavin transporter 2 deficiency,"",IEM0234,IEM
+Riboflavin transporter 3 deficiency,"",IEM0235,IEM
+Flavin adenine dinucleotide synthetase deficiency,"",IEM0236,IEM
+Mitochondrial flavin adenine dinucleotide transporter deficiency,"",IEM0237,IEM
+Nicotinamide mononucleotide adenylyl transferase 1 deficiency,"",IEM0241,IEM
+Mitochondrial NAD kinase 2 deficiency,"",IEM0242,IEM
+NAD(P)HX dehydratase deficiency,"",IEM0244,IEM
+NAD(P)HX epimerase deficiency,"",IEM0243,IEM
+Nicotinamide nucleotide transhydrogenase deficiency,"",IEM0245,IEM
+Pantothenate kinase 2 deficiency,"",IEM0246,IEM
+Phosphopantothenoylcysteine synthetase deficiency,"",IEM0247,IEM
+Coenzyme A synthase deficiency,"",IEM0248,IEM
+Mitochondrial coenzyme A transporter deficiency,"",IEM0249,IEM
+Alpha-aminoadipic semialdehyde dehydrogenase deficiency,"",IEM0131,IEM
+"Pyridoxamine 5'-phosphate oxidase deficiency","",IEM0250,IEM
+Pyridoxal kinase deficiency,"",IEM_1094,IEM
+"Pyridoxal 5'-phosphate binding protein deficiency","",IEM0251,IEM
+Tissue-nonspecific alkaline phosphatase deficiency,"",IEM0252,IEM
+Biotinidase deficiency,"",IEM0227,IEM
+Holocarboxylase synthetase deficiency,"",IEM0228,IEM
+Proton-coupled folate transporter deficiency,"",IEM0221,IEM
+Folate receptor alpha deficiency,"",IEM0222,IEM
+"5,10-methylenetetrahydrofolate reductase deficiency","",IEM0223,IEM
+Methylenetetrahydrofolate dehydrogenase 1 deficiency,"",IEM0224,IEM
+"5,10-methenyltetrahydrofolate synthetase deficiency","",IEM1035,IEM
+Dihydrofolate reductase deficiency,"",IEM0225,IEM
+Formimidoyltransferase cyclodeaminase deficiency,"",IEM0226,IEM
+Cubilin deficiency,"",IEM0206,IEM
+Amnionless deficiency,"",IEM0207,IEM
+Haptocorrin deficiency,"",IEM0208,IEM
+Transcobalamin II deficiency,"",IEM0209,IEM
+Transcobalamin receptor deficiency,"",IEM0210,IEM
+"Methylmalonic aciduria and homocystinuria, cblF type","",IEM0211,IEM
+"Methylmalonic aciduria and homocystinuria, cblJ type","",IEM0212,IEM
+"Methylmalonic aciduria and homocystinuria, cblC type","",IEM0213,IEM
+Epi-cblC,"",IEM0214,IEM
+"Methylmalonic aciduria and homocystinuria, cblD type","",IEM0215,IEM
+"Homocystinuria, cblDv1 type","",IEM0215,IEM
+"Methylmalonic aciduria, cblDv2 type","",IEM0215,IEM
+"Methylmalonic aciduria, cblA type","",IEM0218,IEM
+"Methylmalonic aciduria, cblB type","",IEM0219,IEM
+Methionine synthase reductase deficiency,"",IEM0216,IEM
+"Methylmalonic aciduria and homocystinuria, cblX type","",IEM0220,IEM
+Cyclic pyranopterin monophosphate synthase deficiency,"",IEM0275,IEM
+Molybdopterin synthase deficiency,"",IEM0276,IEM
+Gephyrin deficiency,"",IEM0277,IEM
+Molybdenum cofactor sulfurase deficiency,"",IEM0278,IEM
+Alpha-tocopherol transfer protein deficiency,"",IEM0270,IEM
+Gamma-glutamyl carboxylase deficiency,"",IEM0271,IEM
+Vitamin K epoxide reductase deficiency,"",IEM0272,IEM
+Microsomal epoxide hydrolase deficiency,"",IEM0273,IEM
+Menaquinone-4 synthetase deficiency,"",IEM0274,IEM
+L-dehydroascorbate transporter deficiency,"",IEM0253,IEM
+Copper-transporting ATPase subunit beta deficiency,"",IEM0279,IEM
+Copper-transporting ATPase subunit alpha deficiency,"",IEM0280,IEM
+X-linked distal spinal muscular atrophy type 3,"",IEM0281,IEM
+MEDNIK syndrome,"",IEM0282,IEM
+Acetyl-CoA transporter deficiency,"",IEM0283,IEM
+Hereditary hemochromatosis type 1,"",IEM0284,IEM
+Hemojuvelin deficiency,"",IEM285,IEM
+Hepcidin deficiency,"",IEM0286,IEM
+Transferrin receptor 2 deficiency,"",IEM0287,IEM
+Ferroportin deficiency,"",IEM0288,IEM
+Ferritin light chain deficiency,"",IEM0289,IEM
+Ferritin light chain superactivity,"",IEM0290,IEM
+Hyperferritinemia-cataract syndrome,"",IEM0291,IEM
+Hereditary ceruloplasmin deficiency,"",IEM0292,IEM
+Matriptrase 2 deficiency,"",IEM0293,IEM
+Hereditary transferrin deficiency,"",IEM0294,IEM
+Transferrin receptor deficiency,"",IEM0295,IEM
+Divalent metal transporter 1 deficiency,"",IEM0296,IEM
+Hypermanganesemia with dystonia type 1,"",IEM0301,IEM
+SLC39A14 deficiency,"",IEM0302,IEM
+SLC39A8 deficiency,"",IEM0303,IEM
+Acrodermatitis enteropathica,"",IEM0297,IEM
+Transient neonatal zinc deficiency,"",IEM0298,IEM
+Spondylocheirodysplastic Ehlers-Danlos syndrome,"",IEM0299,IEM
+Birk-Landau-Perez syndrome,"",IEM0300,IEM
+Selenocysteine insertion sequence-binding protein 2 deficiency,"",IEM0304,IEM
+O-phosphoseryl-tRNA(Sec) selenium transferase deficiency,"",IEM0305,IEM
+Tyrosine hydroxylase deficiency,"",IEM0076,IEM
+DNAJC12 deficiency,"",IEM0089,IEM
+Aromatic L-amino acid decarboxylase deficiency,"",IEM0077,IEM
+Dopamine beta-hydroxylase deficiency,"",IEM0078,IEM
+Monoamine oxidase A deficiency,"",IEM0079,IEM
+Dopamine transporter deficiency,"",IEM0080,IEM
+Vesicular monoamine transporter 2 deficiency,"",IEM0081,IEM
+Cytochrome b561 deficiency,"",IEM1049,IEM
+GABA transaminase deficiency,"",IEM0152,IEM
+Succinic semialdehyde dehydrogenase deficiency,"",IEM0153,IEM
+GABA type A receptor subunit alpha 1 deficiency,"",IEM0155,IEM
+GABA type A receptor subunit beta 1 deficiency,"",IEM0156,IEM
+GABA type A receptor subunit beta 2 deficiency,"",IEM0157,IEM
+GABA type A receptor subunit beta 3 deficiency,"",IEM0158,IEM
+GABA type A receptor subunit gamma 2 deficiency,"",IEM0159,IEM
+GABA type B receptor subunit 2 deficiency,"",IEM0160,IEM
+Ionotropic glutamate receptor NMDA type subunit 1 dysregulation,"",IEM0169,IEM
+Ionotropic glutamate receptor NMDA type subunit 2A dysregulation,"",IEM0170,IEM
+Ionotropic glutamate receptor NMDA type subunit 2B dysregulation,"",IEM0171,IEM
+Ionotropic glutamate receptor NMDA type subunit 2D superactivity,"",IEM0172,IEM
+Ionotropic glutamate receptor AMPA type subunit 3 deficiency,"",IEM0173,IEM
+Ionotropic glutamate receptor AMPA type subunit 4 dysregulation,"",IEM0174,IEM
+Thorase deficiency,"",IEM0175,IEM
+Metabotropic glutamate receptor 1 deficiency,"",IEM0176,IEM
+Metabotropic glutamate receptor 1 superactivity,"",IEM0177,IEM
+Metabotropic glutamate receptor 6 deficiency,"",IEM0178,IEM
+Glycine transporter 1 deficiency,"",IEM0187,IEM
+Glycine transporter 2 deficiency,"",IEM0188,IEM
+Glycine receptor subunit alpha 1 deficiency,"",IEM0189,IEM
+Glycine receptor subunit beta deficiency,"",IEM0190,IEM
+ATP-sensitive potassium channel regulatory subunit deficiency,"",IEM0333,IEM
+ATP-sensitive potassium channel regulatory subunit superactivity,"",IEM0334,IEM
+ATP-sensitive potassium channel pore-forming subunit deficiency,"",IEM0335,IEM
+ATP-sensitive potassium channel pore-forming subunit superactivity,"",IEM0336,IEM
+Hepatocyte nuclear factor-4 alpha deficiency,"",IEM0337,IEM
+Hepatocyte nuclear factor-1 alpha deficiency,"",IEM0338,IEM
+Hepatocyte nuclear factor-1 beta deficiency,"",IEM0339,IEM
+Uncoupling protein 2 deficiency,"",IEM0340,IEM
+Primary congenital insulin deficiency,"",IEM0341,IEM
+Proinsulin cleavage deficiency,"",IEM0342,IEM
+Insulin receptor deficiency,"",IEM0343,IEM
+Insulin promoter factor 1 deficiency,"",IEM0344,IEM
+Neurogenic differentiation factor 1 deficiency,"",IEM0345,IEM
+Krüppel-like factor 11 deficiency,"",IEM0346,IEM
+PAX4 deficiency,"",IEM0347,IEM
+BLK deficiency,"",IEM0348,IEM
+APPL1 deficiency,"",IEM0349,IEM
+AKT2 superactivity,"",IEM0350,IEM
+RFX6 deficiency,"",IEM0351,IEM
+21-hydroxylase deficiency,"",IEM0754,IEM
+11-beta-hydroxylase deficiency,"",IEM0755,IEM
+11-beta-hydroxylase superactivity,"",IEM0756,IEM
+3-beta-hydroxysteroid dehydrogenase deficiency,"",IEM0757,IEM
+"17-hydroxylase/17,20-lyase deficiency","",IEM0758,IEM
+Steroidogenic acute regulatory protein deficiency,"",IEM0759,IEM
+Cytochrome P450 oxidoreductase deficiency,"",IEM0760,IEM
+Steroid 18-hydroxylase deficiency,"",IEM0761,IEM
+Steroid 18-oxidase deficiency,"",IEM0762,IEM
+Hexose-6-phosphate dehydrogenase deficiency,"",IEM0763,IEM
+11-beta-hydroxysteroid dehydrogenase deficiency,"",IEM0764,IEM
+Glucocorticoid receptor deficiency,"",IEM0765,IEM
+Mineralocorticoid receptor deficiency,"",IEM1038,IEM
+ACTH receptor deficiency,"",IEM0766,IEM
+Melanocortin-2 receptor accessory protein deficiency,"",IEM0767,IEM
+Aromatase deficiency,"",IEM0768,IEM
+Aromatase superactivity,"",IEM0769,IEM
+Estrogen receptor deficiency,"",IEM0770,IEM
+Estrogen receptor 2 deficiency,"",IEM1043,IEM
+Side-chain cleavage enzyme deficiency,"",IEM0771,IEM
+17-beta-hydroxysteroid dehydrogenase deficiency,"",IEM0772,IEM
+3-alpha-hydroxysteroid dehydrogenase type 3 deficiency,"",IEM0773,IEM
+11-beta-hydroxysteroid dehydrogenase type 2 deficiency,"",IEM0774,IEM
+Steroid 5-alpha-reductase 2 deficiency,"",IEM0775,IEM
+Androgen receptor deficiency,"",IEM0776,IEM
+X-linked spinal and bulbar muscular atrophy,"",IEM0777,IEM
+Hydroxysteroid sulfotransferase deficiency,"",IEM1046,IEM
+Steroid sulfatase deficiency,"",IEM0778,IEM
+Chloride channel 2 superactivity,"",IEM1047,IEM

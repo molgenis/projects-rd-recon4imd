@@ -1,0 +1,4 @@
+name,codesystem,code,ontologyTermURI
+samples can be used for study,NCIT,,
+samples to be destroyed,NCIT,NCIT:C62100,http://purl.obolibrary.org/obo/NCIT_C62100
+samples to be returned to site,NCIT,NCIT:C186295,http://purl.obolibrary.org/obo/NCIT_C186295

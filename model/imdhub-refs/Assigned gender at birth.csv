@@ -1,0 +1,5 @@
+name,label,codesystem,code,ontologyTermURI,definition
+male,assigned male at birth,GSSO,GSSO:000090,http://purl.obolibrary.org/obo/GSSO_000090,Having an identity considered male.
+female,assigned female at birth,GSSO,GSSO:000089,http://purl.obolibrary.org/obo/GSSO_000089,Having an identity considered female.
+diverse,assigned divserse at birth,GSSO,GSSO:009512,http://purl.obolibrary.org/obo/GSSO_009512,"An assignment of a diverse gender marker shortly after birth. Note that ""diverse"" is only available in certain jurisdictions on birth certificates. Further, note that ""diverse"" itself is not a gender, but is a legal gender in this context."
+unknown,unknown gender identity,GSSO,GSSO:009482,http://purl.obolibrary.org/obo/GSSO_009482,A datum representing that a person's gender identity is not known for any of various reasons.

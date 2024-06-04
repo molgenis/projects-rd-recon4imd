@@ -1,0 +1,27 @@
+name,label,acronym,type,codesystem,code,ontologyTermURI,countryCode,country,city,latitude,longitude,alternativeIdentifier
+Amsterdam University Medical Centers,Amsterdam University Medical Center,,clinical study site,ROR,ROR:05grdyy37,https://ror.org/05grdyy37,NL,Netherlands,Amsterdam,52.37403,4.88969,NL1
+Antwerp University Hospital,University Hospital of Antwerp UZA,UZA,clinical study site,ROR,ROR:01hwamj44,https://ror.org/01hwamj44,BE,Belgium,Antwerp,51.22047,4.40026,BE1
+Bambino Gesù Children's Hospital,Ospedale Pediatrico Bambino Gesu,OPBG,clinical study site,ROR,ROR:02sy42d13,https://ror.org/02sy42d13,IT,Italy,Rome,41.897466,12.461168,IT1
+Belfast Health and Social Care Trust,Belfast Health and Social Care Trust,,clinical study site,ROR,ROR:02tdmfk69,https://ror.org/02tdmfk69,GB,United Kingdom,Belfast,54.540259,-5.90496,GB1
+Children's Health Ireland at Crumlin,Childrens Health Ireland,,clinical study site,ROR,ROR:025qedy81,https://ror.org/025qedy81,IE,Ireland,Dublin,53.325833,-6.317222,IE1
+Copenhagen University Hospital,"Copenhagen University Hospital, Rigshospitalet",KUH,clinical study site,ROR,ROR:05bpbnx46,https://ror.org/05bpbnx46,DK,Denmark,Copenhagen,55.67594,12.56553,DK1
+Erasmus MC,"Erasmus Universitair Medisch Centrum, Rotterdam",,clinical study site,ROR,ROR:018906e22,https://ror.org/018906e22,NL,Netherlands,Rotterdam,51.9225,4.47917,NL2
+General University Hospital in Prague,General University Hospital in Prague,VFN,clinical study site,ROR,ROR:04yg23125,https://ror.org/04yg23125,CZ,Czechia,Prague,50.08804,14.42076,CZ1
+Great Ormond Street Hospital,University College London (Great Ormond Street Hospital),,clinical study site,ROR,ROR:00zn2c847,https://ror.org/00zn2c847,GB,United Kingdom,London,51.50853,-0.12574,GB2
+Hospital de Cruces,Hospital Universitario de Cruces (ASOCIACION INSTITUTO DE INVESTIGACION SANITARIA BIOCRUCES BIZKAIA),,clinical study site,ROR,ROR:03nzegx43,https://ror.org/03nzegx43,ES,Spain,Barakaldo,43.282025,-2.984339,ES1
+Instituto de Investigación Sanitaria de Santiago,Fundación Instituto de Investigación Sanitaria de Santiago de Compostela,IDIS,clinical study site,ROR,ROR:05n7xcf53,https://ror.org/05n7xcf53,ES,Spain,Santiago de Compostela,42.868175,-8.562744,ES2
+Johannes Gutenberg University Mainz,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,,clinical study site,ROR,ROR:023b0x485,https://ror.org/023b0x485,DE,Germany,Mainz,49.98419,8.2791,DE1
+KU Leuven,KU Leuven Universitair Ziekenhuis Leuven,KUL,clinical study site,ROR,ROR:05f950310,https://ror.org/05f950310,BE,Belgium,Leuven,50.87959,4.70093,BE2
+Mater Misericordiae University Hospital,Mater Misericoridiae University Hospital,MMUH,clinical study site,ROR,ROR:040hqpc16,https://ror.org/040hqpc16,IE,Ireland,Dublin,53.33306,-6.24889,IE2
+Medical University of Vienna,Medizinische Universitaet Wien,MedUni Vienna,clinical study site,ROR,ROR:05n3x4p02,https://ror.org/05n3x4p02,AT,Austria,Vienna,48.20849,16.37208,AT1
+Medizinische Hochschule Hannover,Medizinische Hochschule Hannover,MHH,clinical study site,ROR,ROR:00f2yqf98,https://ror.org/00f2yqf98,DE,Germany,Hanover,52.37052,9.73322,DE2
+Meyer Children's Hospital,Azienda Ospedaliero-Universitaria Meyer,,clinical study site,ROR,ROR:01n2xwm51,https://ror.org/01n2xwm51,IT,Italy,Florence,43.810527,11.252438,IT2
+Oslo University Hospital,Oslo University Hospital,,clinical study site,ROR,ROR:00j9c2840,https://ror.org/00j9c2840,NO,Norway,Oslo,59.9486,10.7153,NO1
+Ospedale Santa Maria della Misericordia di Udine,Friuli Central University Hospital,AOUUD,clinical study site,ROR,ROR:02zpc2253,https://ror.org/02zpc2253,IT,Italy,Udine,46.077371,13.228381,IT3
+Sahlgrenska University Hospital,Sahlgrenska University Hospital at the University of Gothenburg,,clinical study site,ROR,ROR:04vgqjj36,https://ror.org/04vgqjj36,SE,Sweden,Gothenburg,57.70716,11.96679,SE1
+Technical University of Munich,Technical University of Munich,TUM,clinical study site,ROR,ROR:02kkvpp62,https://ror.org/02kkvpp62,DE,Germany,Munich,48.13743,11.57549,DE3
+Universitätsklinikum Tübingen,Tübingen University Hospital,UKT,clinical study site,ROR,ROR:00pjgxh97,https://ror.org/00pjgxh97,DE,Germany,Tübingen,48.52266,9.05222,DE4
+University Hospital Heidelberg,University Hospital Heidelberg,,clinical study site,ROR,ROR:013czdx64,https://ror.org/013czdx64,DE,Germany,Heidelberg,49.40768,8.69079,DE5
+University Medical Center Freiburg,Universitaetsklinikum Freiburg,,clinical study site,ROR,ROR:03vzbgh69,https://ror.org/03vzbgh69,DE,Germany,Freiburg,48.006297,7.840624,DE6
+University Medical Center Utrecht,Universitair Medish Centrum Utrecht,UMC,clinical study site,ROR,ROR:0575yy874,https://ror.org/0575yy874,NL,Netherlands,Utrecht,52.09083,5.12222,NL3
+University of Groningen,University Medical Centre Groningen,,clinical study site,ROR,ROR:012p63287,https://ror.org/012p63287,NL,Netherlands,Groningen,53.219443,6.562966,NL4

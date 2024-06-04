@@ -1,0 +1,12 @@
+name,parent,codesystem,code,ontologyTermURI,definition
+Pre-shipment status,,,,,
+In preparation,Pre-shipment status,,,,"Preparation of shipment is underway including packaging of materials or goods, creating labels, etc."
+Ready for shipment,Pre-shipment status,,,,Shipment is packaged and ready for scheduling.
+Scheduled for pick up,Pre-shipment status,,,,The shipment is scheduled for pick up by a nominated courier service (date/time)
+Post-shipment status,,,,,
+In transit,Post-shipment status,,,,Shipment is in transit by courier service.
+Shipment picked up,In transit,,,,The shipment has been received by the courier service.
+Scheduled for delivery,In transit,,,,The shipment is due for delivery by the courier service.
+Out for delivery,In transit,,,,The shipment is out for delivery by the courier service.
+Delivered,In transit,,,,The shipment has reached the destination.
+Shipment received,Post-shipment status,,,,The shipment has been received by an individual at the destination.

@@ -1,0 +1,5 @@
+name,codesystem,code,ontologyTermURI,definition
+EDTA-Tube/Plasma,NCIT,C178916,http://purl.obolibrary.org/obo/NCIT_C178916,A sample of plasma from a collection tube treated with EDTA.
+PAXgene-RNA,NCIT,C126394,http://purl.obolibrary.org/obo/NCIT_C126394,A blood collection tube that uses proprietary reagents for whole blood collection and stabilization prior to isolation of cellular RNA.
+EDTA-Blood/DNA,NCIT,C158462,http://purl.obolibrary.org/obo/NCIT_C158462,The blood cells that are harvested from a cell collection tube containing EDTA.
+Urine,NCIT,C189126,http://purl.obolibrary.org/obo/NCIT_C189126,A biospecimen obtained from urine.

@@ -1,0 +1,4 @@
+name,codesystem,code,ontologyTermURI,definition
+Third party,GENEPIO,GENEPIO:0001202,http://purl.obolibrary.org/obo/GENEPIO_0001202,A data field which describes the name of the third party company or laboratory that provided services.
+Another healthcare provider,,,,
+Site,NCIT,NCIT:C70777,http://purl.obolibrary.org/obo/NCIT_C70777,"A healthcare organization, an institution, a facility, a healthcare provider, or a part or a constituent of any of the above entities directly involved in conducting a particular clinical study"
