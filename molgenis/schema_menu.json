@@ -1,135 +1,109 @@
-[
-  {
-    "label": "Home",
-    "href": "/IMDhub/imdhub-public",
-    "key": "l3aebl",
-    "submenu": [],
-    "role": "Viewer"
-  },
-  {
-    "label": "My Clinical Site",
-    "href": "",
-    "role": "Viewer",
-    "key": "03wihh",
-    "submenu": [
-      {
-        "label": "Participant Registration",
-        "href": "/Site%2001/tables/#/ParticipantRegistration",
-        "role": "Viewer",
-        "key": "03wihh",
-        "submenu": []
-      },
-      {
-        "label": "Visit Registration",
-        "href": "/Site%2001/tables/#/ParticipantVisits",
-        "role": "Viewer",
-        "key": "rpGcKF4",
-        "submenu": []
-      },
-      {
-        "label": "Biospecimen Log",
-        "href": "/Site%2001/tables/#/BiospecimenLog",
-        "role": "Viewer",
-        "key": "zVTr17u",
-        "submenu": []
-      },
-      {
-        "label": "Shipment Tracking",
-        "href": "/Site%2001/tables/#/BiospecimenTracking",
-        "role": "Viewer",
-        "key": "zVTr17u",
-        "submenu": []
-      },
-      {
-        "label": "Clinical recruitment strategy",
-        "href": "/Site%2001/tables/#/ClinicalRecruitmentStrategy",
-        "role": "Viewer",
-        "key": "A76eeL",
-        "submenu": []
-      },
-      {
-        "label": "View tables",
-        "href": "/Site 01/tables/",
-        "role": "Viewer",
-        "key": "9zHdQpa",
-        "submenu": []
-      }
-    ]
-  },
-  {
-    "label": "Reference Databases",
-    "href": "",
-    "key": "c3ja4",
-    "submenu": [
-      {
-        "label": "Ontologies",
-        "href": "/IMDhub Refs/tables",
-        "key": "kbh6j",
-        "role": "Viewer"
-      },
-      {
-        "label": "Identifier lists",
-        "href": "/IMDhub Identifiers/tables",
-        "key": "3tf1s",
-        "role": "Viewer"
-      },
-      {
-        "label": "All databases",
-        "href": "/apps/central/",
-        "key": "7lh7r4",
-        "role": "Viewer"
-      }
-    ],
-    "role": "Viewer"
-  },
-  {
-    "label": "Admin",
-    "href": "",
-    "role": "Viewer",
-    "key": "cVv8mm",
-    "submenu": [
-      {
-        "label": "Tables",
-        "href": "tables",
-        "role": "Viewer",
-        "key": "6lbpeh",
-        "submenu": []
-      },
-      {
-        "label": "Schema",
-        "href": "schema",
-        "role": "Manager",
-        "key": "u5fa9",
-        "submenu": []
-      },
-      {
-        "label": "Up/Download",
-        "href": "updownload",
-        "role": "Editor",
-        "key": "vqj1t",
-        "submenu": []
-      },
-      {
-        "label": "Graphql",
-        "href": "graphql-playground",
-        "role": "Viewer",
-        "key": "hxb05",
-        "submenu": []
-      },
-      {
-        "label": "Settings",
-        "href": "settings",
-        "role": "Manager",
-        "key": "b9gztr",
-        "submenu": []
-      }
-    ]
-  },
-  {
-    "label": "Help",
-    "href": "docs",
-    "role": "Viewer",
-    "key": "246jx9",
-    "submenu": []
-  }
-]
+{
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/IMDhub/imdhub-public",
+      "role": "Viewer"
+    },
+    {
+      "label": "My Clinical Site",
+      "href": "",
+      "role": "Viewer",
+      "submenu": [
+        {
+          "label": "Participant Registration",
+          "href": "/Site%2001/tables/#/ParticipantRegistration",
+          "role": "Viewer"
+        },
+        {
+          "label": "Visit Registration",
+          "href": "/Site%2001/tables/#/ParticipantVisits",
+          "role": "Viewer"
+        },
+        {
+          "label": "Biospecimen Log",
+          "href": "/Site%2001/tables/#/BiospecimenLog",
+          "role": "Viewer"
+        },
+        {
+          "label": "Shipment Tracking",
+          "href": "/Site%2001/tables/#/BiospecimenTracking",
+          "role": "Viewer"
+        },
+        {
+          "label": "Clinical recruitment strategy",
+          "href": "/Site%2001/tables/#/ClinicalRecruitmentStrategy",
+          "role": "Viewer"
+        },
+        {
+          "label": "View tables",
+          "href": "/Site 01/tables/",
+          "role": "Viewer"
+        }
+      ]
+    },
+    {
+      "label": "Reference Databases",
+      "href": "",
+      "submenu": [
+        {
+          "label": "Ontologies",
+          "href": "/IMDhub Refs/tables",
+          "key": "kbh6j",
+          "role": "Viewer"
+        },
+        {
+          "label": "Identifier lists",
+          "href": "/IMDhub Identifiers/tables",
+          "key": "3tf1s",
+          "role": "Viewer"
+        },
+        {
+          "label": "All databases",
+          "href": "/apps/central/",
+          "role": "Viewer"
+        }
+      ],
+      "role": "Viewer"
+    },
+    {
+      "label": "Admin",
+      "href": "",
+      "role": "Viewer",
+      "submenu": [
+        {
+          "label": "Tables",
+          "href": "tables",
+          "role": "Viewer"
+        },
+        {
+          "label": "Schema",
+          "href": "schema",
+          "role": "Manager"
+        },
+        {
+          "label": "Up/Download",
+          "href": "updownload",
+          "role": "Editor"
+        },
+        {
+          "label": "Graphql",
+          "href": "graphql-playground",
+          "role": "Viewer"
+        },
+        {
+          "label": "Settings",
+          "href": "settings",
+          "role": "Manager"
+        }
+      ]
+    },
+    {
+      "label": "Help",
+      "href": "docs",
+      "role": "Viewer",
+      "key": "246jx9",
+      "submenu": []
+    }
+  ]
+}

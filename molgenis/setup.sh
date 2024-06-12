@@ -142,13 +142,18 @@ done
 
 # init primary schema - load menu, change membership, add description
 
-public_menu=$(jq '.public | map(. + {key: "'$(random_key 7)'"}) | tostring' molgenis/molgenis/schema_menu.json)
+public_menu=$(jq '.menu | map(. + {key: "'$(random_key 7)'"}) | tostring' molgenis/schema_menu.json)
 set_menu_gql=$(new_change_setting_query "menu" $public_menu)
 menu_payload="$(jq -c -n --arg query "$set_menu_gql" '{"query": $query}')"
 echo $menu_payload
 
-curl -s "${emx2_host}/${primary_schema}/api/graphql" \
+set_menu_response=$(curl -s "${emx2_host}/${primary_schema}/api/graphql" \
     -H "Content-Type: application/json" \
     -H "x-molgenis-token:${api_token}" \
-    -d $menu_payload
+    -d $menu_payload)
 
+set_menu_status=(jq '.data.createSchema.status' <<< $set_menu_response | xargs)
+if [ $set_menu_status == "SUCCES" ]
+then
+  echo "Updated menu: $set_menu_response"
+fi
