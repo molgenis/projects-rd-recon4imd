@@ -14,6 +14,14 @@ Some date fields are automically populated with today's date. Rather than having
 new Date().toISOString().split("T")[0]
 ```
 
+When integrated into an auto date column, check to see if the value is null. This will make sure that the date is generated on the first save and never overwritten.
+
+```js
+!date ?new Date().toISOString().split("T")[0] : return date;
+```
+
+\*Note: change `date` to the name of the column you wish to use
+
 ### Patient id
 
 During the patient registration process, it was decided that it would nice if we could automatically suggest the next available patient identifier. The following query retrieves the next unassigned identifier from the table `PatientIdentifer` (which is stored in the same schema).

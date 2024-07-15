@@ -1,0 +1,10 @@
+_original_name,name,codesystem,code,ontologyTermURI,definition
+HiSeq2500,Illumina HiSeq 2500,EFO,EFO:0008565,http://www.ebi.ac.uk/efo/EFO_0008565,The Illumina HiSeq 2500 is a sequencing machine developed by Illumina.
+NextSeq500,Illumina NextSeq 500,EFO,EFO:0009173,http://www.ebi.ac.uk/efo/EFO_0009173,The Illumina NextSeq 500 is a benchtop high-throughput sequencing machine developed by Illumina.
+NovaSeq5000,Illumina NovaSeq 5000,GENEPIO,GENEPIO:0100122,http://purl.obolibrary.org/obo/GENEPIO_0100122,
+NovaSeq6000,Illumina NovaSeq 6000,EFO,EFO:0008637,http://www.ebi.ac.uk/efo/EFO_0008637,The Illumina NovaSeq 6000 is a high-throughput sequencing machine developed by Illumina.
+MGI-2000,BGI MGISEQ-2000,EFO,EFO:0700018,http://www.ebi.ac.uk/efo/EFO_0700018,"A next-generation sequencing (NGS) sequencer from Beijing Genomics Institute (BGI) based on DNA nanoball (DNB) and probe-anchor synthesis (cPAS) technology, which were also used in the previous version of the BGISEQ-500 device; however, the reagents for MGISEQ-2000 have been refined and the platform utilizes updated software."
+SequelII,PacBio Sequel II system,EFO,EFO:0700015,http://www.ebi.ac.uk/efo/EFO_0700015,"The PacBio Sequel II system is a high-throughput, long-read sequencing machine developed by PacBio."
+PromethION,ONT PromethION,EFO,EFO:0008634,http://www.ebi.ac.uk/efo/EFO_0008634,"The ONT PromethION is a high-throughput, high-sample number benchtop sequencing machine developed by Oxford Nanopore Technologies."
+NovaSeqXPlus,Illumina NovaSeq X Plus,,,,
+Not listed,Not provided,GENEPIO,GENEPIO:0001668,http://purl.obolibrary.org/obo/GENEPIO_0001668,A categorical choice indicating that information of an expected format was not given; a value may be given at the later stage
