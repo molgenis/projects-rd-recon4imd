@@ -8,3 +8,9 @@ xlsx2csv --sheet 0 files/google_drive/imdhub-identifier-bank.xlsx model/imdhub-i
 
 # split clinical site registration model
 xlsx2csv --sheet 0 files/google_drive/clinical-site-registration.xlsx model/imdhub-site/
+
+
+# split demo data
+xlsx2csv --sheet 0 \
+  data/demo/clinical-site-data.xlsx \
+  data/demo/
