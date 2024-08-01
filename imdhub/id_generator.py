@@ -8,8 +8,10 @@ from datatable import dt, f
 import pandas as pd
 from molgenis_emx2_pyclient import Client
 from dotenv import load_dotenv
-load_dotenv()
+from pandas.io.formats import excel
+excel.ExcelFormatter.header_style = None
 
+load_dotenv()
 HOST = environ['IMDHUB_HOST']
 TOKEN = environ['IMDHUB_TOKEN']
 
@@ -35,7 +37,8 @@ with Client(url=HOST, token=TOKEN) as client:
 
 NUM_ITEMS = 20
 generated_pids = {}
-generated_sids = {}
+
+today = datetime.now().strftime('%F')
 
 # create PIDs
 for org in organisations:
@@ -47,8 +50,8 @@ for org in organisations:
             if new_pid not in generated_pids:
                 generated_pids[new_pid] = {
                     'identifier': new_pid,
-                    'clinical_site': org['name'],
-                    'date_created': datetime.now().strftime("%F"),
+                    'clinical site': org['name'],
+                    'date created': today,
                     'status': 'Available'
                 }
                 is_valid_pid = True
@@ -56,24 +59,25 @@ for org in organisations:
 pids_data = [generated_pids[pid] for pid in generated_pids.keys()]
 
 # Generate SIDs
-for org in organisations:
-    print('Generating ids for', org['name'])
-    for num in range(NUM_ITEMS):
+# generated_sids = {}
+# for org in organisations:
+#     print('Generating ids for', org['name'])
+#     for num in range(NUM_ITEMS):
 
-        # generate SID
-        is_valid_sid = False
-        while is_valid_sid is False:
-            new_sid = f"S.{generate_random_id()}"
-            if new_sid not in generated_sids:
-                generated_sids[new_sid] = {
-                    'identifier': new_sid,
-                    'clinical_site': org['name'],
-                    'date_created': datetime.now().strftime("%F"),
-                    'status': 'Available'
-                }
-                is_valid_sid = True
+#         # generate SID
+#         is_valid_sid = False
+#         while is_valid_sid is False:
+#             new_sid = f"S.{generate_random_id()}"
+#             if new_sid not in generated_sids:
+#                 generated_sids[new_sid] = {
+#                     'identifier': new_sid,
+#                     'clinical_site': org['name'],
+#                     'date_created': datetime.now().strftime("%F"),
+#                     'status': 'Available'
+#                 }
+#                 is_valid_sid = True
 
-sids_data = [generated_sids[sid] for sid in generated_sids.keys()]
+# sids_data = [generated_sids[sid] for sid in generated_sids.keys()]
 
 # ///////////////////////////////////////////////////////////////////////////////
 
@@ -81,54 +85,49 @@ sids_data = [generated_sids[sid] for sid in generated_sids.keys()]
 # save to file and import into central database
 
 pids_dt = dt.Frame(pids_data)
-# sids_dt = dt.Frame(sids_data)
-
-today = datetime.now().strftime('%F')
 
 # ~ 2a ~
-# assign the first 9 participant identifiers
+# assign the first 9 participant identifiers for UMCG as a test
 umcg_pids = pids_dt[
-    f.clinical_site == "University of Groningen", 'identifier'].to_list()[0][:9]
+    f['clinical site'] == "University of Groningen",
+    'identifier'
+].to_list()[0][:9]
 
 for id in umcg_pids:
     pids_dt[
         f.identifier == id,
-        ('status', 'date_assigned', 'date_updated', 'updated_by')
+        ('status', 'date assigned', 'date updated', 'updated by')
     ] = ('Assigned', today, today, 'David')
 
+# ///////////////////////////////////////
 
-# ~ 2b ~
-# Assign the first 9 biospecimen identifiers
-# umcg_sids = sids_dt[
-#     f.clinical_site == "University of Groningen", 'identifier'].to_list()[0][:9]
-
-# for id in umcg_sids:
-#     sids_dt[
-#         f.identifier == id,
-#         ('status', 'date_assigned', 'date_updated', 'updated_by')
-#     ] = ('Assigned', today, today, 'David')
+# filter dataset
+umcg_dt = pids_dt[f['clinical site'] == 'University of Groningen', :]
 
 
 # write to file or import into IMDHub
-# with pd.ExcelWriter('./data/IMDhub Identifiers.xlsx') as wb:
-#     pids_df = pids_dt.to_pandas()
-#     pids_df.to_excel(wb, sheet_name='Participant identifiers', index=False)
-#     sids_df = sids_dt.to_pandas()
-#     sids_df.to_excel(wb, sheet_name='Biospecimen identifiers', index=False)
+# sids_df = sids_dt.to_pandas()
+# sids_df.to_excel(wb, sheet_name='Biospecimen identifiers', index=False)
+with pd.ExcelWriter('./data/IMDHub Identifiers.xlsx') as wb:
+    pids_df = pids_dt.to_pandas()
+    pids_df.to_excel(wb, sheet_name='Participant identifiers', index=False)
 
+with pd.ExcelWriter('./data/IMDHub UMCG Identifiers.xlsx') as wb2:
+    umcg_df = umcg_dt.to_pandas()
+    umcg_df.to_excel(wb2, sheet_name='Participant identifiers', index=False)
 
 # import all participant identifiers
 with Client(url=HOST, token=TOKEN) as client:
-    client.save_schema(name='IMDHub Identifiers',
-                       table='Participant identifiers',
-                       data=pids_dt.to_pandas().to_dict('records'))
+    client.save_schema(
+        name='IMDHub Site Identifiers',
+        table='Participant identifiers',
+        data=pids_dt.to_pandas().to_dict('records')
+    )
 
 # import UMCG identifiers
 with Client(url=HOST, token=TOKEN) as client:
-    client.save_schema(name='NL4',
-                       table='Participant identifiers',
-                       data=pids_dt[f.clinical_site == 'University of Groningen', :].to_pandas().to_dict('records'))
-
-# save UMCG pids to files
-pids_dt[f.clinical_site == 'University of Groningen',
-        :].to_csv('data/example_site_data.csv')
+    client.save_schema(
+        name='Site 01',
+        table='Participant identifiers',
+        data=umcg_dt.to_pandas().to_dict('records')
+    )
