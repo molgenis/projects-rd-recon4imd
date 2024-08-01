@@ -1,4 +1,4 @@
-name,label,acronym,type,codesystem,code,ontologyTermURI,countryCode,country,city,latitude,longitude,alternativeIdentifier
+name,labels that will be ignored on import,acronym,type,codesystem,code,ontologyTermURI,countryCode,country,city,latitude,longitude,alternativeIdentifier
 Amsterdam University Medical Centers,Amsterdam University Medical Center,,clinical study site,ROR,ROR:05grdyy37,https://ror.org/05grdyy37,NL,Netherlands,Amsterdam,52.37403,4.88969,NL1
 Antwerp University Hospital,University Hospital of Antwerp UZA,UZA,clinical study site,ROR,ROR:01hwamj44,https://ror.org/01hwamj44,BE,Belgium,Antwerp,51.22047,4.40026,BE1
 Bambino Gesù Children's Hospital,Ospedale Pediatrico Bambino Gesu,OPBG,clinical study site,ROR,ROR:02sy42d13,https://ror.org/02sy42d13,IT,Italy,Rome,41.897466,12.461168,IT1
@@ -24,4 +24,4 @@ Universitätsklinikum Tübingen,Tübingen University Hospital,UKT,clinical stud
 University Hospital Heidelberg,University Hospital Heidelberg,,clinical study site,ROR,ROR:013czdx64,https://ror.org/013czdx64,DE,Germany,Heidelberg,49.40768,8.69079,DE5
 University Medical Center Freiburg,Universitaetsklinikum Freiburg,,clinical study site,ROR,ROR:03vzbgh69,https://ror.org/03vzbgh69,DE,Germany,Freiburg,48.006297,7.840624,DE6
 University Medical Center Utrecht,Universitair Medish Centrum Utrecht,UMC,clinical study site,ROR,ROR:0575yy874,https://ror.org/0575yy874,NL,Netherlands,Utrecht,52.09083,5.12222,NL3
-University of Groningen,University Medical Centre Groningen,,clinical study site,ROR,ROR:012p63287,https://ror.org/012p63287,NL,Netherlands,Groningen,53.219443,6.562966,NL4
+University Medical Centre Groningen,University Medical Centre Groningen,UMCG,clinical study site,ROR,ROR:03cv38k47,https://ror.org/03cv38k47,NL,Netherlands,Groningen,53.21917,6.56667,NL4

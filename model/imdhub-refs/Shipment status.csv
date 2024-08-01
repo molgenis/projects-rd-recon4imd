@@ -10,3 +10,7 @@ Scheduled for delivery,In transit,,,,The shipment is due for delivery by the cou
 Out for delivery,In transit,,,,The shipment is out for delivery by the courier service.
 Delivered,In transit,,,,The shipment has reached the destination.
 Shipment received,Post-shipment status,,,,The shipment has been received by an individual at the destination.
+Shipment disruptions,Post-shipment status,,,,Indicators for shipment disruptions
+Lost in shipment,Shipment disruptions,,,,The parcel was lost during transit
+Received but sample missing,Shipment disruptions,,,,"The parcel was delivered, but one or more items were missing"
+Other,Shipment disruptions,,,,Another issue occurred during shipment

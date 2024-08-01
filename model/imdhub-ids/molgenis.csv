@@ -1,11 +1,21 @@
-tableName,columnName,columnType,label,description,isReadOnly,key,required,refSchema,refTable,refBack,visible,defaultValue,computed,semantics,includeInImport
-Participant identifiers,,,,Participant identifiers and assignment status,,,,,,,,,,,TRUE
-Participant identifiers,identifier,string,Recon4imd identifier,,TRUE,1,TRUE,,,,,,,http://purl.obolibrary.org/obo/NCIT_C25364,TRUE
-Participant identifiers,clinical_site,ref,Select your clinical site,,,,,IMDHub Refs,Organisations,,,,,http://purl.obolibrary.org/obo/NCIT_C70777,TRUE
-Participant identifiers,status,ref,Change the status of the idenfier,"E.g., assigned, removed, etc.",,,TRUE,IMDHub Refs,Identifier status,,,,,http://purl.obolibrary.org/obo/NCIT_C25688,TRUE
-Participant identifiers,status_removed,text,Provide additional details as to why the identifier was removed,,,,"status==""Deprecated""",,,,"status==""Deprecated""",,,http://purl.obolibrary.org/obo/NCIT_C25688,TRUE
-Participant identifiers,status_other,text,"If other was selected, please provider additional information.",,,,"status==""Other""",,,,"status==""Other""",,,http://purl.obolibrary.org/obo/NCIT_C25688,TRUE
-Participant identifiers,date_created,date,Enter the date the identifier was created,,,,TRUE,,,,,,,http://schema.org/Date,TRUE
-Participant identifiers,date_assigned,date,Enter the date the identifier was assigned,,,,"status==""Assigned""",,,,"status==""Assigned""",,,http://schema.org/Date,TRUE
-Participant identifiers,date_updated,date,Enter the date when the record was changed,,,,,,,,,,,http://schema.org/Date,TRUE
-Participant identifiers,updated_by,string,Enter the name of the person that modified this record,,,,,,,,,,,http://schema.org/Date,TRUE
+tableName,columnName,columnType,label,description,isReadOnly,key,refSchema,refTable,required,visible,semantics,shouldImport
+Participant identifiers,,,,Participant identifiers and assignment status,,,,,,,,TRUE
+Participant identifiers,identifier,string,Recon4imd identifier,,TRUE,1,,,"if (identifier === null) ""Enter a identifier""",,http://purl.obolibrary.org/obo/NCIT_C25364,TRUE
+Participant identifiers,clinical site,ref,Select your clinical site,,,,IMDHub Refs,Organisations,"if (clinicalSite === null) ""Select the site the identifier is associated with""",,http://purl.obolibrary.org/obo/NCIT_C70777,TRUE
+Participant identifiers,status,ref,Change the status of the idenfier,"E.g., assigned, removed, etc.",,,IMDHub Refs,Identifier status,"if (status === null) ""Please indicate the current status of the identifier""",,http://purl.obolibrary.org/obo/NCIT_C25688,TRUE
+Participant identifiers,status removed,text,Provide additional details as to why the identifier was removed,,,,,,"status ! == null ? (status.name == ""Deprecated"" && statusRemoved === null ? ""Please indicate why the identifier was removed"" : false) : false","status !== null ? (status.name === ""Deprecated"" ? true : false) : false",http://purl.obolibrary.org/obo/NCIT_C25688,TRUE
+Participant identifiers,status other,text,"If other was selected, please provide additional information.",,,,,,"status !== null ? status.name === ""Other"" && statusOther === null ? ""Please provide additional information"" : false : false","status !== null ? (status.name === ""Other"" ? true : false) : false",http://purl.obolibrary.org/obo/NCIT_C25688,TRUE
+Participant identifiers,date created,date,Enter the date the identifier was created,,,,,,"if (dateCreated === null) ""Enter the date the identifier was created""",,http://schema.org/Date,TRUE
+Participant identifiers,date assigned,date,Enter the date the identifier was assigned,,,,,,"status !== null ? (status.name === ""Assigned"" && dateAssigned === null ? ""Please enter the date the identifier was assigned"" : false) : false",status !== null,http://schema.org/Date,TRUE
+Participant identifiers,date updated,date,Enter the date when the record was changed,,,,,,,status !== null,http://schema.org/Date,TRUE
+Participant identifiers,updated by,string,Enter the name of the person that modified this record,,,,,,,status !== null,http://schema.org/Date,TRUE
+Biospecimen identifiers,,,,Sample identifiers and assignment status,,,,,,,,TRUE
+Biospecimen identifiers,identifier,string,Recon4imd identifier,,TRUE,1,,,"if (identifier === null) ""Enter a identifier""",,http://purl.obolibrary.org/obo/NCIT_C25364,TRUE
+Biospecimen identifiers,clinical site,ref,Select your clinical site,,,,IMDHub Refs,Organisations,"if (clinicalSite === null) ""Select the site the identifier is associated with""",,http://purl.obolibrary.org/obo/NCIT_C70777,TRUE
+Biospecimen identifiers,status,ref,Change the status of the idenfier,"E.g., assigned, removed, etc.",,,IMDHub Refs,Identifier status,"if (status === null) ""Please indicate the current status of the identifier""",,http://purl.obolibrary.org/obo/NCIT_C25688,TRUE
+Biospecimen identifiers,status removed,text,Provide additional details as to why the identifier was removed,,,,,,"status ! == null ? (status.name == ""Deprecated"" && statusRemoved === null ? ""Please indicate why the identifier was removed"" : false) : false","status !== null ? (status.name === ""Deprecated"" ? true : false) : false",http://purl.obolibrary.org/obo/NCIT_C25688,TRUE
+Biospecimen identifiers,status other,text,"If other was selected, please provider additional information.",,,,,,"status !== null ? status.name === ""Other"" && statusOther === null ? ""Please provide additional information"" : false : false","status !== null ? (status.name === ""Other"" ? true : false) : false",http://purl.obolibrary.org/obo/NCIT_C25688,TRUE
+Biospecimen identifiers,date created,date,Enter the date the identifier was created,,,,,,"if (dateCreated === null) ""Enter the date the identifier was created""",,http://schema.org/Date,TRUE
+Biospecimen identifiers,date assigned,date,Enter the date the identifier was assigned,,,,,,"status !== null ? (status.name === ""Assigned"" && dateAssigned === null ? ""Please enter the date the identifier was assigned"" : false) : false",status !== null,http://schema.org/Date,TRUE
+Biospecimen identifiers,date updated,date,Enter the date when the record was changed,,,,,,,status !== null,http://schema.org/Date,TRUE
+Biospecimen identifiers,updated by,string,Enter the name of the person that modified this record,,,,,,,status !== null,http://schema.org/Date,TRUE
