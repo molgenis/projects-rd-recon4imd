@@ -8,7 +8,7 @@ from googleapiclient.errors import HttpError
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 import pandas as pd
-from os import environ
+from os import environ, system
 from dotenv import load_dotenv
 from pandas.io.formats import excel
 excel.ExcelFormatter.header_style = None
@@ -18,12 +18,58 @@ load_dotenv()
 # If modifying these scopes, delete the file token.json.
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 
-# The ID and range of a sample spreadsheet.
-SAMPLE_SPREADSHEET_ID = environ['SPREADSHEET_ID']
-SAMPLE_RANGE_NAME = "molgenis!A1:Z"
+
+def get_imdhub_site(service):
+    """Get IMDHUB-SITE File"""
+    print('Downloading IMDHUB-SITE data model....')
+    try:
+        sheet = service.spreadsheets()
+        result = (
+            sheet.values()
+            .get(spreadsheetId=environ['IMDHUB_SITE_FILE'], range='molgenis!A2:Q')
+            .execute()
+        )
+        values = result.get("values", [])
+
+        if not values:
+            print("No data found.")
+            return
+
+        print('Saving data....')
+        data = pd.DataFrame(values[1:], columns=values[0])
+        filtered = data[data['shouldImport'] == "TRUE"]
+        filtered = data[data['rowsToTest'] == "TRUE"]
+        filtered.to_excel('imdhub-site.xlsx', sheet_name='molgenis', index=0)
+
+    except HttpError as err:
+        print(err)
 
 
-def main():
+def get_imdhub_ids(service):
+    """Get identifier data model"""
+    print('Retrieving IMDHUB Identifier list data model....')
+    try:
+        sheet = service.spreadsheets()
+        result = (
+            sheet.values()
+            .get(spreadsheetId=environ['IMDHUB_IDS_FILE'], range='molgenis!A1:M')
+            .execute()
+        )
+        values = result.get("values", [])
+
+        if not values:
+            print("No data found.")
+            return
+
+        print('Saving data')
+        data = pd.DataFrame(values[1:], columns=values[0])
+        filtered = data[data['shouldImport'] == "TRUE"]
+        filtered.to_excel('imdhub-ids.xlsx', sheet_name='molgenis', index=0)
+    except HttpError as err:
+        print(err)
+
+
+if __name__ == "__main__":
     creds = None
     # The file token.json stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
@@ -45,30 +91,7 @@ def main():
 
     service = build("sheets", "v4", credentials=creds)
 
-    try:
-        # Call the Sheets API
-        sheet = service.spreadsheets()
-        result = (
-            sheet.values()
-            .get(spreadsheetId=SAMPLE_SPREADSHEET_ID, range=SAMPLE_RANGE_NAME)
-            .execute()
-        )
-        values = result.get("values", [])
-
-        if not values:
-            print("No data found.")
-            return
-
-        data = pd.DataFrame(values[1:], columns=values[0])
-        del data['OLD_EXPRESSIONS']
-        del data['expression testing and debugging']
-        del data['Comments']
-        filtered = data[data['includeInImport'] == "TRUE"]
-        filtered.to_excel('imdhub-site.xlsx', sheet_name='molgenis', index=0)
-
-    except HttpError as err:
-        print(err)
-
-
-if __name__ == "__main__":
-    main()
+    # retrieve files
+    # get_imdhub_ids(service=service)
+    get_imdhub_site(service=service)
+    # system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-site/')
