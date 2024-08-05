@@ -97,6 +97,38 @@ This expression is used in the column `year_of_birth` (found in the `Patient reg
 })();
 ```
 
+### Has agreed to genetic analysis
+
+This question is shown if the cohort assignment is not one of the negative control groups.
+
+```js
+// visibility
+cohortAssignment !== null ? !cohortAssignment.name.includes("Negative") : false
+
+// required
+cohortAssignment !== null ? (!cohortAssignment.name.includes("Negative") && hasAgreedToGeneticAnalysis === null ? "Indicate if the participant has agreed to genetic analysis" : false ) : false
+```
+
+### Has agreed to transfer of data
+
+```js
+// required
+cohortAssignment !== null ? (!cohortAssignment.name.includes("Negative") && hasAgreedToTransferOfGeneticData === null ? "Indicate if the participant has agreed to the transfer of genetic data" : false ) : false
+```
+
+### Has agreed to recontact of medical findings
+
+```js
+// required
+cohortAssignment !== null ? (!cohortAssignment.name.includes("Negative") && hasAgreedToRecontactOfMedicalFindings === null ? "Indicate if the participant has agreed to recontact in the event of medical findings" : false ) : false
+```
+
+### Has agreed to recontact of incidental findings
+
+```js
+cohortAssignment !== null ? (!cohortAssignment.name.includes("Negative") && hasAgreedToRecontactOfIncidentalFindings === null ? "Indicate if the participant has agreed to recontact in the event of incidental findings" : false ) : false
+```
+
 ## Participant visits table
 
 ### visit id
