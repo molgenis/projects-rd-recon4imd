@@ -48,7 +48,7 @@ Participant registration,registration result,heading,Registration result,,http:/
 Participant registration,participant is eligible,bool,,An indication that the participant meets selection criteria,http://purl.obolibrary.org/obo/NCIT_C126586,TRUE,,,,,,participantIsEligible !== null,,,TRUE,TRUE
 Participant registration,participant is verified,bool,,An indication that the participant is confirmed with the registry,http://snomed.info/id/736728004,,,,,,,participantIsVerified !== null,,,TRUE,TRUE
 Participant visits,,,,Registration of visits by participant and date,http://purl.obolibrary.org/obo/NCIT_C25716,,,,,,,,,,TRUE,TRUE
-Participant visits,visit id,string,Enter the site visit ID,"To generate the visit ID, please select a participant and the type of visit",http://purl.obolibrary.org/obo/OPMI_0000483,,1,,,,"if (visitId === null) ""To generate the visit ID, select a participant and specify the visit type""",,"(function() {
+Participant visits,visit id,string,Participant visit identifier,"To generate the visit ID, please select a participant and the type of visit",http://purl.obolibrary.org/obo/OPMI_0000483,,1,,,,"if (visitId === null) ""To generate the visit ID, select a participant and specify the visit type""",,"(function() {
   if (participant !== null && visitType !== null) {
     const visitNum = visitType.name.includes(""Enrolment"") ? ""v1"" : ""v2"";
     return participant.participantId?.identifier + '-' + visitNum;
