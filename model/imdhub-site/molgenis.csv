@@ -62,17 +62,9 @@ Participant visits,is fasting,bool,Was the participant fasting at the time of sa
 Participant visits,has consumed alcohol,bool,Has the participant consumed alcohol within the last 12 hours?,,http://snomed.info/id/160573003,,,,,,"if (hasConsumedAlcohol === null) ""Indicate if the participant has consumed alcohol within the last 12 hours""",,,,TRUE,TRUE
 Participant visits,comments,text,,,http://purl.obolibrary.org/obo/NCIT_C182424,,,,,,,,,,TRUE,TRUE
 Participant visits,biospecimens collected,refback,,,http://purl.obolibrary.org/obo/NCIT_C70699,,,,Biospecimen log,date of collection,,,,,TRUE,TRUE
-Participant visits,clinical metadata,heading ,Clinical metadata,Demographics,http://purl.obolibrary.org/obo/NCIT_C142478,,,,,,,,,,TRUE,TRUE
-Participant visits,demographics,heading,Demographic,,,,,,,,,,,,TRUE,TRUE
-Participant visits,partient status,heading,Patient status,,,,,,,,,,,,TRUE,TRUE
-Participant visits,disease history,heading,Disease history,,,,,,,,,,,,TRUE,TRUE
-Participant visits,medical history,heading,Medical history,,,,,,,,,,,,TRUE,TRUE
+Participant visits,clinical metadata,heading ,Clinical metadata,"Comprised of the following clinical data fields: Demographics, Patient status, Disease history [IMD diagnosis including primary mitochondrial disease (PMD), Metabolites at diagnosis, Genetic results], Medical history [Family IMD history, Other conditions], Clinical exam, body weight and height at time of visit, Disease signs and symptoms at time of visit [Clinical progression, Human Phenotype Ontology, Neuropsychological testing, PMD symptoms, PMD brain imaging results], Treatment at time of visit [Drug Treatment, Dietary treatment, Renal therapy, Non-pharmacologic therapies], Laboratory analysis at time of visit [ERKNet parameters, Metabolites at visit, PMD parameters]",http://purl.obolibrary.org/obo/NCIT_C142478,,,,,,,,,,TRUE,TRUE
 Participant visits,date clinical metadata received,date,Date clinical metadata received,,http://purl.obolibrary.org/obo/NCIT_C164590,,,,,,,,,,TRUE,TRUE
 Participant visits,clinical metadata completeness,decimal,Completeness of clinical metadata,,http://purl.obolibrary.org/obo/T4FS_0000191,,,,,,,,,,TRUE,TRUE
-Participant visits,clinical exam,heading ,"Clinical exam, body weight and height at time of visit",,,,,,,,,,,,TRUE,TRUE
-Participant visits,phenotypic features,heading ,Disease signs and symptoms at time of visit,,,,,,,,,,,,TRUE,TRUE
-Participant visits,treatment,heading ,Treatment at time of visit,,,,,,,,,,,,TRUE,TRUE
-Participant visits,lab analysis,heading ,Laboratory analysis at time of visit,,,,,,,,,,,,TRUE,TRUE
 Biospecimen log,,,,Biospecimen registrations by participant and visits,http://purl.obolibrary.org/obo/NCIT_C70699,,,,,,,,,,TRUE,TRUE
 Biospecimen log,biospecimen id,string,Enter the biospecimen identifier printed on the barcode,,http://purl.obolibrary.org/obo/NCIT_C70699,,1,,,,"if (biospecimenId === null) ""Enter a unique identifier for the biospecimen""",,,,TRUE,TRUE
 Biospecimen log,specimen type,ontology,Select the biospecimen type collected,Every participant should have a registration for plasma and urine,http://purl.obolibrary.org/obo/NCIT_C70713,,,IMDHub Refs,Biospecimen types,,"if (specimenType === null) ""Select the type of biospecimen collected""",,,,TRUE,TRUE
