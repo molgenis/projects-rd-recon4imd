@@ -94,4 +94,4 @@ if __name__ == "__main__":
     # retrieve files
     # get_imdhub_ids(service=service)
     get_imdhub_site(service=service)
-    # system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-site/')
+    system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-site/')

@@ -3,6 +3,7 @@ Affected statuses,ONTOLOGIES,,,Statuses for indicating if a participant is clini
 Aliquots,ONTOLOGIES,,,Reference values for aliquots defined in the study protocol,,,http://semanticscience.org/resource/SIO_010425
 Assigned gender at birth,ONTOLOGIES,,,Reference values for sex at birth,,,http://purl.obolibrary.org/obo/GSSO_009418
 Biospecimen types,ONTOLOGIES,,,Reference list of biospecimens collected,,,http://purl.obolibrary.org/obo/NCIT_C70713
+Biospecimen types,ONTOLOGIES,idPrefix,string,String used to prefix biospecimen identifiers,,,http://purl.obolibrary.org/obo/NCIT_C54066
 Centrifugation,ONTOLOGIES,,,Reference values for centrifugation,,,http://purl.obolibrary.org/obo/NCIT_C16410
 Consent for future research,ONTOLOGIES,,,Consent options for future research,,,http://purl.obolibrary.org/obo/ICO_0000149
 Diseases,ONTOLOGIES,,,A diagnosis made from a study of the signs and symptoms of a disease.,,,http://purl.obolibrary.org/obo/NCIT_C15607

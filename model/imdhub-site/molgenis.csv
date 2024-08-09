@@ -18,17 +18,21 @@ Participant registration,sex at birth,ontology,participant sex,,http://purl.obol
 Participant registration,study criteria,heading,Cohort assignment,,http://purl.obolibrary.org/obo/NCIT_C49620,,,,,,,,,,TRUE,TRUE
 Participant registration,cohort assignment,ontology,Cohort assignment,Select the participant's cohort assignment ,http://purl.obolibrary.org/obo/NCIT_C25426,,,IMDHub Refs,Participant cohorts,,"if (cohortAssignment === null) ""Select the cohort that the participant is assigned to""",,,,TRUE,TRUE
 Participant registration,participant consent,heading,Informed consent,,http://purl.obolibrary.org/obo/OBI_0000810,,,,,,,,,,TRUE,TRUE
-Participant registration,has given informed consent,bool,Informed consent given,"participants or legal representatives give written informed consent to study participation and consent for the collection and analysis of both blood and urine samples, and where indicated, a fibroblast sample or a stool sample. ",http://purl.obolibrary.org/obo/NCIT_C16735,,,,,,"if (hasGivenInformedConsent === null) ""Indicate if the participant has given informed consent""",,,,TRUE,TRUE
+Participant registration,has given informed consent,bool,Informed consent given,"Participants or legal representatives give written informed consent to study participation and consent for the collection and analysis of both blood and urine samples, and where indicated, a fibroblast sample or a stool sample. ",http://purl.obolibrary.org/obo/NCIT_C16735,,,,,,"if (hasGivenInformedConsent === null) ""Indicate if the participant has given informed consent""",,,,TRUE,TRUE
+Participant registration,has agreed to blood sampling,bool,Does the participant agree to the donation of blood samples?,,http://snomed.info/id/119297000,,,,,,"if (hasAgreedToBloodSampling === null) ""Indicate if the participant agrees to blood sampling""",,,,TRUE,TRUE
+Participant registration,has agreed to urine sampling,bool,Does the participant agree to the donation of urine samples?,,http://snomed.info/id/122575003,,,,,,"if (hasAgreedToUrineSampling === null) ""Indicate if the participant agrees to urine sampling""",,,,TRUE,TRUE
+Participant registration,has agreed to fibroblast sampling,bool,Does the participant agree to the donation of fibroblast samples?,,http://snomed.info/id/119333000,,,,,,"if (hasAgreedToFibroblastSampling === null) ""Indicate if the participant agrees to fibroblast sampling""",,,,TRUE,TRUE
+Participant registration,has agreed to stool sampling,bool,Does the participant agree to the donation of stool samples?,,http://snomed.info/id/119339001,,,,,,"if (hasAgreedToStoolSampling === null) ""Indicate if the participant agrees to stool sampling""",,,,TRUE,TRUE
 Participant registration,has agreed to future reuse,bool,Does the participant agree to let us keep their data and samples in a permanent archive for future research related to IMD?,,http://purl.obolibrary.org/obo/ICO_0000305,,,,,,"if (hasAgreedToFutureReuse === null) ""Indicate if the participant has consented to future reuse""",,,,TRUE,TRUE
 Participant registration,has agreed to recontact,ontology,"If yes, does the participant want to be contacted about future research to give their consent or agree to future research without further consent?",,http://purl.obolibrary.org/obo/ICO_0000009,,,IMDHub Refs,Consent for future research,,"if (hasAgreedToRecontact === null) ""Select the level of recontact needed for reuse""",hasAgreedToFutureReuse,,,TRUE,TRUE
 Participant registration,has agreed to recontact for future research,bool,Does the participant agree to be contacted in the future to provide additional information and/or biological samples?,,http://purl.obolibrary.org/obo/ICO_0000009,,,,,,"if (hasAgreedToRecontactForFutureResearch === null) ""Indicate if the participant has agreed to recontact for future research""",,,,TRUE,TRUE
 Participant registration,has agreed to genetic testing,bool,Does the participant agree with the use of their samples for genetic testing?,Participant is suspected to have an IMD and was advised on genetic testing.,http://purl.obolibrary.org/obo/ICO_0000311,,,,,,"if (cohortAssignment.name === ""Test cohort"" && hasAgreedToGeneticTesting == null) ""Indicate if the participant has agreed to genetic testing""","cohortAssignment !== null ? (cohortAssignment.name === ""Test cohort"" ? true : false) : false",,,TRUE,TRUE
-Participant registration,has agreed to genetic analysis,bool,"Does the participant agree to take part in this study involving genetic analysis, which includes analysis of their genetic data?",Particpant is  informed of all the risks and benefits.,http://purl.obolibrary.org/obo/ICO_0000311,,,,,,"if (hasAgreedToGeneticAnalysis === null) ""Indicate if the participant has agreed to genetic analysis""",,,,TRUE,TRUE
-Participant registration,has agreed to transfer of genetic data,bool,Does the participant agree to allow the transfer of previously generated genetic data to researchers of the study for genetic analysis?,,http://purl.obolibrary.org/obo/ICO_0000228,,,,,,"if (hasAgreedToTransferOfGeneticData === null) ""Indicate if the participant has agreed to the transfer of genetic data""",,,,TRUE,TRUE
-Participant registration,has agreed to recontact of medical findings,bool,Does the participant agree to be informed about possible medical findings related to their IMD?,,http://purl.obolibrary.org/obo/OGMS_0000014,,,,,,"if (hasAgreedToRecontactOfMedicalFindings === null) ""Indicate if the participant has agreed to recontact in the event of medical findings""",,,,TRUE,TRUE
-Participant registration,has agreed to recontact of incidental findings,bool,Does the participant agree to be informed of incidental findings?,,http://purl.obolibrary.org/obo/ICO_0000178,,,,,,"if (hasAgreedToRecontactOfIncidentalFindings === null) ""Indicate if the participant has agreed to recontact in the event of incidental findings""",,,,TRUE,TRUE
+Participant registration,has agreed to genetic analysis,bool,Does the participant agree to take part in genetic analysis?,Particpant is informed of all the risks and benefits.,http://purl.obolibrary.org/obo/ICO_0000311,,,,,,"cohortAssignment !== null ? (!cohortAssignment.name.includes(""Negative"") && hasAgreedToGeneticAnalysis === null ? ""Indicate if the participant has agreed to genetic analysis"" : false ) : false","cohortAssignment !== null ? !cohortAssignment.name.includes(""Negative"") : false",,,TRUE,TRUE
+Participant registration,has agreed to transfer of genetic data,bool,Does the participant agree to allow the transfer of previously generated genetic data to researchers of the study for genetic analysis?,,http://purl.obolibrary.org/obo/ICO_0000228,,,,,,"cohortAssignment !== null ? (!cohortAssignment.name.includes(""Negative"") && hasAgreedToTransferOfGeneticData === null ? ""Indicate if the participant has agreed to the transfer of genetic data"" : false ) : false","cohortAssignment !== null ? !cohortAssignment.name.includes(""Negative"") : false",,,TRUE,TRUE
+Participant registration,has agreed to recontact of medical findings,bool,Does the participant agree to be informed about possible medical findings related to their IMD?,,http://purl.obolibrary.org/obo/OGMS_0000014,,,,,,"cohortAssignment !== null ? (!cohortAssignment.name.includes(""Negative"") && hasAgreedToRecontactOfMedicalFindings === null ? ""Indicate if the participant has agreed to recontact in the event of medical findings"" : false ) : false","cohortAssignment !== null ? !cohortAssignment.name.includes(""Negative"") : false",,,TRUE,TRUE
+Participant registration,has agreed to recontact of incidental findings,bool,Does the participant agree to be informed of incidental findings?,,http://purl.obolibrary.org/obo/ICO_0000178,,,,,,"cohortAssignment !== null ? (!cohortAssignment.name.includes(""Negative"") && hasAgreedToRecontactOfIncidentalFindings === null ? ""Indicate if the participant has agreed to recontact in the event of incidental findings"" : false ) : false","cohortAssignment !== null ? !cohortAssignment.name.includes(""Negative"") : false",,,TRUE,TRUE
 Participant registration,participant registry data,heading,Participant registry affiliation,,,,,,,,,,,,TRUE,TRUE
-Participant registration,has registry affiliation,bool,Is the participant registered with an existing participant registry or cohort study?,"participants enrolled or registered with one of the following participant registries or cohort study (with ethical approval at site): U-IMD, GENOMIT or Solve-RD.",http://purl.obolibrary.org/obo/NCIT_C37948,,,,,,"if (hasRegistryAffiliation === null) ""Indicate if the participant is part of an existing registry, cohort, or study""",,,,TRUE,TRUE
+Participant registration,has registry affiliation,bool,Is the participant registered with an existing participant registry or cohort study?,"Participants enrolled or registered with one of the following participant registries or cohort study (with ethical approval at site): U-IMD, GENOMIT or Solve-RD.",http://purl.obolibrary.org/obo/NCIT_C37948,,,,,,"if (hasRegistryAffiliation === null) ""Indicate if the participant is part of an existing registry, cohort, or study""",,,,TRUE,TRUE
 Participant registration,participant data registration,ontology,Select the participant registry or cohort study,"If the participant is part of a participant registry or cohort study, select the registry.",http://purl.obolibrary.org/obo/NCIT_C129000,,,IMDHub Refs,Participant registries,,"if (hasRegistryAffiliation && participantDataRegistration === null) ""Select the project that the participant is part of""",hasRegistryAffiliation,,,TRUE,TRUE
 Participant registration,participant registry identifier,string,Enter the participant identifier in the registry or cohort study,,http://purl.obolibrary.org/obo/NCIT_C164337,,,,,,"hasRegistryAffiliation && participantDataRegistration !== null ? (participantRegistryIdentifier === null  && participantDataRegistration.name !== ""Not applicable"" ? ""Enter the participant's identifer that is used in that project"" : false ) : false",hasRegistryAffiliation && participantDataRegistration,,,TRUE,TRUE
 Participant registration,heading selection criteria,heading,Exclusion & inclusion criteria check,,,,,,,,,,,,TRUE,TRUE
@@ -37,18 +41,18 @@ Participant registration,has no history of imd,bool,"Does not have a history of 
 Participant registration,has no history of malignant tumors,bool,Does not have a history of malignant tumors?,,http://purl.obolibrary.org/obo/NCIT_C18849,,,,,,"cohortAssignment !== null ? (cohortAssignment.name === ""Negative control group (healthy)"" && hasNoHistoryOfMalignantTumors === null ? ""Indicate if the particpant has a history of malignant tumors"" : false) : false","cohortAssignment !== null ? (cohortAssignment.name === ""Negative control group (healthy)"" ? true : false) : false",,,TRUE,TRUE
 Participant registration,has no history of clinical systemic diseases,bool,Does not have a medical history of clinically significant systemic diseases?,"E.g., cardiovascular, diabetes, hypertension, respiratory, gastrointestinal, nervous, urinary, endocrine, musculoskeletal, mental disorders, and addiction",http://purl.obolibrary.org/obo/NCIT_C9229,,,,,,"cohortAssignment !== null ? (cohortAssignment.name === ""Negative control group (healthy)"" && hasNoHistoryOfClinicalSystemicDiseases === null ? ""Indicate if the particpant has a history of clinical systemic diseases"" : false) : false","cohortAssignment !== null ? (cohortAssignment.name === ""Negative control group (healthy)"" ? true : false) : false",,,TRUE,TRUE
 Participant registration,has no history of infectious diseases,bool,Does not have a medical history of chronic systemic infectious diseases?,"E.g., HIV, infectious hepatitis, tuberculposis, or Creutzfeldt-Jakob disease",http://purl.obolibrary.org/obo/MONDO_0005550,,,,,,"cohortAssignment !== null ? (cohortAssignment.name === ""Negative control group (healthy)"" && hasNoHistoryOfInfectiousDiseases === null ? ""Indicate if the participant has a history of infectious diseases"" : false) : false","cohortAssignment !== null ? (cohortAssignment.name === ""Negative control group (healthy)"" ? true : false) : false",,,TRUE,TRUE
-Participant registration,had no recent blood transfusion,bool,Did not have a blood transfusion within the last month?,participant had a blood transfusion within the last month,http://purl.obolibrary.org/obo/MAXO_0000756,,,,,,"if (hasRegistryAffiliation && hadNoRecentBloodTransfusion === null) ""Indicate if the participant had no recent blood transfusion""",hasRegistryAffiliation,,,TRUE,TRUE
+Participant registration,had no recent blood transfusion,bool,Did not have a blood transfusion within the last month?,Participant had a blood transfusion within the last month,http://purl.obolibrary.org/obo/MAXO_0000756,,,,,,"if (hasRegistryAffiliation && hadNoRecentBloodTransfusion === null) ""Indicate if the participant had no recent blood transfusion""",hasRegistryAffiliation,,,TRUE,TRUE
 Participant registration,had no recent haemodialysis,bool,Did not undergo haemodialysis within the last month?,,http://snomed.info/id/302497006,,,,,,"if (hadNoRecentHaemodialysis === null) ""Indicate if the participant had no recent haemodialysis""",,,,TRUE,TRUE
 Participant registration,participant is not pregnant or lactating,bool,Is not pregnant or lactating?,,http://purl.obolibrary.org/obo/NCIT_C124295,,,,,,"sexAtBirth !== null ? (sexAtBirth.name === ""female"" && participantIsNotPregnantOrLactating == null ? ""Indicate if the participant is pregnant or lacting"" : false) : false","sexAtBirth !== null ? (sexAtBirth.name === ""female"" ? true : false) : false",,,TRUE,TRUE
 Participant registration,registration result,heading,Registration result,,http://snomed.info/id/307827002,,,,,,,,,,TRUE,TRUE
 Participant registration,participant is eligible,bool,,An indication that the participant meets selection criteria,http://purl.obolibrary.org/obo/NCIT_C126586,TRUE,,,,,,participantIsEligible !== null,,,TRUE,TRUE
 Participant registration,participant is verified,bool,,An indication that the participant is confirmed with the registry,http://snomed.info/id/736728004,,,,,,,participantIsVerified !== null,,,TRUE,TRUE
 Participant visits,,,,Registration of visits by participant and date,http://purl.obolibrary.org/obo/NCIT_C25716,,,,,,,,,,TRUE,TRUE
-Participant visits,visit id,string,Enter the site visit ID,"To generate the visit ID, please select a participant and the type of visit",http://purl.obolibrary.org/obo/OPMI_0000483,,1,,,,"if (visitId === null) ""To generate the visit ID, select a participant and specify the visit type""",,"(function () {_x000D_
-  if (participant !== null && visitType !== null) {_x000D_
-    const visitNum = visitType.name === ""Enrolment visit"" ? 0 : 1;_x000D_
-    return participant.participantId.identifier + '-' + visitNum;_x000D_
-  }_x000D_
+Participant visits,visit id,string,Enter the site visit ID,"To generate the visit ID, please select a participant and the type of visit",http://purl.obolibrary.org/obo/OPMI_0000483,,1,,,,"if (visitId === null) ""To generate the visit ID, select a participant and specify the visit type""",,"(function() {
+  if (participant !== null && visitType !== null) {
+    const visitNum = visitType.name.includes(""Enrolment"") ? ""v1"" : ""v2"";
+    return participant.participantId?.identifier + '-' + visitNum;
+  }
 })();",,TRUE,TRUE
 Participant visits,participant,ref,Recon4IMD participant identifier,Enter the Recon4IMD participant identifier. This identifier is generated upon participant registration into the IMDhub.,http://purl.obolibrary.org/obo/OBI_0003071,,,,Participant registration,,"if (participant === null) ""Select a participant to create a new visit""",,,,TRUE,TRUE
 Participant visits,date of visit,date,Enter the date the participant visited the clinical site,,http://purl.obolibrary.org/obo/NCIT_C83031,,,,,,"if (dateOfVisit === null) ""Select the visit date""",,,,TRUE,TRUE
@@ -58,13 +62,42 @@ Participant visits,is fasting,bool,Was the participant fasting at the time of sa
 Participant visits,has consumed alcohol,bool,Has the participant consumed alcohol within the last 12 hours?,,http://snomed.info/id/160573003,,,,,,"if (hasConsumedAlcohol === null) ""Indicate if the participant has consumed alcohol within the last 12 hours""",,,,TRUE,TRUE
 Participant visits,comments,text,,,http://purl.obolibrary.org/obo/NCIT_C182424,,,,,,,,,,TRUE,TRUE
 Participant visits,biospecimens collected,refback,,,http://purl.obolibrary.org/obo/NCIT_C70699,,,,Biospecimen log,date of collection,,,,,TRUE,TRUE
-Participant visits,clinical metadata,heading ,Clinical metadata,Records of clinical metadata quality,http://purl.obolibrary.org/obo/NCIT_C142478,,,,,,,,,,TRUE,TRUE
-Participant visits,clinical metadata transfered,bool,Clinical metadata transferred,,http://purl.obolibrary.org/obo/NCIT_C95345,,,,,,,,,,TRUE,TRUE
+Participant visits,clinical metadata,heading ,Clinical metadata,Demographics,http://purl.obolibrary.org/obo/NCIT_C142478,,,,,,,,,,TRUE,TRUE
+Participant visits,demographics,heading,Demographic,,,,,,,,,,,,TRUE,TRUE
+Participant visits,partient status,heading,Patient status,,,,,,,,,,,,TRUE,TRUE
+Participant visits,disease history,heading,Disease history,,,,,,,,,,,,TRUE,TRUE
+Participant visits,medical history,heading,Medical history,,,,,,,,,,,,TRUE,TRUE
+Participant visits,date clinical metadata received,date,Date clinical metadata received,,http://purl.obolibrary.org/obo/NCIT_C164590,,,,,,,,,,TRUE,TRUE
 Participant visits,clinical metadata completeness,decimal,Completeness of clinical metadata,,http://purl.obolibrary.org/obo/T4FS_0000191,,,,,,,,,,TRUE,TRUE
-Participant visits,comments,text,Additional comments,,http://purl.obolibrary.org/obo/NCIT_C25393,,,,,,,,,,TRUE,TRUE
+Participant visits,clinical exam,heading ,"Clinical exam, body weight and height at time of visit",,,,,,,,,,,,TRUE,TRUE
+Participant visits,phenotypic features,heading ,Disease signs and symptoms at time of visit,,,,,,,,,,,,TRUE,TRUE
+Participant visits,treatment,heading ,Treatment at time of visit,,,,,,,,,,,,TRUE,TRUE
+Participant visits,lab analysis,heading ,Laboratory analysis at time of visit,,,,,,,,,,,,TRUE,TRUE
 Biospecimen log,,,,Biospecimen registrations by participant and visits,http://purl.obolibrary.org/obo/NCIT_C70699,,,,,,,,,,TRUE,TRUE
 Biospecimen log,biospecimen id,string,Enter the biospecimen identifier printed on the barcode,,http://purl.obolibrary.org/obo/NCIT_C70699,,1,,,,"if (biospecimenId === null) ""Enter a unique identifier for the biospecimen""",,,,TRUE,TRUE
 Biospecimen log,specimen type,ontology,Select the biospecimen type collected,Every participant should have a registration for plasma and urine,http://purl.obolibrary.org/obo/NCIT_C70713,,,IMDHub Refs,Biospecimen types,,"if (specimenType === null) ""Select the type of biospecimen collected""",,,,TRUE,TRUE
+Biospecimen log,weight,decimal,"If the participant weighs less than 10 kg, then enter the weight.",,http://purl.obolibrary.org/obo/SCDO_0000727,,,,,,,"specimenType !== null ? ([""PAXgene-RNA"", ""EDTA-Blood/DNA""].includes(specimenType.name)) : false", ,"(function () {
+  if (specimenType !== null && weight !== null) {
+    if ([""PAXgene-RNA"", ""EDTA-Blood/DNA""].includes(specimenType.name)) {
+      if (weight < 0) {
+        return ""Weight cannot be less than 0kg"";
+      }
+      
+      if (weight > 10) {
+        return ""Weight cannot be more than 10kg"";
+      }
+    }
+  }
+})();",TRUE,TRUE
+Biospecimen log,total volume of draw,decimal,Total volume of blood collection (ml),,http://purl.obolibrary.org/obo/NCIT_C137835,,,,,,"specimenType !== null && weight !== null ? ([""PAXgene-RNA"", ""EDTA-Blood/DNA""].includes(specimenType.name) && weight < 10 ? ""Enter the total volume of the blood draw"" : false) : false","specimenType !== null && weight !== null ? ([""PAXgene-RNA"", ""EDTA-Blood/DNA""].includes(specimenType.name) && weight < 10) : false",,"(function () {
+  if (specimenType !== null && totalVolumeOfDraw !== null) {
+    if ([""PAXgene-RNA"", ""EDTA-Blood/DNA""].includes(specimenType.name)) {
+      if (totalVolumeOfDraw < 0) {
+        return ""Total volume of blood draw cannot be less than 0ml"";
+      }
+    }
+  }
+})();",TRUE,TRUE
 Biospecimen log,date of collection,ref,Select the visit where the collection occurred,,http://purl.obolibrary.org/obo/NCIT_C178869,,,,Participant visits,,"if (dateOfCollection === null) ""Select the participant's visit where the biospecimen was collected""",,,,TRUE,TRUE
 Biospecimen log,was collected,bool,Indicate if the sample was collected,,http://purl.obolibrary.org/obo/NCIT_C170548,,,,,,"if (wasCollected === null) ""Indicate if the biospecimen was collected""",,,,TRUE,TRUE
 Biospecimen log,has no protocol deviation,bool,Was the sample collected and processed according to the SOP?,,http://purl.obolibrary.org/obo/NCIT_C50996,,,,,,"(function() {
@@ -95,16 +128,16 @@ Biospecimen log,has other deviation,bool,Did any other protocol deviation occur 
 Biospecimen log,reason for other deviation,text,"If yes, please provide additional information on the deviation",,http://purl.obolibrary.org/obo/NCIT_C93529,,,,,,"if (wasCollected && hasOtherDeviation && (reasonForOtherDeviation === null || reasonForOtherDeviation === """")) ""Please provide a reason the deviation(s) occurred""",wasCollected && hasOtherDeviation,,,TRUE,TRUE
 Biospecimen log,reason not collected,text,"If the sample was not collected, please indicate the reason",,http://purl.obolibrary.org/obo/OBI_0002199,,,,,,"if (!wasCollected && (reasonNotCollected === null || reasonNotCollected === """")) ""Please provide a reason why the sample was not collected""",wasCollected === false,,,TRUE,TRUE
 Biospecimen log,shipment registration,refback,,,http://purl.obolibrary.org/obo/NCIT_C179747,,,,Biospecimen tracking,biospecimens shipped,,,,,TRUE,TRUE
-Biospecimen log,specimen received,bool,"If the specimen is shipped, indicate if the sample was received.",,,,,,,,"if (shipmentRegistration.length && specimenReceived === null ) ""Indicate if the specimen was received at the destination point""",shipmentRegistration.length,,,FALSE,TRUE
-Biospecimen log,reason not received,ontology,"If the sample was not receieved, select a value to indicate why",,,,,IMDHub Refs,Shipment status,,"(function() {
-  if (shipmentRegistration.length && specimenReceived !== null) {
+Biospecimen log,specimen received,bool,"If the specimen is shipped, indicate if the sample was received.",,http://purl.obolibrary.org/obo/NCIT_C95345,,,,,,"if (shipmentRegistration !== null && specimenReceived === null ) ""Indicate if the specimen was received at the destination point""",shipmentRegistration !== null,,,FALSE,TRUE
+Biospecimen log,reason not received,ontology,"If the sample was not receieved, select a value to indicate why",,http://purl.obolibrary.org/obo/NCIT_C82556,,,IMDHub Refs,Shipment status,,"(function() {
+  if (shipmentRegistration !== null && specimenReceived !== null) {
     if (!specimenReceived && reasonNotReceived === null) {
       return ""Please provide a reason the specimen was not received""
     } 
   }
-})();",shipmentRegistration.length && specimenReceived === false,,,FALSE,TRUE
-Biospecimen log,other reason not received,text,"If other was selected, please provide additional information.",,,,,,,,"(function() {
-  if (shipmentRegistration.length && specimenReceived !== null) {
+})();",shipmentRegistration !== null && specimenReceived === false,,,FALSE,TRUE
+Biospecimen log,other reason not received,text,"If other was selected, please provide additional information.",,http://purl.obolibrary.org/obo/NCIT_C82556,,,,,,"(function() {
+  if (shipmentRegistration !== null && specimenReceived !== null) {
     if (!specimenReceived && reasonNotReceived !== null) {
        if (reasonNotReceived.name === ""Other"") {
         return ""Please provide a reason if there was another issue with the shipment"";
@@ -112,7 +145,7 @@ Biospecimen log,other reason not received,text,"If other was selected, please pr
     } 
   }
 })();","(function() {
-  if (shipmentRegistration.length && specimenReceived !== null) {
+  if (shipmentRegistration !== null && specimenReceived !== null) {
     if (!specimenReceived && reasonNotReceived !== null) {
       if (reasonNotReceived.name === ""Other"") {
         return true;
@@ -138,7 +171,13 @@ Biospecimen tracking,shipment received by,string,Enter the name of the person th
 Biospecimen tracking,comments,text,"If applicable, enter additional information about the shipment",,http://www.w3.org/2000/01/rdf-schema#comment,,,,,,,,,,TRUE,TRUE
 Participant genetic data,,,,Information on existing genetic data,http://semanticscience.org/resource/SIO_010028,,,,,,,,,,TRUE,TRUE
 Participant genetic data,participant,ref,Select the participant,,http://purl.obolibrary.org/obo/OBI_0003071,,1,,Participant registration,,"if (participant === null) ""Select a participant""",,,,TRUE,TRUE
-Participant genetic data,has existing sequence data,bool,Is there whole genome or exome sequencing data of the participant in storage? ,,http://semanticscience.org/resource/SIO_001277,,,,,,"if (hasExistingSequenceData === null) ""Indicate if there is WGS or WES data""",,,,TRUE,TRUE
+Participant genetic data,has existing sequence data,bool,Is there whole genome or exome sequencing data of the participant in storage? ,,http://semanticscience.org/resource/SIO_001277,,,,,,"(function () {
+  if (participant !== null) {
+    if (participant.hasAgreedToTransferOfGeneticData && hasExistingSequenceData === null) {
+      return ""Indicate if there is WGS or WES data""
+    }
+  }
+})();",participant !== null,,,TRUE,TRUE
 Participant genetic data,sequencing storage option,ontology,"Is the previously generated sequencing data of the participant stored with a third party sequence provider, another healthcare provider or the site? ",,http://purl.obolibrary.org/obo/NGBO_6000399,,,IMDHub Refs,Data storage owner types,,"if (hasExistingSequenceData && sequencingStorageOption === null) ""Select a storage option""",hasExistingSequenceData,,,TRUE,TRUE
 Participant genetic data,sequencing storage third party,string,What is the name of the third party sequence provider?,,http://purl.obolibrary.org/obo/GENEPIO_0001202,,,,,,"(function() {
   if (hasExistingSequenceData && sequencingStorageOption !== null) {
@@ -165,6 +204,12 @@ Participant genetic data,has existing files,bool,"Has the sequencing data previo
   }
 })();","hasExistingSequenceData && sequencer !== null ? sequencer.name !== ""Not provided"" : false",,,TRUE,TRUE
 Participant genetic data,has transfered files,bool,ftp secure transfer of sequencing data ,,http://purl.obolibrary.org/obo/NCIT_C100047,,,,,,"if (hasExistingFiles && dateOfSequencing && hasTransferedFiles === null) ""Please indicate if files were transfered""",hasExistingSequenceData && hasExistingFiles,,,TRUE,TRUE
+Healthy participant data,participant id,ref,Recon4IMD particpant identifier,Enter the Recon4IMD participant identifier. This identifier is generated upon participant registration into the IMDhub.,http://purl.obolibrary.org/obo/OBI_0003071,,1,,Participant registration,,,,,,TRUE,TRUE
+Healthy participant data,has surgical history,bool,Previous history of any surgery?,,http://snomed.info/id/161615003,,,,,,,,,,TRUE,TRUE
+Healthy participant data,surgical history description,text,"If yes, what surgery was performed and when did it occur?",,http://purl.obolibrary.org/obo/HP_0430103,,,,,,,,,,TRUE,TRUE
+Healthy participant data,has medications or supplements,string,Has the participant taken any medications or supplements in last 6 months?,,http://purl.obolibrary.org/obo/HP_4000112,,,,,,,,,,TRUE,TRUE
+Healthy participant data,has dietary restrictions,string,Does the participant have any dietary restrictions or preferences?,,http://purl.obolibrary.org/obo/GENEPIO_0001205,,,,,,,,,,TRUE,TRUE
+Healthy participant data,recent food consumption,string,What foods has the participant consumed within the last 24 hours?,,http://purl.obolibrary.org/obo/NBO_0000134,,,,,,,,,,TRUE,TRUE
 Off study,,,,Log of participants that have withdrawn or exited the study,http://purl.obolibrary.org/obo/NCIT_C29851,,,,,,,,,,TRUE,TRUE
 Off study,participant,ref,Select the participant,,http://purl.obolibrary.org/obo/OBI_0003071,,1,,Participant registration,,"if (participant === null) ""Select a participant""",,,,TRUE,TRUE
 Off study,off study date,date,When did the participant come off study?,,http://purl.obolibrary.org/obo/NCIT_C93610,,,,,,"if (offStudyDate === null || offStudyDate === """") ""Choose the date of off study""",,,,TRUE,TRUE

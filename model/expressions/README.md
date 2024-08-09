@@ -138,13 +138,56 @@ To automate and standardize the generation of the visit identifier, the followin
 ```js
 (function() {
   if (participant !== null && visitType !== null) {
-    const visitNum = visitType.name === 'Enrolment' ? 0 : 1;
+    const visitNum = visitType.name.includes("Enrolment") ? "v1" : "v2";
     return participant.participantId?.identifier + '-' + visitNum;
   }
 })();
 ```
 
 ## Biospecimen log
+
+### Weight
+
+```js
+// visibility
+specimenType !== null ? (["PAXgene-RNA", "EDTA-Blood/DNA"].includes(specimenType.name)) : false
+
+// validation
+(function () {
+  if (specimenType !== null && weight !== null) {
+    if (["PAXgene-RNA", "EDTA-Blood/DNA"].includes(specimenType.name)) {
+      if (weight < 0) {
+        return "Weight cannot be less than 0kg";
+      }
+      
+      if (weight > 10) {
+        return "Weight cannot be more than 10kg";
+      }
+    }
+  }
+})();
+```
+
+### Total volume of blood draw
+
+```js
+// visibility
+specimenType !== null && weight !== null ? (["PAXgene-RNA", "EDTA-Blood/DNA"].includes(specimenType.name) && weight < 10) : false
+
+// required
+specimenType !== null && weight !== null ? (["PAXgene-RNA", "EDTA-Blood/DNA"].includes(specimenType.name) && weight < 10 ? "Enter the total volume of the blood draw" : false) : false
+
+// validation
+(function () {
+  if (specimenType !== null && totalVolumeOfDraw !== null) {
+    if (["PAXgene-RNA", "EDTA-Blood/DNA"].includes(specimenType.name)) {
+      if (totalVolumeOfDraw < 0) {
+        return "Total volume of blood draw cannot be less than 0ml";
+      }
+    }
+  }
+})();
+```
 
 ### Aliquots
 
@@ -169,10 +212,10 @@ wasCollected && specimenType !== null ? (["EDTA-Tube/Plasma", "Urine"].indexOf(s
 ```js
 // required
 (function() {
-  if (shipmentRegistration.length && specimentReceived !== null) {
+  if (shipmentRegistration !== null && specimentReceived !== null) {
     if (!specimenReceived && reasonNotReceived !== null) {
-       if (reasonNotReceived.name === ""Other"") {
-        return ""Please provide a reason if there was another issue with the shipment"";
+       if (reasonNotReceived.name === "Other") {
+        return "Please provide a reason if there was another issue with the shipment";
       }
     } 
   }
@@ -180,7 +223,7 @@ wasCollected && specimenType !== null ? (["EDTA-Tube/Plasma", "Urine"].indexOf(s
 
 // visible
 (function() {
-  if (shipmentRegistration.length && specimentReceived !== null) {
+  if (shipmentRegistration !== null && specimentReceived !== null) {
     if (!specimenReceived && reasonNotReceived !== null) {
       if (reasonNotReceived.name === "Other") {
         return true;
@@ -192,6 +235,18 @@ wasCollected && specimenType !== null ? (["EDTA-Tube/Plasma", "Urine"].indexOf(s
 ```
 
 ## Participant genetic data table
+
+### has existing genetic data
+
+```js
+(function () {
+  if (participant !== null) {
+    if (participant.hasAgreedToTransferOfGeneticData && hasExistingSequenceData === null) {
+      return "Indicate if there is WGS or WES data"
+    }
+  }
+})();
+```
 
 ### sequencing third party expressions
 
