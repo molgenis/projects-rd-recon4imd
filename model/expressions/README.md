@@ -207,12 +207,57 @@ wasCollected && specimenType !== null ? (["EDTA-Tube/Plasma", "Urine"].indexOf(s
 })();
 ```
 
+### Shipment Registration
+
+```js
+// visibility
+shipmentRegistration !== null
+```
+
+### shipmentReceived
+
+```js
+// visibility
+shipmentRegistration !== null
+
+// required
+(function () {
+  if (shipmentRegistration !== null) {
+    if (specimenReceived === null) {
+      return "Indicate if the specimen was received at the destination point"
+    }
+  }
+})();
+
+// visibility
+specimenReceived !== null ? specimenReceived : false
+```
+
+### Reason not received
+
+```js
+// visibility
+specimenReceived !== null ? specimenReceived === false : false
+
+// required
+(function() {
+  if (specimenReceived !== null) {
+    if (!specimenReceived && reasonNotReceived === null) {
+      return "Please provide a reason the specimen was not received"
+    } 
+  }
+})();
+```
+
 ### Other reason sample not received
 
 ```js
+// visibility
+specimenReceived !== null && reasonNotReceived !== null ? reasonNotReceived === "Other" : false
+
 // required
 (function() {
-  if (shipmentRegistration !== null && specimentReceived !== null) {
+  if (specimenReceived !== null) {
     if (!specimenReceived && reasonNotReceived !== null) {
        if (reasonNotReceived.name === "Other") {
         return "Please provide a reason if there was another issue with the shipment";

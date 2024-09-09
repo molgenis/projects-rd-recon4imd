@@ -48,7 +48,7 @@ Participant registration,registration result,heading,Registration result,,http:/
 Participant registration,participant is eligible,bool,,An indication that the participant meets selection criteria,http://purl.obolibrary.org/obo/NCIT_C126586,TRUE,,,,,,participantIsEligible !== null,,,TRUE,TRUE
 Participant registration,participant is verified,bool,,An indication that the participant is confirmed with the registry,http://snomed.info/id/736728004,,,,,,,participantIsVerified !== null,,,TRUE,TRUE
 Participant visits,,,,Registration of visits by participant and date,http://purl.obolibrary.org/obo/NCIT_C25716,,,,,,,,,,TRUE,TRUE
-Participant visits,visit id,string,Participant visit identifier,"To generate the visit ID, please select a participant and the type of visit",http://purl.obolibrary.org/obo/OPMI_0000483,,1,,,,"if (visitId === null) ""To generate the visit ID, select a participant and specify the visit type""",,"(function() {
+Participant visits,visit id,string,Participant visit identifier,"To generate the visit ID, please select a participant and the type of visit",http://purl.obolibrary.org/obo/OPMI_0000483,,1,,,,"if (visitId === null) ""To generate the visit ID, select a participant and specify the visit type""",FALSE,"(function() {
   if (participant !== null && visitType !== null) {
     const visitNum = visitType.name.includes(""Enrolment"") ? ""v1"" : ""v2"";
     return participant.participantId?.identifier + '-' + visitNum;
@@ -66,6 +66,7 @@ Participant visits,clinical metadata,heading ,Clinical metadata,"Comprised of th
 Participant visits,date clinical metadata received,date,Date clinical metadata received,,http://purl.obolibrary.org/obo/NCIT_C164590,,,,,,,,,,TRUE,TRUE
 Participant visits,clinical metadata completeness,decimal,Completeness of clinical metadata,,http://purl.obolibrary.org/obo/T4FS_0000191,,,,,,,,,,TRUE,TRUE
 Biospecimen log,,,,Biospecimen registrations by participant and visits,http://purl.obolibrary.org/obo/NCIT_C70699,,,,,,,,,,TRUE,TRUE
+Biospecimen log,biospeciment information,heading ,,,http://purl.obolibrary.org/obo/NCIT_C70699,,,,,,,,,,TRUE,TRUE
 Biospecimen log,biospecimen id,string,Enter the biospecimen identifier printed on the barcode,,http://purl.obolibrary.org/obo/NCIT_C70699,,1,,,,"if (biospecimenId === null) ""Enter a unique identifier for the biospecimen""",,,,TRUE,TRUE
 Biospecimen log,specimen type,ontology,Select the biospecimen type collected,Every participant should have a registration for plasma and urine,http://purl.obolibrary.org/obo/NCIT_C70713,,,IMDHub Refs,Biospecimen types,,"if (specimenType === null) ""Select the type of biospecimen collected""",,,,TRUE,TRUE
 Biospecimen log,weight,decimal,"If the participant weighs less than 10 kg, then enter the weight.",,http://purl.obolibrary.org/obo/SCDO_0000727,,,,,,,"specimenType !== null ? ([""PAXgene-RNA"", ""EDTA-Blood/DNA""].includes(specimenType.name)) : false", ,"(function () {
@@ -119,33 +120,25 @@ Biospecimen log,aliquots,ontology_array,Select aliquots,,http://semanticscience.
 Biospecimen log,has other deviation,bool,Did any other protocol deviation occur during sampling?,"provide examples; different plastic ware, sample mix up, sample lost, etc.",http://purl.obolibrary.org/obo/NCIT_C50996,,,,,,"if (wasCollected && hasOtherDeviation === null) ""Indicate if any other deviation(s) occurred""",wasCollected,,,TRUE,TRUE
 Biospecimen log,reason for other deviation,text,"If yes, please provide additional information on the deviation",,http://purl.obolibrary.org/obo/NCIT_C93529,,,,,,"if (wasCollected && hasOtherDeviation && (reasonForOtherDeviation === null || reasonForOtherDeviation === """")) ""Please provide a reason the deviation(s) occurred""",wasCollected && hasOtherDeviation,,,TRUE,TRUE
 Biospecimen log,reason not collected,text,"If the sample was not collected, please indicate the reason",,http://purl.obolibrary.org/obo/OBI_0002199,,,,,,"if (!wasCollected && (reasonNotCollected === null || reasonNotCollected === """")) ""Please provide a reason why the sample was not collected""",wasCollected === false,,,TRUE,TRUE
-Biospecimen log,shipment registration,refback,,,http://purl.obolibrary.org/obo/NCIT_C179747,,,,Biospecimen tracking,biospecimens shipped,,,,,TRUE,TRUE
-Biospecimen log,specimen received,bool,"If the specimen is shipped, indicate if the sample was received.",,http://purl.obolibrary.org/obo/NCIT_C95345,,,,,,"if (shipmentRegistration !== null && specimenReceived === null ) ""Indicate if the specimen was received at the destination point""",shipmentRegistration !== null,,,FALSE,TRUE
+Biospecimen log,shipment information,heading ,,When the specimen is selected for shipment. You will be able to see the shipment information below and be able to indicate if a specimen was received.,http://purl.obolibrary.org/obo/NCIT_C179747,,,,,,,,,,TRUE,TRUE
+Biospecimen log,shipment registration,refback,,"If the specimen was shipped, the shipment information will be displayed here.",http://purl.obolibrary.org/obo/NCIT_C179747,,,,Biospecimen tracking,biospecimens shipped,,,,,TRUE,TRUE
+Biospecimen log,specimen received,bool,"If the specimen is shipped, indicate if the sample was received.",,http://purl.obolibrary.org/obo/NCIT_C95345,,,,,,,,,,TRUE,TRUE
 Biospecimen log,reason not received,ontology,"If the sample was not receieved, select a value to indicate why",,http://purl.obolibrary.org/obo/NCIT_C82556,,,IMDHub Refs,Shipment status,,"(function() {
-  if (shipmentRegistration !== null && specimenReceived !== null) {
+  if (specimenReceived !== null) {
     if (!specimenReceived && reasonNotReceived === null) {
       return ""Please provide a reason the specimen was not received""
     } 
   }
-})();",shipmentRegistration !== null && specimenReceived === false,,,FALSE,TRUE
+})();",specimenReceived !== null ? specimenReceived === false : false,,,TRUE,TRUE
 Biospecimen log,other reason not received,text,"If other was selected, please provide additional information.",,http://purl.obolibrary.org/obo/NCIT_C82556,,,,,,"(function() {
-  if (shipmentRegistration !== null && specimenReceived !== null) {
+  if (specimenReceived !== null) {
     if (!specimenReceived && reasonNotReceived !== null) {
        if (reasonNotReceived.name === ""Other"") {
         return ""Please provide a reason if there was another issue with the shipment"";
       }
     } 
   }
-})();","(function() {
-  if (shipmentRegistration !== null && specimenReceived !== null) {
-    if (!specimenReceived && reasonNotReceived !== null) {
-      if (reasonNotReceived.name === ""Other"") {
-        return true;
-      }
-    }
-  }
-  return false;
-})();",,,FALSE,TRUE
+})();","reasonNotReceived !== null ? reasonNotReceived.name === ""Other"" : false",,,TRUE,TRUE
 Biospecimen tracking,,,,Mangement of the shipment of biospecimens,http://purl.obolibrary.org/obo/NCIT_C179747,,,,,,,,,,TRUE,TRUE
 Biospecimen tracking,shipment id,auto_id,Enter a unique ID for the shipment,,http://purl.obolibrary.org/obo/NGBO_6000290,,1,,,,,,shipment-${mg_autoid},,TRUE,TRUE
 Biospecimen tracking,date shipment created,date,Enter the date of the shipment registration,,http://schema.org/Date,,,,,,"if (dateShipmentCreated === null) ""Enter the date the shipment was created""",,,,TRUE,TRUE
