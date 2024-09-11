@@ -1,8 +1,6 @@
 """Generate Identifiers for use in the IMDHub"""
 
 from os import environ
-import random
-import string
 from datetime import datetime
 from datatable import dt, f
 import pandas as pd
@@ -14,17 +12,6 @@ excel.ExcelFormatter.header_style = None
 load_dotenv()
 HOST = environ['IMDHUB_HOST']
 TOKEN = environ['IMDHUB_TOKEN']
-
-
-def generate_random_id(length: int = 6):
-    """Generate string of letters and numbers to a desired length
-
-    :param length: a number indicating the length of the identifier
-    :type length: int
-    """
-    characters = string.ascii_uppercase + string.digits
-    return ''.join(random.choice(characters) for i in range(length))
-
 
 # retrieve organisations
 with Client(url=HOST, token=TOKEN) as client:
