@@ -69,6 +69,31 @@ def get_imdhub_ids(service):
         print(err)
 
 
+def get_imdhub_staging(service):
+    """Get staging table data model"""
+    print('Retrieving IMDHUB Staging table data model....')
+    try:
+        sheet = service.spreadsheets()
+        result = (
+            sheet.values()
+            .get(spreadsheetId=environ['IMDHUB_STAGING_FILE'], range='molgenis!A2:J')
+            .execute()
+        )
+        values = result.get("values", [])
+
+        if not values:
+            print("No data found.")
+            return
+
+        print('Saving data')
+        data = pd.DataFrame(values[1:], columns=values[0])
+        filtered = data[data['shouldImport'] == "TRUE"]
+        filtered.to_excel('imdhub-staging.xlsx',
+                          sheet_name='molgenis', index=0)
+    except HttpError as err:
+        print(err)
+
+
 if __name__ == "__main__":
     creds = None
     # The file token.json stores the user's access and refresh tokens, and is
@@ -93,5 +118,7 @@ if __name__ == "__main__":
 
     # retrieve files
     # get_imdhub_ids(service=service)
-    get_imdhub_site(service=service)
-    system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-site/')
+    # get_imdhub_site(service=service)
+    # system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-site/')
+    get_imdhub_staging(service=service)
+    # system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-staging/')
