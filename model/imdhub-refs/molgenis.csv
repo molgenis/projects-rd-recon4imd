@@ -3,7 +3,10 @@ Affected statuses,ONTOLOGIES,,,Statuses for indicating if a participant is clini
 Aliquots,ONTOLOGIES,,,Reference values for aliquots defined in the study protocol,,,http://semanticscience.org/resource/SIO_010425
 Assigned gender at birth,ONTOLOGIES,,,Reference values for sex at birth,,,http://purl.obolibrary.org/obo/GSSO_009418
 Biospecimen types,ONTOLOGIES,,,Reference list of biospecimens collected,,,http://purl.obolibrary.org/obo/NCIT_C70713
+Biospecimen types,ONTOLOGIES,idPrefix,string,String used to prefix biospecimen identifiers,,,http://purl.obolibrary.org/obo/NCIT_C54066
 Centrifugation,ONTOLOGIES,,,Reference values for centrifugation,,,http://purl.obolibrary.org/obo/NCIT_C16410
+Consent for future research,ONTOLOGIES,,,Consent options for future research,,,http://purl.obolibrary.org/obo/ICO_0000149
+Countries,ONTOLOGIES,,,Country names and codes (ISO 3166),,,http://purl.obolibrary.org/obo/NCIT_C25464
 Diseases,ONTOLOGIES,,,A diagnosis made from a study of the signs and symptoms of a disease.,,,http://purl.obolibrary.org/obo/NCIT_C15607
 Data storage owner types,ONTOLOGIES,,,Categorisations on where data can be storaged,,,http://purl.obolibrary.org/obo/NGBO_6000399
 Future use of data,ONTOLOGIES,,,Indications of how data can be used in the future,,,http://purl.obolibrary.org/obo/ICO_0000304
@@ -25,7 +28,7 @@ Organisations,ONTOLOGIES,alternativeIdentifier,string,,,,http://purl.obolibrary.
 Organisation types,ONTOLOGIES,,,Reference values for classifying organisation types,,,http://purl.obolibrary.org/obo/NCIT_C188820
 Participant cohorts,ONTOLOGIES,,,Diagnostic statuses for patient classification,,,http://purl.obolibrary.org/obo/NCIT_C25426
 Participant registries,ONTOLOGIES,,,List of relevant patient registries,,,http://purl.obolibrary.org/obo/NCIT_C129000
-Sequencer systems,ONTOLOGIES,,,Sequencing machines,,,http://www.ebi.ac.uk/efo/EFO_0003739
+Sequencing systems,ONTOLOGIES,,,Sequencing machines,,,http://www.ebi.ac.uk/efo/EFO_0003739
 Shipment status,ONTOLOGIES,,,Reference values for indicating the current state of a shipment,,,http://schema.org/ActionStatusType
 Storage temperatures,ONTOLOGIES,,,List of temperatures defined by the study protcol,,,http://purl.obolibrary.org/obo/OBIB_0000689
 Storage temperatures,ONTOLOGIES,biospecimen_type,ontology_array,,,Biospecimen types,http://purl.obolibrary.org/obo/NCIT_C70713

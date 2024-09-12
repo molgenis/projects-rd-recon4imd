@@ -1,5 +1,7 @@
 """utils"""
 from datatable import dt
+import random
+import string
 
 
 def unique_values_by_id(
@@ -44,3 +46,13 @@ def unique_values_by_id(
         output.key = group_by
 
     return output
+
+
+def generate_random_id(length: int = 6):
+    """Generate string of letters and numbers to a desired length
+
+    :param length: a number indicating the length of the identifier
+    :type length: int
+    """
+    characters = string.ascii_uppercase + string.digits
+    return ''.join(random.choice(characters) for i in range(length))

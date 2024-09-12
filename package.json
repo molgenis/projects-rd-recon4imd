@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "scripts": {
         "pip:freeze": "rm -rf requirements.txt && pip freeze >> requirements.txt",
-        "pip:reinstall": "pip install -r requirements.txt"
+        "pip:reinstall": "pip install -r requirements.txt",
+        "gs:get-models": "python imdhub/data_get_googlesheets.py"
     }
 }

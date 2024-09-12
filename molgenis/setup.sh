@@ -1,8 +1,13 @@
 #!/bin/sh
-emx2_host=''
+source .env
+
+emx2_host='https://demo-recon4imd.molgeniscloud.org'
 user_email=''
-user_password=''
-primary_schema=''
+user_password=
+
+primary_schema='IMDHub'
+refs_schema='IMDHub Refs'
+id_schema='IMDHub Site Identifiers'
 
 # ////////////////////////////////////////////////////////////////////////////
 
@@ -120,6 +125,9 @@ api_token=$(curl "${emx2_host}/api/graphql" \
 
 echo $api_token
 
+# create anonymous user query
+add_member_gql=$(new_change_members_query 'anonymous' 'Viewer')
+
 #~~~~~~~~~~~~~~
 # ~ OPTIONAL ~
 # remove existing schemas
@@ -138,15 +146,153 @@ do
         -d "$(jq -c -n --arg query "$delete_schema_gql" '{"query": $query}')"
 done
 
-# //////////////////////////////////////
+# ////////////////////////////////////////////////////////////////////////////
 
-# init primary schema - load menu, change membership, add description
 
+# Init Settings payloads
+
+# menu
 public_menu=$(jq '.menu | map(. + {key: "'$(random_key 7)'"}) | tostring' molgenis/schema_menu.json)
 set_menu_gql=$(new_change_setting_query "menu" $public_menu)
 menu_payload="$(jq -c -n --arg query "$set_menu_gql" '{"query": $query}')"
 echo $menu_payload
 
+
+# css
+set_them_gql=$(new_change_setting_query "cssURL" "theme.css?primaryColor=010204")
+theme_payload="$(jq -c -n --arg query "$set_them_gql" '{"query": $query}')"
+echo $theme_payload
+
+
+# ////////////////////////////////////////////////////////////////////////////
+
+# Init IMDHUB Reference schema
+
+# schema: central ontologies
+curl "${emx2_host}/api/graphql" \
+    -H "Content-Type: application/json" \
+    -H "x-molgenis-token:${api_token}" \
+    -d "$(jq -c -n --arg query 'mutation {
+        createSchema (name: "IMDHub Refs", description: "Reference datasets used in the IMDHub") {
+            status
+            message
+        }
+    }' '{"query": $query}')"
+
+# import data
+curl "${emx2_host}/${refs_schema}/api/excel" \
+  -H "Content-Type: multipart/form-data" \
+  -H "x-molgenis-token:${api_token}" \
+  -F "file=@files/google_drive/imdhub-reference-tables.xlsx"
+  
+  
+# add anonymous user
+curl "${emx2_host}/${refs_schema}/api/graphql" \
+    -H "Content-Type: application/json" \
+    -H "x-molgenis-token:${api_token}" \
+    -d "$(jq -c -n --arg query "$add_member_gql" '{"query": $query}')"
+    
+    
+# set menu
+set_menu_response=$(curl -s "${emx2_host}/${refs_schema}/api/graphql" \
+    -H "Content-Type: application/json" \
+    -H "x-molgenis-token:${api_token}" \
+    -d $menu_payload)
+
+set_menu_status=(jq '.data.createSchema.status' <<< $set_menu_response | xargs)
+if [ $set_menu_status == "SUCCES" ]
+then
+  echo "Updated menu: $set_menu_response"
+fi
+
+
+# set theme
+set_theme_response=$(curl -s "${emx2_host}/${primary_schema}/api/graphql" \
+    -H "Content-Type: application/json" \
+    -H "x-molgenis-token:${api_token}" \
+    -d $theme_payload)
+
+
+# ////////////////////////////////////////////////////////////////////////////
+
+# Set up IMDHUB Site Identifier schema
+
+# create schema for identifiers
+curl "${emx2_host}/api/graphql" \
+    -H "Content-Type: application/json" \
+    -H "x-molgenis-token:${api_token}" \
+    -d "$(jq -c -n --arg query 'mutation {
+        createSchema (name: "IMDHub Site Identifiers", description: "Identifiers generated for each site") {
+            status
+            message
+        }
+    }' '{"query": $query}')"
+
+    
+# add anonymous user
+curl "${emx2_host}/IMDHub%20Identifiers/api/graphql" \
+    -H "Content-Type: application/json" \
+    -H "x-molgenis-token:${api_token}" \
+    -d "$(jq -c -n --arg query "$add_member_gql" '{"query": $query}')"
+    
+
+# import schema    
+curl "${emx2_host}/IMDHub%20Identifiers/api/excel" \
+  -H "Content-Type: multipart/form-data" \
+  -H "x-molgenis-token:${api_token}" \
+  -F "file=@files/google_drive/imdhub-identifier-bank.xlsx"
+
+# set menu
+set_menu_response=$(curl -s "${emx2_host}/${primary_schema}/api/graphql" \
+    -H "Content-Type: application/json" \
+    -H "x-molgenis-token:${api_token}" \
+    -d $menu_payload)
+
+set_menu_status=(jq '.data.createSchema.status' <<< $set_menu_response | xargs)
+if [ $set_menu_status == "SUCCES" ]
+then
+  echo "Updated menu: $set_menu_response"
+fi
+
+
+# update theme
+set_menu_response=$(curl -s "${emx2_host}/${primary_schema}/api/graphql" \
+    -H "Content-Type: application/json" \
+    -H "x-molgenis-token:${api_token}" \
+    -d $menu_payload)
+
+
+# ////////////////////////////////////////////////////////////////////////////
+
+# Set up schema for example site
+# for now, use a demo site: Site01 - University of Groningen
+
+# create a schema
+curl "${emx2_host}/api/graphql" \
+    -H "Content-Type: application/json" \
+    -H "x-molgenis-token:${api_token}" \
+    -d "$(jq -c -n --arg query 'mutation {
+        createSchema (name: "Site01", description: "Database for University Medical Centre Groningen") {
+            status
+            message
+        }
+    }' '{"query": $query}')"
+    
+
+# add anonymous user    
+curl "${emx2_host}/Site01/api/graphql" \
+    -H "Content-Type: application/json" \
+    -H "x-molgenis-token:${api_token}" \
+    -d "$(jq -c -n --arg query "$add_member_gql" '{"query": $query}')"
+
+# import schema
+curl "${emx2_host}/Site01/api/excel" \
+  -H "Content-Type: multipart/form-data" \
+  -H "x-molgenis-token:${api_token}" \
+  -F "file=@files/google_drive/imdhub-site.xlsx"
+  
+
+# set menu
 set_menu_response=$(curl -s "${emx2_host}/${primary_schema}/api/graphql" \
     -H "Content-Type: application/json" \
     -H "x-molgenis-token:${api_token}" \

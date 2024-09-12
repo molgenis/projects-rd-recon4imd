@@ -1,66 +1,76 @@
-{
-  "menu": [
+[
     {
       "label": "Home",
-      "href": "/IMDhub/imdhub-public",
+      "href": "./imdhub-public",
+      "key": "p47ldh",
+      "submenu": [],
       "role": "Viewer"
     },
     {
-      "label": "My Clinical Site",
+      "label": "Site registrations",
       "href": "",
-      "role": "Viewer",
+      "key": "dh6skh",
       "submenu": [
         {
-          "label": "Participant Registration",
-          "href": "/Site%2001/tables/#/ParticipantRegistration",
+          "label": "Patient registration",
+          "href": "/NL4/tables/#/ParticipantRegistration",
+          "key": "oihhl",
           "role": "Viewer"
         },
         {
-          "label": "Visit Registration",
-          "href": "/Site%2001/tables/#/ParticipantVisits",
+          "label": "Visit registration",
+          "href": "/NL4/tables/#/ParticipantVisits",
+          "key": "7qfuai",
           "role": "Viewer"
         },
         {
-          "label": "Biospecimen Log",
-          "href": "/Site%2001/tables/#/BiospecimenLog",
+          "label": "Biospecimen log",
+          "href": "/NL4/tables/#/BiospecimenLog",
+          "key": "mtm47r",
           "role": "Viewer"
         },
         {
-          "label": "Shipment Tracking",
-          "href": "/Site%2001/tables/#/BiospecimenTracking",
+          "label": "Shipment tracking",
+          "href": "/NL4/tables/#/BiospecimenTracking",
+          "key": "ajc06",
           "role": "Viewer"
         },
         {
-          "label": "Clinical recruitment strategy",
-          "href": "/Site%2001/tables/#/ClinicalRecruitmentStrategy",
+          "label": "Clinical Recruitment strategy",
+          "href": "/NL4/tables/#/ClinicalRecruitmentStrategy",
+          "key": "7wokx8",
           "role": "Viewer"
         },
         {
           "label": "View tables",
-          "href": "/Site 01/tables/",
+          "href": "/NL4/tables",
+          "key": "vulyy6",
           "role": "Viewer"
         }
-      ]
+      ],
+      "role": "Viewer"
     },
     {
-      "label": "Reference Databases",
+      "label": "Databases",
       "href": "",
+      "key": "b93w8",
       "submenu": [
         {
+          "label": "Identifier Lists",
+          "href": "/IMDHub%20Site%20Identifiers/tables",
+          "key": "c9ictg",
+          "role": "Viewer"
+        },
+        {
           "label": "Ontologies",
-          "href": "/IMDhub Refs/tables",
-          "key": "kbh6j",
+          "href": "/IMDHub%20Refs/tables",
+          "key": "iw8ct",
           "role": "Viewer"
         },
         {
-          "label": "Identifier lists",
-          "href": "/IMDhub Identifiers/tables",
-          "key": "3tf1s",
-          "role": "Viewer"
-        },
-        {
-          "label": "All databases",
+          "label": "View all",
           "href": "/apps/central/",
+          "key": "ej54r",
           "role": "Viewer"
         }
       ],
@@ -69,41 +79,46 @@
     {
       "label": "Admin",
       "href": "",
-      "role": "Viewer",
+      "key": "rlricp",
       "submenu": [
         {
           "label": "Tables",
           "href": "tables",
-          "role": "Viewer"
+          "role": "Viewer",
+          "key": "hjhues"
         },
         {
           "label": "Schema",
           "href": "schema",
-          "role": "Manager"
+          "role": "Manager",
+          "key": "spr1if"
         },
         {
           "label": "Up/Download",
           "href": "updownload",
-          "role": "Editor"
+          "role": "Editor",
+          "key": "dtbzj25"
         },
         {
           "label": "Graphql",
           "href": "graphql-playground",
-          "role": "Viewer"
+          "role": "Viewer",
+          "key": "zl0s7r"
         },
         {
           "label": "Settings",
           "href": "settings",
-          "role": "Manager"
+          "role": "Manager",
+          "key": "gwm2qo"
         }
-      ]
+      ],
+      "role": "Viewer"
     },
     {
       "label": "Help",
       "href": "docs",
       "role": "Viewer",
-      "key": "246jx9",
+      "key": "q7561",
       "submenu": []
     }
   ]
-}
