@@ -1,0 +1,36 @@
+@page {
+  width: 50mm;
+  height: 15mm;
+}
+
+
+img {
+  height: 15mm;
+  margin-left: 1mm;
+  display: inline-block;
+  vertical-align: middle;
+  image-rendering: auto;
+}
+
+/* .code {
+  grid-area: code;
+  height: 12mm;
+  image-rendering: pixelated;
+} */
+
+
+.label-yellow {
+  background-color: #F4F190;
+}
+
+.label-blue {
+  background-color: #B6CBE2;
+}
+
+.label-red {
+  background-color: #FFB3AE;
+}
+
+.label-purple {
+  background-color: #BDB4CF;
+}
