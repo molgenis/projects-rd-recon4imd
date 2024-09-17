@@ -12,13 +12,54 @@ COMMENTS:
 import re
 from datatable import dt, f, fread
 
-iem_raw = fread("./data/ICIMD_VMH_OMIM.csv")
+iem_raw = fread("./data/modellableMeasurableIMDs.csv")
+
+# select columns of interest and rename into molgenis ontology format
+iem_dt = iem_raw[:, {
+    'name': f.IEMbaseDiseaseName,
+    'code': f.OMIM,
+    'parent': f.ICIMDNosologyGroup
+}]
+
+# create definition
+iem_dt['label'] = dt.Frame([
+    f"{row[0]} ({row[1]})" if all(row) else None
+    for row in iem_dt[:, (f.name, f.code)].to_tuples()
+])
+
+# create codesystem
+iem_dt['ontologyTermURI'] = dt. Frame([
+    f"http://purl.bioontology.org/ontology/OMIM/{code}" if code else None
+    for code in iem_dt['code'].to_list()[0]
+])
+
+
+# isolate parent terms and ad to
+iem_parents = iem_dt[:, (f.parent)][:, dt.first(
+    f.parent), dt.by(f.parent)]['parent']
+
+iem_parents.names = {'parent': 'name'}
+
+iem_dt = dt.rbind(iem_parents, iem_dt, force=True)
+
+# set codesystem
+iem_dt['code'] = dt.Frame([
+    f"OMIM:{code}" if bool(code) else code
+    for code in iem_dt['code'].to_list()[0]
+])
+iem_dt['codesystem'] = 'OMIM'
+
+# set column order
+iem_dt = iem_dt[:, (f.name, f.label, f.codesystem,
+                    f.code, f.ontologyTermURI, f.parent)]
+
+iem_dt.to_csv('model/imdhub-refs/iembase.csv')
 
 # ///////////////////////////////////////////////////////////////////////////////
 
 
-# ~ 1 ~
-# Clean input dataset
+# ~ 999 ~
+# Clean input dataset (OLD)
 
 # select columns and exclude rows that are provisional (i.e., not yet confirmed)
 
