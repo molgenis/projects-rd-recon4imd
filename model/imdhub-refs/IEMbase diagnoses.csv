@@ -1,0 +1,413 @@
+name,label,codesystem,code,ontologyTermURI,parent
+Disorders of N-linked protein glycosylation,,IEMbase,,,
+Disorders of amino acid transport,,IEMbase,,,
+Disorders of bile acid metabolism,,IEMbase,,,
+Disorders of biotin metabolism,,IEMbase,,,
+Disorders of branched-chain amino acid metabolism,,IEMbase,,,
+Disorders of carbohydrate transmembrane transport and absorption,,IEMbase,,,
+Disorders of carnitine metabolism,,IEMbase,,,
+Disorders of cobalamin metabolism,,IEMbase,,,
+Disorders of coenzyme Q10 biosynthesis,,IEMbase,,,
+Disorders of complex I subunits and assembly factors,,IEMbase,,,
+Disorders of complex II subunits and assembly factors,,IEMbase,,,
+Disorders of complex III subunits and assembly factors,,IEMbase,,,
+Disorders of complex IV subunits and assembly factors,,IEMbase,,,
+Disorders of complex V subunits and assembly factors,,IEMbase,,,
+Disorders of creatine metabolism,,IEMbase,,,
+"Disorders of fatty acyl synthesis, elongation, and recycling",,IEMbase,,,
+Disorders of folate metabolism,,IEMbase,,,
+Disorders of galactose and fructose metabolism,,IEMbase,,,
+Disorders of gluconeogenesis,,IEMbase,,,
+Disorders of glutamate/glutamine and aspartate/asparagine metabolism,,IEMbase,,,
+Disorders of glutathione metabolism,,IEMbase,,,
+Disorders of glycine and serine metabolism,,IEMbase,,,
+Disorders of glycogen metabolism,,IEMbase,,,
+Disorders of glycolysis,,IEMbase,,,
+Disorders of glycoprotein degradation,,IEMbase,,,
+Disorders of glycosaminoglycan synthesis and O-xylosylation,,IEMbase,,,
+Disorders of glycosylphosphatidylinositol biosynthesis,,IEMbase,,,
+Disorders of glyoxylate and oxalate metabolism,,IEMbase,,,
+Disorders of heme synthesis and porphyrias,,IEMbase,,,
+Disorders of high-density lipoprotein (HDL) metabolism,,IEMbase,,,
+Disorders of histidine metabolism,,IEMbase,,,
+Disorders of ketone body metabolism,,IEMbase,,,
+Disorders of lipid glycosylation,,IEMbase,,,
+Disorders of lipoic acid and iron-sulfur metabolism,,IEMbase,,,
+"Disorders of lysine, hydroxylysine, and tryptophan metabolism",,IEMbase,,,
+Disorders of methylamine metabolism,,IEMbase,,,
+Disorders of mitochondrial aminoacyl-tRNA synthetases,,IEMbase,,,
+Disorders of mitochondrial fatty acid oxidation,,IEMbase,,,
+Disorders of mitochondrial membrane biogenesis and remodeling,,IEMbase,,,
+Disorders of mitochondrial metabolite repair,,IEMbase,,,
+Disorders of mitochondrial nucleotide pool maintenance,,IEMbase,,,
+Disorders of mitochondrial protein import,,IEMbase,,,
+Disorders of mitochondrial shuttles and carriers,,IEMbase,,,
+Disorders of mitochondrial transcript processing and modification,,IEMbase,,,
+Disorders of molybdenum cofactor metabolism,,IEMbase,,,
+Disorders of mtDNA replication and maintenance,,IEMbase,,,
+Disorders of multiple glycosylation pathways,,IEMbase,,,
+Disorders of niacin and NAD metabolism,,IEMbase,,,
+Disorders of non-mitochondrial tRNA processing and aminoacyl-tRNA synthetases,,IEMbase,,,
+"Disorders of ornithine, proline and hydroxyproline metabolism",,IEMbase,,,
+Disorders of pantothenate and CoA metabolism,,IEMbase,,,
+Disorders of pentose metabolism,,IEMbase,,,
+Disorders of peroxisomal fatty acid oxidation,,IEMbase,,,
+Disorders of phenylalanine and tyrosine metabolism,,IEMbase,,,
+Disorders of phosphatidylinositol metabolism,,IEMbase,,,
+Disorders of purine metabolism,,IEMbase,,,
+Disorders of pyridoxine metabolism,,IEMbase,,,
+Disorders of pyrimidine metabolism,,IEMbase,,,
+Disorders of pyruvate metabolism,,IEMbase,,,
+Disorders of riboflavin metabolism,,IEMbase,,,
+Disorders of steroid metabolism,,IEMbase,,,
+Disorders of sterol biosynthesis,,IEMbase,,,
+Disorders of tetrahydrobiopterin metabolism,,IEMbase,,,
+Disorders of the Krebs cycle,,IEMbase,,,
+Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide,,IEMbase,,,
+Disorders of thiamine metabolism,,IEMbase,,,
+Gamma-aminobutyric acid neurotransmitter disorders,,IEMbase,,,
+Glycine neurotransmitter disorders,,IEMbase,,,
+Miscellaneous disorders associated with mitochondrial dysfunction,,IEMbase,,,
+Monoamine neurotransmission,,IEMbase,,,
+Organic acidurias,,IEMbase,,,
+Other disorders of amino acid metabolism,,IEMbase,,,
+Other disorders of peptide metabolism,,IEMbase,,,
+Urea cycle disorders and inherited hyperammonemias,,IEMbase,,,
+Phenylalanine hydroxylase deficiency,Phenylalanine hydroxylase deficiency (IEM0082),IEMbase,IEM0082,http://purl.bioontology.org/ontology/OMIM/IEM0082,Disorders of phenylalanine and tyrosine metabolism
+Autosomal recessive GTP cyclohydrolase 1 deficiency,Autosomal recessive GTP cyclohydrolase 1 deficiency (IEM0083),IEMbase,IEM0083,http://purl.bioontology.org/ontology/OMIM/IEM0083,Disorders of tetrahydrobiopterin metabolism
+6-Pyruvoyl-tetrahydropterin synthase deficiency,6-Pyruvoyl-tetrahydropterin synthase deficiency (IEM0085),IEMbase,IEM0085,http://purl.bioontology.org/ontology/OMIM/IEM0085,Disorders of tetrahydrobiopterin metabolism
+Dihydropteridine reductase deficiency,Dihydropteridine reductase deficiency (IEM0087),IEMbase,IEM0087,http://purl.bioontology.org/ontology/OMIM/IEM0087,Disorders of tetrahydrobiopterin metabolism
+Pterin-4-alpha-carbinolamine dehydratase deficiency,Pterin-4-alpha-carbinolamine dehydratase deficiency (IEM0088),IEMbase,IEM0088,http://purl.bioontology.org/ontology/OMIM/IEM0088,Disorders of tetrahydrobiopterin metabolism
+Autosomal dominant GTP cyclohydrolase 1 deficiency,Autosomal dominant GTP cyclohydrolase 1 deficiency (IEM0084),IEMbase,IEM0084,http://purl.bioontology.org/ontology/OMIM/IEM0084,Disorders of tetrahydrobiopterin metabolism
+Sepiapterin reductase deficiency,Sepiapterin reductase deficiency (IEM0086),IEMbase,IEM0086,http://purl.bioontology.org/ontology/OMIM/IEM0086,Disorders of tetrahydrobiopterin metabolism
+Primary carnitine deficiency,Primary carnitine deficiency (IEM0627),IEMbase,IEM0627,http://purl.bioontology.org/ontology/OMIM/IEM0627,Disorders of carnitine metabolism
+Carbamoyl phosphate synthetase I deficiency,Carbamoyl phosphate synthetase I deficiency (IEM0057),IEMbase,IEM0057,http://purl.bioontology.org/ontology/OMIM/IEM0057,Urea cycle disorders and inherited hyperammonemias
+N-Acetylglutamate synthase deficiency,N-Acetylglutamate synthase deficiency (IEM0056),IEMbase,IEM0056,http://purl.bioontology.org/ontology/OMIM/IEM0056,Urea cycle disorders and inherited hyperammonemias
+Ornithine transcarbamylase deficiency,Ornithine transcarbamylase deficiency (IEM0058),IEMbase,IEM0058,http://purl.bioontology.org/ontology/OMIM/IEM0058,Urea cycle disorders and inherited hyperammonemias
+Argininosuccinate synthetase deficiency,Argininosuccinate synthetase deficiency (IEM0059),IEMbase,IEM0059,http://purl.bioontology.org/ontology/OMIM/IEM0059,Urea cycle disorders and inherited hyperammonemias
+Argininosuccinate lyase deficiency,Argininosuccinate lyase deficiency (IEM0060),IEMbase,IEM0060,http://purl.bioontology.org/ontology/OMIM/IEM0060,Urea cycle disorders and inherited hyperammonemias
+Arginase 1 deficiency,Arginase 1 deficiency (IEM0061),IEMbase,IEM0061,http://purl.bioontology.org/ontology/OMIM/IEM0061,Urea cycle disorders and inherited hyperammonemias
+Mitochondrial ornithine transporter deficiency,Mitochondrial ornithine transporter deficiency (IEM0062),IEMbase,IEM0062,http://purl.bioontology.org/ontology/OMIM/IEM0062,Urea cycle disorders and inherited hyperammonemias
+Citrin deficiency,Citrin deficiency (IEM0063),IEMbase,IEM0063,http://purl.bioontology.org/ontology/OMIM/IEM0063,Urea cycle disorders and inherited hyperammonemias
+Fumarylacetoacetase deficiency,Fumarylacetoacetase deficiency (IEM0096),IEMbase,IEM0096,http://purl.bioontology.org/ontology/OMIM/IEM0096,Disorders of phenylalanine and tyrosine metabolism
+Tyrosine aminotransferase deficiency,Tyrosine aminotransferase deficiency (IEM0091),IEMbase,IEM0091,http://purl.bioontology.org/ontology/OMIM/IEM0091,Disorders of phenylalanine and tyrosine metabolism
+4-hydroxyphenylpyruvate dioxygenase deficiency,4-hydroxyphenylpyruvate dioxygenase deficiency (IEM0092),IEMbase,IEM0092,http://purl.bioontology.org/ontology/OMIM/IEM0092,Disorders of phenylalanine and tyrosine metabolism
+Hawkinsinuria,Hawkinsinuria (IEM0093),IEMbase,IEM0093,http://purl.bioontology.org/ontology/OMIM/IEM0093,Disorders of phenylalanine and tyrosine metabolism
+Homogentisic acid oxidase deficiency,Homogentisic acid oxidase deficiency (IEM0094),IEMbase,IEM0094,http://purl.bioontology.org/ontology/OMIM/IEM0094,Disorders of phenylalanine and tyrosine metabolism
+Methionine adenosyltransferase I-III deficiency,Methionine adenosyltransferase I-III deficiency (IEM0097),IEMbase,IEM0097,http://purl.bioontology.org/ontology/OMIM/IEM0097,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide
+Glycine N-methyltransferase deficiency,Glycine N-methyltransferase deficiency (IEM0099),IEMbase,IEM0099,http://purl.bioontology.org/ontology/OMIM/IEM0099,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide
+S-adenosylhomocysteine hydrolase deficiency,S-adenosylhomocysteine hydrolase deficiency (IEM0100),IEMbase,IEM0100,http://purl.bioontology.org/ontology/OMIM/IEM0100,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide
+Cystathionine beta-synthase deficiency,Cystathionine beta-synthase deficiency (IEM0102),IEMbase,IEM0102,http://purl.bioontology.org/ontology/OMIM/IEM0102,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide
+Cystathionine gamma-lyase deficiency,Cystathionine gamma-lyase deficiency (IEM0103),IEMbase,IEM0103,http://purl.bioontology.org/ontology/OMIM/IEM0103,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide
+Isolated sulfite oxidase deficiency,Isolated sulfite oxidase deficiency (IEM0105),IEMbase,IEM0105,http://purl.bioontology.org/ontology/OMIM/IEM0105,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide
+Methionine synthase deficiency,Methionine synthase deficiency (IEM0217),IEMbase,IEM0217,http://purl.bioontology.org/ontology/OMIM/IEM0217,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide
+Methionine synthase reductase deficiency-cblE,Methionine synthase reductase deficiency-cblE (IEM0216),IEMbase,IEM0216,http://purl.bioontology.org/ontology/OMIM/IEM0216,Disorders of cobalamin metabolism
+Nonketotic hyperglycinemia due to glycine decarboxylase deficiency,Nonketotic hyperglycinemia due to glycine decarboxylase deficiency (IEM0185),IEMbase,IEM0185,http://purl.bioontology.org/ontology/OMIM/IEM0185,Disorders of glycine and serine metabolism
+3-phosphoglycerate dehydrogenase deficiency,3-phosphoglycerate dehydrogenase deficiency (IEM0181),IEMbase,IEM0181,http://purl.bioontology.org/ontology/OMIM/IEM0181,Disorders of glycine and serine metabolism
+Phosphoserine phosphatase deficiency,Phosphoserine phosphatase deficiency (IEM0183),IEMbase,IEM0183,http://purl.bioontology.org/ontology/OMIM/IEM0183,Disorders of glycine and serine metabolism
+Phosphoserine aminotransferase deficiency,Phosphoserine aminotransferase deficiency (IEM0182),IEMbase,IEM0182,http://purl.bioontology.org/ontology/OMIM/IEM0182,Disorders of glycine and serine metabolism
+Succinic semialdehyde dehydrogenase deficiency SSADH,Succinic semialdehyde dehydrogenase deficiency SSADH (IEM0153),IEMbase,IEM0153,http://purl.bioontology.org/ontology/OMIM/IEM0153,Gamma-aminobutyric acid neurotransmitter disorders
+Pyrroline-5-carboxylate dehydrogenase deficiency,Pyrroline-5-carboxylate dehydrogenase deficiency (IEM0142),IEMbase,IEM0142,http://purl.bioontology.org/ontology/OMIM/IEM0142,"Disorders of ornithine, proline and hydroxyproline metabolism"
+Proline dehydrogenase deficiency,Proline dehydrogenase deficiency (IEM0141),IEMbase,IEM0141,http://purl.bioontology.org/ontology/OMIM/IEM0141,"Disorders of ornithine, proline and hydroxyproline metabolism"
+Glutamine synthetase deficiency,Glutamine synthetase deficiency (IEM0179),IEMbase,IEM0179,http://purl.bioontology.org/ontology/OMIM/IEM0179,Disorders of glutamate/glutamine and aspartate/asparagine metabolism
+"Pyrroline-5-carboxylate synthetase deficiency, spastic paraplegia type 9A","Pyrroline-5-carboxylate synthetase deficiency, spastic paraplegia type 9A (IEM1485)",IEMbase,IEM1485,http://purl.bioontology.org/ontology/OMIM/IEM1485,"Disorders of ornithine, proline and hydroxyproline metabolism"
+Alpha-aminoadipic semialdehyde synthase deficiency,Alpha-aminoadipic semialdehyde synthase deficiency (IEM0130),IEMbase,IEM0130,http://purl.bioontology.org/ontology/OMIM/IEM0130,"Disorders of lysine, hydroxylysine, and tryptophan metabolism"
+Histidine ammonia-lyase deficiency,Histidine ammonia-lyase deficiency (IEM0161),IEMbase,IEM0161,http://purl.bioontology.org/ontology/OMIM/IEM0161,Disorders of histidine metabolism
+Formimidoyltransferase cyclodeaminase deficiency,Formimidoyltransferase cyclodeaminase deficiency (IEM0226),IEMbase,IEM0226,http://purl.bioontology.org/ontology/OMIM/IEM0226,Disorders of folate metabolism
+Cystinuria type A,Cystinuria type A (IEM0068),IEMbase,IEM0068,http://purl.bioontology.org/ontology/OMIM/IEM0068,Disorders of amino acid transport
+Dicarboxylic aminoaciduria,Dicarboxylic aminoaciduria (IEM0071),IEMbase,IEM0071,http://purl.bioontology.org/ontology/OMIM/IEM0071,Disorders of amino acid transport
+Hartnup disorder,Hartnup disorder (IEM0065),IEMbase,IEM0065,http://purl.bioontology.org/ontology/OMIM/IEM0065,Disorders of amino acid transport
+Lysinuric protein intolerance,Lysinuric protein intolerance (IEM0070),IEMbase,IEM0070,http://purl.bioontology.org/ontology/OMIM/IEM0070,Disorders of amino acid transport
+Prolidase deficiency,Prolidase deficiency (IEM0144),IEMbase,IEM0144,http://purl.bioontology.org/ontology/OMIM/IEM0144,Other disorders of peptide metabolism
+Branched-chain ketoacid dehydrogenase E1 alpha deficiency,Branched-chain ketoacid dehydrogenase E1 alpha deficiency (IEM0108),IEMbase,IEM0108,http://purl.bioontology.org/ontology/OMIM/IEM0108,Disorders of branched-chain amino acid metabolism
+Isovaleryl-CoA dehydrogenase deficiency,Isovaleryl-CoA dehydrogenase deficiency (IEM0113),IEMbase,IEM0113,http://purl.bioontology.org/ontology/OMIM/IEM0113,Organic acidurias
+3-Methylcrotonyl-CoA carboxylase 1 deficiency,3-Methylcrotonyl-CoA carboxylase 1 deficiency (IEM0116),IEMbase,IEM0116,http://purl.bioontology.org/ontology/OMIM/IEM0116,Organic acidurias
+3-Methylglutaconyl-CoA hydratase deficiency,3-Methylglutaconyl-CoA hydratase deficiency (IEM0118),IEMbase,IEM0118,http://purl.bioontology.org/ontology/OMIM/IEM0118,Organic acidurias
+3-Hydroxy-3-methylglutaryl-CoA lyase deficiency,3-Hydroxy-3-methylglutaryl-CoA lyase deficiency (IEM0122),IEMbase,IEM0122,http://purl.bioontology.org/ontology/OMIM/IEM0122,Disorders of ketone body metabolism
+2-Methylbutyryl-CoA dehydrogenase deficiency,2-Methylbutyryl-CoA dehydrogenase deficiency (IEM0115),IEMbase,IEM0115,http://purl.bioontology.org/ontology/OMIM/IEM0115,Organic acidurias
+17-beta-hydroxysteroid dehydrogenase type 10 deficiency,17-beta-hydroxysteroid dehydrogenase type 10 deficiency (IEM0121),IEMbase,IEM0121,http://purl.bioontology.org/ontology/OMIM/IEM0121,Disorders of mitochondrial transcript processing and modification
+3-hydroxyisobutyryl-CoA hydrolase deficiency,3-hydroxyisobutyryl-CoA hydrolase deficiency (IEM0120),IEMbase,IEM0120,http://purl.bioontology.org/ontology/OMIM/IEM0120,Organic acidurias
+3-Hydroxyisobutyrate dehydrogenase deficiency,3-Hydroxyisobutyrate dehydrogenase deficiency (IEM1110),IEMbase,IEM1110,http://purl.bioontology.org/ontology/OMIM/IEM1110,Organic acidurias
+Propionic acidemia due to propionyl-CoA carboxylase subunit alpha deficiency,Propionic acidemia due to propionyl-CoA carboxylase subunit alpha deficiency (IEM0124),IEMbase,IEM0124,http://purl.bioontology.org/ontology/OMIM/IEM0124,Organic acidurias
+Methylmalonic aciduria due to methylmalonyl-CoA mutase deficiency,Methylmalonic aciduria due to methylmalonyl-CoA mutase deficiency (IEM0127),IEMbase,IEM0127,http://purl.bioontology.org/ontology/OMIM/IEM0127,Organic acidurias
+Proton-coupled folate transporter deficiency,Proton-coupled folate transporter deficiency (IEM0221),IEMbase,IEM0221,http://purl.bioontology.org/ontology/OMIM/IEM0221,Disorders of folate metabolism
+"5,10-methylenetetrahydrofolate reductase deficiency","5,10-methylenetetrahydrofolate reductase deficiency (IEM0223)",IEMbase,IEM0223,http://purl.bioontology.org/ontology/OMIM/IEM0223,Disorders of folate metabolism
+Dihydrofolate reductase deficiency,Dihydrofolate reductase deficiency (IEM0225),IEMbase,IEM0225,http://purl.bioontology.org/ontology/OMIM/IEM0225,Disorders of folate metabolism
+Alpha-amino adipic semialdehyde (AASA) dehydrogenase deficiency,Alpha-amino adipic semialdehyde (AASA) dehydrogenase deficiency (IEM0131),IEMbase,IEM0131,http://purl.bioontology.org/ontology/OMIM/IEM0131,Disorders of pyridoxine metabolism
+Pyridox(am)ine 5¬¥- phosphate oxidase deficiency,Pyridox(am)ine 5¬¥- phosphate oxidase deficiency (IEM0250),IEMbase,IEM0250,http://purl.bioontology.org/ontology/OMIM/IEM0250,Disorders of pyridoxine metabolism
+Cyclic pyranopterin monophosphate synthase deficiency,Cyclic pyranopterin monophosphate synthase deficiency (IEM0275),IEMbase,IEM0275,http://purl.bioontology.org/ontology/OMIM/IEM0275,Disorders of molybdenum cofactor metabolism
+Molybdopterin synthase deficiency,Molybdopterin synthase deficiency (IEM0276),IEMbase,IEM0276,http://purl.bioontology.org/ontology/OMIM/IEM0276,Disorders of molybdenum cofactor metabolism
+Gephyrin deficiency,Gephyrin deficiency (IEM0277),IEMbase,IEM0277,http://purl.bioontology.org/ontology/OMIM/IEM0277,Disorders of molybdenum cofactor metabolism
+Intrinsic factor deficiency,Intrinsic factor deficiency (IEM0205),IEMbase,IEM0205,http://purl.bioontology.org/ontology/OMIM/IEM0205,Disorders of cobalamin metabolism
+Cubilin deficiency,Cubilin deficiency (IEM0206),IEMbase,IEM0206,http://purl.bioontology.org/ontology/OMIM/IEM0206,Disorders of cobalamin metabolism
+Amnionless deficiency,Amnionless deficiency (IEM0207),IEMbase,IEM0207,http://purl.bioontology.org/ontology/OMIM/IEM0207,Disorders of cobalamin metabolism
+"Methylmalonic aciduria, cblA type","Methylmalonic aciduria, cblA type (IEM0218)",IEMbase,IEM0218,http://purl.bioontology.org/ontology/OMIM/IEM0218,Disorders of cobalamin metabolism
+"Methylmalonic aciduria, cblB type","Methylmalonic aciduria, cblB type (IEM0219)",IEMbase,IEM0219,http://purl.bioontology.org/ontology/OMIM/IEM0219,Disorders of cobalamin metabolism
+Biotinidase deficiency,Biotinidase deficiency (IEM0227),IEMbase,IEM0227,http://purl.bioontology.org/ontology/OMIM/IEM0227,Disorders of biotin metabolism
+Holocarboxylase synthetase deficiency,Holocarboxylase synthetase deficiency (IEM0228),IEMbase,IEM0228,http://purl.bioontology.org/ontology/OMIM/IEM0228,Disorders of biotin metabolism
+Thiamine transporter 1 deficiency,Thiamine transporter 1 deficiency (IEM0229),IEMbase,IEM0229,http://purl.bioontology.org/ontology/OMIM/IEM0229,Disorders of thiamine metabolism
+Alanine-glyoxylate aminotransferase deficiency (peroxisomal),Alanine-glyoxylate aminotransferase deficiency (peroxisomal) (IEM0903),IEMbase,IEM0903,http://purl.bioontology.org/ontology/OMIM/IEM0903,Disorders of glyoxylate and oxalate metabolism
+Glyoxylate reductase/hydroxypyruvate reductase deficiency,Glyoxylate reductase/hydroxypyruvate reductase deficiency (IEM0905),IEMbase,IEM0905,http://purl.bioontology.org/ontology/OMIM/IEM0905,Disorders of glyoxylate and oxalate metabolism
+Tyrosine hydroxylase deficiency,Tyrosine hydroxylase deficiency (IEM0076),IEMbase,IEM0076,http://purl.bioontology.org/ontology/OMIM/IEM0076,Monoamine neurotransmission
+Aromatic L-amino acid decarboxylase deficiency,Aromatic L-amino acid decarboxylase deficiency (IEM0077),IEMbase,IEM0077,http://purl.bioontology.org/ontology/OMIM/IEM0077,Monoamine neurotransmission
+Dopamine beta-hydroxylase deficiency,Dopamine beta-hydroxylase deficiency (IEM0078),IEMbase,IEM0078,http://purl.bioontology.org/ontology/OMIM/IEM0078,Monoamine neurotransmission
+Monoamine oxidase A deficiency,Monoamine oxidase A deficiency (IEM0079),IEMbase,IEM0079,http://purl.bioontology.org/ontology/OMIM/IEM0079,Monoamine neurotransmission
+Dopamine transporter deficiency,Dopamine transporter deficiency (IEM0080),IEMbase,IEM0080,http://purl.bioontology.org/ontology/OMIM/IEM0080,Monoamine neurotransmission
+Guanidinoacetate methyltransferase deficiency,Guanidinoacetate methyltransferase deficiency (IEM0044),IEMbase,IEM0044,http://purl.bioontology.org/ontology/OMIM/IEM0044,Disorders of creatine metabolism
+Arginine:glycine amidinotransferase deficiency,Arginine:glycine amidinotransferase deficiency (IEM0042),IEMbase,IEM0042,http://purl.bioontology.org/ontology/OMIM/IEM0042,Disorders of creatine metabolism
+Creatine transporter deficiency,Creatine transporter deficiency (IEM0045),IEMbase,IEM0045,http://purl.bioontology.org/ontology/OMIM/IEM0045,Disorders of creatine metabolism
+Erythroid 5-aminolevulinate synthase superactivity,Erythroid 5-aminolevulinate synthase superactivity (IEM0787),IEMbase,IEM0787,http://purl.bioontology.org/ontology/OMIM/IEM0787,Disorders of heme synthesis and porphyrias
+Protoporphyrinogen oxidase deficiency,Protoporphyrinogen oxidase deficiency (IEM0794),IEMbase,IEM0794,http://purl.bioontology.org/ontology/OMIM/IEM0794,Disorders of heme synthesis and porphyrias
+Porphobilinogen deaminase deficiency,Porphobilinogen deaminase deficiency (IEM0789),IEMbase,IEM0789,http://purl.bioontology.org/ontology/OMIM/IEM0789,Disorders of heme synthesis and porphyrias
+Coproporphyrinogen oxidase deficiency,Coproporphyrinogen oxidase deficiency (IEM0792),IEMbase,IEM0792,http://purl.bioontology.org/ontology/OMIM/IEM0792,Disorders of heme synthesis and porphyrias
+Delta-aminolevulinate dehydratase deficiency,Delta-aminolevulinate dehydratase deficiency (IEM0788),IEMbase,IEM0788,http://purl.bioontology.org/ontology/OMIM/IEM0788,Disorders of heme synthesis and porphyrias
+17-alpha-hydroxylase deficiency,17-alpha-hydroxylase deficiency (IEM0758),IEMbase,IEM0758,http://purl.bioontology.org/ontology/OMIM/IEM0758,Disorders of steroid metabolism
+3-beta-hydroxysteroid dehydrogenase deficiency,3-beta-hydroxysteroid dehydrogenase deficiency (IEM0757),IEMbase,IEM0757,http://purl.bioontology.org/ontology/OMIM/IEM0757,Disorders of steroid metabolism
+21-hydroxylase deficiency,21-hydroxylase deficiency (IEM0754),IEMbase,IEM0754,http://purl.bioontology.org/ontology/OMIM/IEM0754,Disorders of steroid metabolism
+"17,20-lyase deficiency","17,20-lyase deficiency (IEM0758)",IEMbase,IEM0758,http://purl.bioontology.org/ontology/OMIM/IEM0758,Disorders of steroid metabolism
+Branched-chain aminotransferase 2 deficiency,Branched-chain aminotransferase 2 deficiency (IEM0107),IEMbase,IEM0107,http://purl.bioontology.org/ontology/OMIM/IEM0107,Disorders of branched-chain amino acid metabolism
+Isobutyryl-CoA dehydrogenase deficiency,Isobutyryl-CoA dehydrogenase deficiency (IEM0114),IEMbase,IEM0114,http://purl.bioontology.org/ontology/OMIM/IEM0114,Organic acidurias
+Methylmalonate semialdehyde dehydrogenase deficiency,Methylmalonate semialdehyde dehydrogenase deficiency (IEM0123),IEMbase,IEM0123,http://purl.bioontology.org/ontology/OMIM/IEM0123,Organic acidurias
+Adenosine deaminase deficiency,Adenosine deaminase deficiency (IEM0013),IEMbase,IEM0013,http://purl.bioontology.org/ontology/OMIM/IEM0013,Disorders of purine metabolism
+Mitochondrial deoxyguanosine kinase deficiency,Mitochondrial deoxyguanosine kinase deficiency (IEM0493),IEMbase,IEM0493,http://purl.bioontology.org/ontology/OMIM/IEM0493,Disorders of mitochondrial nucleotide pool maintenance
+Hypoxanthine guanine phosphoribosyltransferase deficiency,Hypoxanthine guanine phosphoribosyltransferase deficiency (IEM0017),IEMbase,IEM0017,http://purl.bioontology.org/ontology/OMIM/IEM0017,Disorders of purine metabolism
+Adenine phosphoribosyl transferase deficiency,Adenine phosphoribosyl transferase deficiency (IEM0018),IEMbase,IEM0018,http://purl.bioontology.org/ontology/OMIM/IEM0018,Disorders of purine metabolism
+Purine nucleoside phosphorylase deficiency,Purine nucleoside phosphorylase deficiency (IEM0015),IEMbase,IEM0015,http://purl.bioontology.org/ontology/OMIM/IEM0015,Disorders of purine metabolism
+Mitochondrial ribonucelotide reductase subunit 2 deficiency,Mitochondrial ribonucelotide reductase subunit 2 deficiency (IEM0497),IEMbase,IEM0497,http://purl.bioontology.org/ontology/OMIM/IEM0497,Disorders of mitochondrial nucleotide pool maintenance
+Uridine monophosphate synthase deficiency,Uridine monophosphate synthase deficiency (IEM0003),IEMbase,IEM0003,http://purl.bioontology.org/ontology/OMIM/IEM0003,Disorders of pyrimidine metabolism
+Dihydroorotate dehydrogenase deficiency,Dihydroorotate dehydrogenase deficiency (IEM0002),IEMbase,IEM0002,http://purl.bioontology.org/ontology/OMIM/IEM0002,Disorders of pyrimidine metabolism
+Pyrimidine 5‚Äô-nucleotidase superactivity,Pyrimidine 5‚Äô-nucleotidase superactivity (IEM0004),IEMbase,IEM0004,http://purl.bioontology.org/ontology/OMIM/IEM0004,Disorders of pyrimidine metabolism
+Thymidine phosphorylase deficiency,Thymidine phosphorylase deficiency (IEM0498),IEMbase,IEM0498,http://purl.bioontology.org/ontology/OMIM/IEM0498,Disorders of mitochondrial nucleotide pool maintenance
+Mitochondrial thymidine kinase 2 deficiency,Mitochondrial thymidine kinase 2 deficiency (IEM0496),IEMbase,IEM0496,http://purl.bioontology.org/ontology/OMIM/IEM0496,Disorders of mitochondrial nucleotide pool maintenance
+Dihydropyrimidine dehydrogenase deficiency,Dihydropyrimidine dehydrogenase deficiency (IEM0148),IEMbase,IEM0148,http://purl.bioontology.org/ontology/OMIM/IEM0148,Disorders of pyrimidine metabolism
+Beta-ureidopropionase deficiency,Beta-ureidopropionase deficiency (IEM0150),IEMbase,IEM0150,http://purl.bioontology.org/ontology/OMIM/IEM0150,Disorders of pyrimidine metabolism
+Glutaryl-CoA dehydrogenase deficiency,Glutaryl-CoA dehydrogenase deficiency (IEM0134),IEMbase,IEM0134,http://purl.bioontology.org/ontology/OMIM/IEM0134,Organic acidurias
+Aspartoacylase deficiency,Aspartoacylase deficiency (IEM0074),IEMbase,IEM0074,http://purl.bioontology.org/ontology/OMIM/IEM0074,Disorders of glutamate/glutamine and aspartate/asparagine metabolism
+L-2-hydroxyglutarate dehydrogenase deficiency,L-2-hydroxyglutarate dehydrogenase deficiency (IEM0405),IEMbase,IEM0405,http://purl.bioontology.org/ontology/OMIM/IEM0405,Disorders of mitochondrial metabolite repair
+Mitochondrial NADP+-dependent isocitrate dehydrogenase 2 superactivity,Mitochondrial NADP+-dependent isocitrate dehydrogenase 2 superactivity (IEM0397),IEMbase,IEM0397,http://purl.bioontology.org/ontology/OMIM/IEM0397,Disorders of the Krebs cycle
+Sarcosine dehydrogenase deficiency,Sarcosine dehydrogenase deficiency (IEM0047),IEMbase,IEM0047,http://purl.bioontology.org/ontology/OMIM/IEM0047,Disorders of methylamine metabolism
+Alpha-ketoglutarate dehydrogenase deficiency,Alpha-ketoglutarate dehydrogenase deficiency (IEM1137),IEMbase,IEM1137,http://purl.bioontology.org/ontology/OMIM/IEM1137,Disorders of the Krebs cycle
+Fumarate hydratase deficiency,Fumarate hydratase deficiency (IEM0401),IEMbase,IEM0401,http://purl.bioontology.org/ontology/OMIM/IEM0401,Disorders of the Krebs cycle
+Succinyl-CoA:3-oxoacid CoA transferase deficiency,Succinyl-CoA:3-oxoacid CoA transferase deficiency (IEM0642),IEMbase,IEM0642,http://purl.bioontology.org/ontology/OMIM/IEM0642,Disorders of ketone body metabolism
+3-Hydroxy-3-methylglutaryl-CoA synthase deficiency,3-Hydroxy-3-methylglutaryl-CoA synthase deficiency (IEM0641),IEMbase,IEM0641,http://purl.bioontology.org/ontology/OMIM/IEM0641,Disorders of ketone body metabolism
+Malonyl-CoA decarboxylase deficiency,Malonyl-CoA decarboxylase deficiency (IEM0129),IEMbase,IEM0129,http://purl.bioontology.org/ontology/OMIM/IEM0129,Organic acidurias
+Isolated deficiency of long-chain 3-hydroxyacyl-CoA dehydrogenase,Isolated deficiency of long-chain 3-hydroxyacyl-CoA dehydrogenase (IEM0636),IEMbase,IEM0636,http://purl.bioontology.org/ontology/OMIM/IEM0636,Disorders of mitochondrial fatty acid oxidation
+3Œ≤-Hydroxy-Œî5-C27-steroid dehydrogenase-isomerase deficiency,3Œ≤-Hydroxy-Œî5-C27-steroid dehydrogenase-isomerase deficiency (IEM0779),IEMbase,IEM0779,http://purl.bioontology.org/ontology/OMIM/IEM0779,Disorders of bile acid metabolism
+Transaldolase deficiency,Transaldolase deficiency (IEM0329),IEMbase,IEM0329,http://purl.bioontology.org/ontology/OMIM/IEM0329,Disorders of pentose metabolism
+Ribose-5-phosphate isomerase deficiency,Ribose-5-phosphate isomerase deficiency (IEM0328),IEMbase,IEM0328,http://purl.bioontology.org/ontology/OMIM/IEM0328,Disorders of pentose metabolism
+Mevalonate kinase deficiency (mild),Mevalonate kinase deficiency (mild) (IEM0740),IEMbase,IEM0740,http://purl.bioontology.org/ontology/OMIM/IEM0740,Disorders of sterol biosynthesis
+Gamma-glutamyl transpeptidase deficiency,Gamma-glutamyl transpeptidase deficiency (IEM0051),IEMbase,IEM0051,http://purl.bioontology.org/ontology/OMIM/IEM0051,Disorders of glutathione metabolism
+5-Oxoprolinase deficiency,5-Oxoprolinase deficiency (IEM0052),IEMbase,IEM0052,http://purl.bioontology.org/ontology/OMIM/IEM0052,Disorders of glutathione metabolism
+Gamma-glutamylcysteine synthetase deficiency,Gamma-glutamylcysteine synthetase deficiency (IEM0049),IEMbase,IEM0049,http://purl.bioontology.org/ontology/OMIM/IEM0049,Disorders of glutathione metabolism
+"Glutathione synthetase deficiency, mild","Glutathione synthetase deficiency, mild (IEM0050)",IEMbase,IEM0050,http://purl.bioontology.org/ontology/OMIM/IEM0050,Disorders of glutathione metabolism
+Pyruvate carboxylase deficiency,Pyruvate carboxylase deficiency (IEM0372),IEMbase,IEM0372,http://purl.bioontology.org/ontology/OMIM/IEM0372,Disorders of gluconeogenesis
+Pyruvate dehydrogenase E1 alpha deficiency,Pyruvate dehydrogenase E1 alpha deficiency (IEM0389),IEMbase,IEM0389,http://purl.bioontology.org/ontology/OMIM/IEM0389,Disorders of pyruvate metabolism
+Pyruvate dehydrogenase E1 beta deficiency,Pyruvate dehydrogenase E1 beta deficiency (IEM0390),IEMbase,IEM0390,http://purl.bioontology.org/ontology/OMIM/IEM0390,Disorders of pyruvate metabolism
+Dihydrolipoyl transacetylase deficiency,Dihydrolipoyl transacetylase deficiency (IEM0391),IEMbase,IEM0391,http://purl.bioontology.org/ontology/OMIM/IEM0391,Disorders of pyruvate metabolism
+Dihydrolipoyl dehydrogenase deficiency,Dihydrolipoyl dehydrogenase deficiency (IEM0111),IEMbase,IEM0111,http://purl.bioontology.org/ontology/OMIM/IEM0111,Disorders of pyruvate metabolism
+Pyruvate dehydrogenase E3-binding protein deficiency,Pyruvate dehydrogenase E3-binding protein deficiency (IEM0392),IEMbase,IEM0392,http://purl.bioontology.org/ontology/OMIM/IEM0392,Disorders of pyruvate metabolism
+Pyruvate dehydrogenase phosphatase deficiency,Pyruvate dehydrogenase phosphatase deficiency (IEM0393),IEMbase,IEM0393,http://purl.bioontology.org/ontology/OMIM/IEM0393,Disorders of pyruvate metabolism
+Carnitine palmitoyltransferase 1A deficiency,Carnitine palmitoyltransferase 1A deficiency (IEM0628),IEMbase,IEM0628,http://purl.bioontology.org/ontology/OMIM/IEM0628,Disorders of carnitine metabolism
+Carnitine acylcarnitine translocase deficiency,Carnitine acylcarnitine translocase deficiency (IEM0630),IEMbase,IEM0630,http://purl.bioontology.org/ontology/OMIM/IEM0630,Disorders of carnitine metabolism
+Carnitine palmitoyltransferase 2 deficiency,Carnitine palmitoyltransferase 2 deficiency (IEM0629),IEMbase,IEM0629,http://purl.bioontology.org/ontology/OMIM/IEM0629,Disorders of carnitine metabolism
+Very long-chain acyl CoA dehydrogenase deficiency,Very long-chain acyl CoA dehydrogenase deficiency (IEM0634),IEMbase,IEM0634,http://purl.bioontology.org/ontology/OMIM/IEM0634,Disorders of mitochondrial fatty acid oxidation
+Trifunctional protein subunit Œ±  deficiency,Trifunctional protein subunit Œ±  deficiency (IEM0636),IEMbase,IEM0636,http://purl.bioontology.org/ontology/OMIM/IEM0636,Disorders of mitochondrial fatty acid oxidation
+Isolated deficiency of long-chain 3-ketoacyl CoA thiolase (1 patient),Isolated deficiency of long-chain 3-ketoacyl CoA thiolase (1 patient) (IEM1247),IEMbase,IEM1247,http://purl.bioontology.org/ontology/OMIM/IEM1247,Disorders of mitochondrial fatty acid oxidation
+Medium-chain acyl CoA dehydrogenase deficiency,Medium-chain acyl CoA dehydrogenase deficiency (IEM0633),IEMbase,IEM0633,http://purl.bioontology.org/ontology/OMIM/IEM0633,Disorders of mitochondrial fatty acid oxidation
+Short-chain acyl CoA dehydrogenase deficiency,Short-chain acyl CoA dehydrogenase deficiency (IEM0632),IEMbase,IEM0632,http://purl.bioontology.org/ontology/OMIM/IEM0632,Disorders of mitochondrial fatty acid oxidation
+Short-chain 3-hydroxyacyl-CoA dehydrogenase deficiency,Short-chain 3-hydroxyacyl-CoA dehydrogenase deficiency (IEM0635),IEMbase,IEM0635,http://purl.bioontology.org/ontology/OMIM/IEM0635,Disorders of mitochondrial fatty acid oxidation
+Electron transfer flavoprotein Œ± subunit deficiency,Electron transfer flavoprotein Œ± subunit deficiency (IEM0238),IEMbase,IEM0238,http://purl.bioontology.org/ontology/OMIM/IEM0238,Disorders of mitochondrial fatty acid oxidation
+Multiple acyl-CoA dehydrogenase deficiency,Multiple acyl-CoA dehydrogenase deficiency (IEM0240),IEMbase,IEM0240,http://purl.bioontology.org/ontology/OMIM/IEM0240,Disorders of mitochondrial fatty acid oxidation
+Coenzyme Q2 polyprenyltranferase deficiency,Coenzyme Q2 polyprenyltranferase deficiency (IEM0620),IEMbase,IEM0620,http://purl.bioontology.org/ontology/OMIM/IEM0620,Disorders of coenzyme Q10 biosynthesis
+Aspartylglucosaminidase deficiency,Aspartylglucosaminidase deficiency (IEM0854),IEMbase,IEM0854,http://purl.bioontology.org/ontology/OMIM/IEM0854,Disorders of glycoprotein degradation
+Sialin deficiency (severe),Sialin deficiency (severe) (IEM0874),IEMbase,IEM0874,http://purl.bioontology.org/ontology/OMIM/IEM0874,Disorders of carbohydrate transmembrane transport and absorption
+Dihydropyrimidinase deficiency,Dihydropyrimidinase deficiency (IEM0149),IEMbase,IEM0149,http://purl.bioontology.org/ontology/OMIM/IEM0149,Disorders of pyrimidine metabolism
+Mitochondrial acetoacetyl-CoA thiolase deficiency,Mitochondrial acetoacetyl-CoA thiolase deficiency (IEM0643),IEMbase,IEM0643,http://purl.bioontology.org/ontology/OMIM/IEM0643,Disorders of ketone body metabolism
+Peroxisomal straight-chain acyl-CoA oxidase deficiency,Peroxisomal straight-chain acyl-CoA oxidase deficiency (IEM0884),IEMbase,IEM0884,http://purl.bioontology.org/ontology/OMIM/IEM0884,Disorders of peroxisomal fatty acid oxidation
+D-bifunctional protein deficiency,D-bifunctional protein deficiency (IEM0885),IEMbase,IEM0885,http://purl.bioontology.org/ontology/OMIM/IEM0885,Disorders of peroxisomal fatty acid oxidation
+Phytanoyl-CoA hydroxylase deficiency,Phytanoyl-CoA hydroxylase deficiency (IEM0888),IEMbase,IEM0888,http://purl.bioontology.org/ontology/OMIM/IEM0888,Disorders of peroxisomal fatty acid oxidation
+ST3GAL5-CDG,ST3GAL5-CDG (IEM0987),IEMbase,IEM0987,http://purl.bioontology.org/ontology/OMIM/IEM0987,Disorders of lipid glycosylation
+Phosphoribosyl pyrophosphate synthetase 1 superactivity,Phosphoribosyl pyrophosphate synthetase 1 superactivity (IEM0007),IEMbase,IEM0007,http://purl.bioontology.org/ontology/OMIM/IEM0007,Disorders of purine metabolism
+Xanthine oxidase deficiency,Xanthine oxidase deficiency (IEM0016),IEMbase,IEM0016,http://purl.bioontology.org/ontology/OMIM/IEM0016,Disorders of purine metabolism
+Familial LCAT deficiency (complete),Familial LCAT deficiency (complete) (IEM0734),IEMbase,IEM0734,http://purl.bioontology.org/ontology/OMIM/IEM0734,Disorders of high-density lipoprotein (HDL) metabolism
+ALG11-CDG,ALG11-CDG (IEM0916),IEMbase,IEM0916,http://purl.bioontology.org/ontology/OMIM/IEM0916,Disorders of N-linked protein glycosylation
+Thiamine transporter 2 deficiency,Thiamine transporter 2 deficiency (IEM0230),IEMbase,IEM0230,http://purl.bioontology.org/ontology/OMIM/IEM0230,Disorders of thiamine metabolism
+Mitochondrial thiamine pyrophosphate transporter deficiency,Mitochondrial thiamine pyrophosphate transporter deficiency (IEM0232),IEMbase,IEM0232,http://purl.bioontology.org/ontology/OMIM/IEM0232,Disorders of thiamine metabolism
+"Delta-1-pyrroline-5-carboxylate synthase deficiency, cutis laxa phenotype","Delta-1-pyrroline-5-carboxylate synthase deficiency, cutis laxa phenotype (IEM0137)",IEMbase,IEM0137,http://purl.bioontology.org/ontology/OMIM/IEM0137,"Disorders of ornithine, proline and hydroxyproline metabolism"
+Mitochondrial DNA polymerase gamma catalytic subunit deficiency,Mitochondrial DNA polymerase gamma catalytic subunit deficiency (IEM0491),IEMbase,IEM0491,http://purl.bioontology.org/ontology/OMIM/IEM0491,Disorders of mtDNA replication and maintenance
+ACAD9 deficiency,ACAD9 deficiency (IEM0445),IEMbase,IEM0445,http://purl.bioontology.org/ontology/OMIM/IEM0445,Disorders of complex I subunits and assembly factors
+Pseudouridine synthase 1 deficiency,Pseudouridine synthase 1 deficiency (IEM0511),IEMbase,IEM0511,http://purl.bioontology.org/ontology/OMIM/IEM0511,Disorders of mitochondrial transcript processing and modification
+Mitochondrial aspartyl-tRNA synthetase deficiency,Mitochondrial aspartyl-tRNA synthetase deficiency (IEM0555),IEMbase,IEM0555,http://purl.bioontology.org/ontology/OMIM/IEM0555,Disorders of mitochondrial aminoacyl-tRNA synthetases
+Succinate dehydrogenase subunit A deficiency,Succinate dehydrogenase subunit A deficiency (IEM0447),IEMbase,IEM0447,http://purl.bioontology.org/ontology/OMIM/IEM0447,Disorders of complex II subunits and assembly factors
+Mitochondrial phosphate carrier deficiency,Mitochondrial phosphate carrier deficiency (IEM0407),IEMbase,IEM0407,http://purl.bioontology.org/ontology/OMIM/IEM0407,Disorders of mitochondrial shuttles and carriers
+"Galactose-1-phosphate uridyltransferase deficiency, GALT-CDG","Galactose-1-phosphate uridyltransferase deficiency, GALT-CDG (IEM0322)",IEMbase,IEM0322,http://purl.bioontology.org/ontology/OMIM/IEM0322,Disorders of galactose and fructose metabolism
+"Galactokinase deficiency, GALK1-CDG","Galactokinase deficiency, GALK1-CDG (IEM0324)",IEMbase,IEM0324,http://purl.bioontology.org/ontology/OMIM/IEM0324,Disorders of galactose and fructose metabolism
+"Aldolase B deficiency, ALDOB-CDG","Aldolase B deficiency, ALDOB-CDG (IEM0326)",IEMbase,IEM0326,http://purl.bioontology.org/ontology/OMIM/IEM0326,Disorders of galactose and fructose metabolism
+Glucose transporter 2 deficiency,Glucose transporter 2 deficiency (IEM0316),IEMbase,IEM0316,http://purl.bioontology.org/ontology/OMIM/IEM0316,Disorders of carbohydrate transmembrane transport and absorption
+Intestinal sodium-glucose cotransporter 1 deficiency,Intestinal sodium-glucose cotransporter 1 deficiency (IEM0317),IEMbase,IEM0317,http://purl.bioontology.org/ontology/OMIM/IEM0317,Disorders of carbohydrate transmembrane transport and absorption
+"Fructose-1,6-bisphosphatase deficiency","Fructose-1,6-bisphosphatase deficiency (IEM0371)",IEMbase,IEM0371,http://purl.bioontology.org/ontology/OMIM/IEM0371,Disorders of gluconeogenesis
+"Glucose-6-phosphate transporter deficiency, SLC37A4-CDG","Glucose-6-phosphate transporter deficiency, SLC37A4-CDG (IEM0355)",IEMbase,IEM0355,http://purl.bioontology.org/ontology/OMIM/IEM0355,Disorders of glycogen metabolism
+"Amylo-1,6-glucosidase (debrancher) deficiency","Amylo-1,6-glucosidase (debrancher) deficiency (IEM0357)",IEMbase,IEM0357,http://purl.bioontology.org/ontology/OMIM/IEM0357,Disorders of glycogen metabolism
+Muscle glycogen phosphorylase deficiency,Muscle glycogen phosphorylase deficiency (IEM0359),IEMbase,IEM0359,http://purl.bioontology.org/ontology/OMIM/IEM0359,Disorders of glycogen metabolism
+Liver glycogen phosphorylase deficiency,Liver glycogen phosphorylase deficiency (IEM0360),IEMbase,IEM0360,http://purl.bioontology.org/ontology/OMIM/IEM0360,Disorders of glycogen metabolism
+Muscle phosphofructokinase deficiency,Muscle phosphofructokinase deficiency (IEM0380),IEMbase,IEM0380,http://purl.bioontology.org/ontology/OMIM/IEM0380,Disorders of glycolysis
+Hepatic phosphorylase kinase Œ±2 subunit deficiency,Hepatic phosphorylase kinase Œ±2 subunit deficiency (IEM0361),IEMbase,IEM0361,http://purl.bioontology.org/ontology/OMIM/IEM0361,Disorders of glycogen metabolism
+Hepatic glycogen synthase deficiency,Hepatic glycogen synthase deficiency (IEM0354),IEMbase,IEM0354,http://purl.bioontology.org/ontology/OMIM/IEM0354,Disorders of glycogen metabolism
+Lactate dehydrogenase A deficiency,Lactate dehydrogenase A deficiency (IEM0387),IEMbase,IEM0387,http://purl.bioontology.org/ontology/OMIM/IEM0387,Disorders of glycolysis
+ATP-specific succinyl-CoA ligase Œ≤ subunit deficiency,ATP-specific succinyl-CoA ligase Œ≤ subunit deficiency (IEM0399),IEMbase,IEM0399,http://purl.bioontology.org/ontology/OMIM/IEM0399,Disorders of the Krebs cycle
+"Glutathione synthetase deficiency, sever","Glutathione synthetase deficiency, sever (IEM0050)",IEMbase,IEM0050,http://purl.bioontology.org/ontology/OMIM/IEM0050,Disorders of glutathione metabolism
+Mevalonate kinase deficiency (severe),Mevalonate kinase deficiency (severe) (IEM0740),IEMbase,IEM0740,http://purl.bioontology.org/ontology/OMIM/IEM0740,Disorders of sterol biosynthesis
+Mitochondrial aspartate-glutamate carrier isoform 1 deficiency,Mitochondrial aspartate-glutamate carrier isoform 1 deficiency (IEM0408),IEMbase,IEM0408,http://purl.bioontology.org/ontology/OMIM/IEM0408,Disorders of mitochondrial shuttles and carriers
+Familial LCAT deficiency (partial),Familial LCAT deficiency (partial) (IEM0734),IEMbase,IEM0734,http://purl.bioontology.org/ontology/OMIM/IEM0734,Disorders of high-density lipoprotein (HDL) metabolism
+Riboflavin transporter 2 deficiency,Riboflavin transporter 2 deficiency (IEM0234),IEMbase,IEM0234,http://purl.bioontology.org/ontology/OMIM/IEM0234,Disorders of riboflavin metabolism
+Fazio-Londe syndrome,Fazio-Londe syndrome (IEM0234),IEMbase,IEM0234,http://purl.bioontology.org/ontology/OMIM/IEM0234,Disorders of riboflavin metabolism
+Coenzyme Q6 monooxygenase deficiency,Coenzyme Q6 monooxygenase deficiency (IEM0622),IEMbase,IEM0622,http://purl.bioontology.org/ontology/OMIM/IEM0622,Disorders of coenzyme Q10 biosynthesis
+Myopathic form of CoQ10 deficiency (ETFDH),Myopathic form of CoQ10 deficiency (ETFDH) (IEM0240),IEMbase,IEM0240,http://purl.bioontology.org/ontology/OMIM/IEM0240,Disorders of mitochondrial fatty acid oxidation
+"Glycerol kinase deficiency, isolated","Glycerol kinase deficiency, isolated (IEM0652)",IEMbase,IEM0652,http://purl.bioontology.org/ontology/OMIM/IEM0652,Disorders of gluconeogenesis
+Methylmalonic aciduria due to methylmalonyl-CoA epimerase deficiency,Methylmalonic aciduria due to methylmalonyl-CoA epimerase deficiency (IEM0126),IEMbase,IEM0126,http://purl.bioontology.org/ontology/OMIM/IEM0126,Organic acidurias
+Adenosine kinase deficiency,Adenosine kinase deficiency (IEM0101),IEMbase,IEM0101,http://purl.bioontology.org/ontology/OMIM/IEM0101,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide
+"5,10-Methylene-tetrahydrofolate dehydrogenase deficiency","5,10-Methylene-tetrahydrofolate dehydrogenase deficiency (IEM0224)",IEMbase,IEM0224,http://purl.bioontology.org/ontology/OMIM/IEM0224,Disorders of folate metabolism
+Ornithine aminotransferase deficiency,Ornithine aminotransferase deficiency (IEM0146),IEMbase,IEM0146,http://purl.bioontology.org/ontology/OMIM/IEM0146,"Disorders of ornithine, proline and hydroxyproline metabolism"
+Muscle phosphorylase kinase deficiency,Muscle phosphorylase kinase deficiency (IEM0364),IEMbase,IEM0364,http://purl.bioontology.org/ontology/OMIM/IEM0364,Disorders of glycogen metabolism
+D-glycerate kinase deficiency,D-glycerate kinase deficiency (IEM0653),IEMbase,IEM0653,http://purl.bioontology.org/ontology/OMIM/IEM0653,Disorders of galactose and fructose metabolism
+Glutamate dehydrogenase superactivity,Glutamate dehydrogenase superactivity (IEM0165),IEMbase,IEM0165,http://purl.bioontology.org/ontology/OMIM/IEM0165,Urea cycle disorders and inherited hyperammonemias
+GTP-specific succinyl-CoA ligase Œ± subunit deficiency,GTP-specific succinyl-CoA ligase Œ± subunit deficiency (IEM0400),IEMbase,IEM0400,http://purl.bioontology.org/ontology/OMIM/IEM0400,Disorders of the Krebs cycle
+Acety-CoA-synthase 3 deficiency,Acety-CoA-synthase 3 deficiency (IEM0128),IEMbase,IEM0128,http://purl.bioontology.org/ontology/OMIM/IEM0128,Disorders of mitochondrial metabolite repair
+Vesicular monoamine transporter 2 deficiency,Vesicular monoamine transporter 2 deficiency (IEM0081),IEMbase,IEM0081,http://purl.bioontology.org/ontology/OMIM/IEM0081,Monoamine neurotransmission
+Mitochondrial inorganic pyrophosphatase 2 deficiency,Mitochondrial inorganic pyrophosphatase 2 deficiency (IEM0608),IEMbase,IEM0608,http://purl.bioontology.org/ontology/OMIM/IEM0608,Miscellaneous disorders associated with mitochondrial dysfunction
+S-adenosylmethionine carrier deficiency,S-adenosylmethionine carrier deficiency (IEM0410),IEMbase,IEM0410,http://purl.bioontology.org/ontology/OMIM/IEM0410,Disorders of mitochondrial shuttles and carriers
+Hydroxyacid oxidase 1 deficiency,Hydroxyacid oxidase 1 deficiency (IEM0904),IEMbase,IEM0904,http://purl.bioontology.org/ontology/OMIM/IEM0904,Disorders of glyoxylate and oxalate metabolism
+Pyridoxal 5'-phosphate binding protein deficiency,Pyridoxal 5'-phosphate binding protein deficiency (IEM0251),IEMbase,IEM0251,http://purl.bioontology.org/ontology/OMIM/IEM0251,Disorders of pyridoxine metabolism
+Hypertryptophanemia,Hypertryptophanemia (IEM0164),IEMbase,IEM0164,http://purl.bioontology.org/ontology/OMIM/IEM0164,"Disorders of lysine, hydroxylysine, and tryptophan metabolism"
+Monocarboxylate transporter-1 deficiency,Monocarboxylate transporter-1 deficiency (IEM0644),IEMbase,IEM0644,http://purl.bioontology.org/ontology/OMIM/IEM0644,Disorders of ketone body metabolism
+Coenzyme A synthase deficiency,Coenzyme A synthase deficiency (IEM0248),IEMbase,IEM0248,http://purl.bioontology.org/ontology/OMIM/IEM0248,Disorders of pantothenate and CoA metabolism
+Thiamine pyrophosphokinase deficiency,Thiamine pyrophosphokinase deficiency (IEM0231),IEMbase,IEM0231,http://purl.bioontology.org/ontology/OMIM/IEM0231,Disorders of thiamine metabolism
+CAD-CDG,CAD-CDG (IEM0001),IEMbase,IEM0001,http://purl.bioontology.org/ontology/OMIM/IEM0001,Disorders of pyrimidine metabolism
+3-Hydroxykynureninase deficiency,3-Hydroxykynureninase deficiency (IEM0162),IEMbase,IEM0162,http://purl.bioontology.org/ontology/OMIM/IEM0162,"Disorders of lysine, hydroxylysine, and tryptophan metabolism"
+Carbonic anhydrase VA deficiency,Carbonic anhydrase VA deficiency (IEM0064),IEMbase,IEM0064,http://purl.bioontology.org/ontology/OMIM/IEM0064,Urea cycle disorders and inherited hyperammonemias
+Branched-chain ketoacid dehydrogenase phosphatase deficiency,Branched-chain ketoacid dehydrogenase phosphatase deficiency (IEM1109),IEMbase,IEM1109,http://purl.bioontology.org/ontology/OMIM/IEM1109,Disorders of branched-chain amino acid metabolism
+Branched-chain ketoacid dehydrogenase kinase deficiency,Branched-chain ketoacid dehydrogenase kinase deficiency (IEM0112),IEMbase,IEM0112,http://purl.bioontology.org/ontology/OMIM/IEM0112,Disorders of branched-chain amino acid metabolism
+Mitochondrial short-chain enoyl-CoA hydratase 1 deficiency,Mitochondrial short-chain enoyl-CoA hydratase 1 deficiency (IEM0119),IEMbase,IEM0119,http://purl.bioontology.org/ontology/OMIM/IEM0119,Organic acidurias
+UQCRC2 deficiency,UQCRC2 deficiency (IEM0457),IEMbase,IEM0457,http://purl.bioontology.org/ontology/OMIM/IEM0457,Disorders of complex III subunits and assembly factors
+NADH dehydrogenase flavoprotein 1 deficiency,NADH dehydrogenase flavoprotein 1 deficiency (IEM0413),IEMbase,IEM0413,http://purl.bioontology.org/ontology/OMIM/IEM0413,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase iron-sulfur protein 1 deficiency,NADH dehydrogenase iron-sulfur protein 1 deficiency (IEM0415),IEMbase,IEM0415,http://purl.bioontology.org/ontology/OMIM/IEM0415,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase iron-sulfur protein 2 deficiency,NADH dehydrogenase iron-sulfur protein 2 deficiency (IEM0416),IEMbase,IEM0416,http://purl.bioontology.org/ontology/OMIM/IEM0416,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase iron-sulfur protein 3 deficiency,NADH dehydrogenase iron-sulfur protein 3 deficiency (IEM0417),IEMbase,IEM0417,http://purl.bioontology.org/ontology/OMIM/IEM0417,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase iron-sulfur protein 4 deficiency,NADH dehydrogenase iron-sulfur protein 4 deficiency (IEM0420),IEMbase,IEM0420,http://purl.bioontology.org/ontology/OMIM/IEM0420,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase iron-sulfur protein 6 deficiency,NADH dehydrogenase iron-sulfur protein 6 deficiency (IEM0421),IEMbase,IEM0421,http://purl.bioontology.org/ontology/OMIM/IEM0421,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase iron-sulfur protein 7 deficiency,NADH dehydrogenase iron-sulfur protein 7 deficiency (IEM0418),IEMbase,IEM0418,http://purl.bioontology.org/ontology/OMIM/IEM0418,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase alpha subcomplex subunit 1 deficiency,NADH dehydrogenase alpha subcomplex subunit 1 deficiency (IEM0422),IEMbase,IEM0422,http://purl.bioontology.org/ontology/OMIM/IEM0422,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase alpha subcomplex subunit 2 deficiency,NADH dehydrogenase alpha subcomplex subunit 2 deficiency (IEM0423),IEMbase,IEM0423,http://purl.bioontology.org/ontology/OMIM/IEM0423,Disorders of complex I subunits and assembly factors
+Cytochrome c oxidase subunit NDUFA4 (COXFA4) deficiency,Cytochrome c oxidase subunit NDUFA4 (COXFA4) deficiency (IEM1149),IEMbase,IEM1149,http://purl.bioontology.org/ontology/OMIM/IEM1149,Disorders of complex IV subunits and assembly factors
+NADH dehydrogenase alpha subcomplex subunit 9 deficiency,NADH dehydrogenase alpha subcomplex subunit 9 deficiency (IEM0424),IEMbase,IEM0424,http://purl.bioontology.org/ontology/OMIM/IEM0424,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase alpha subcomplex subunit 10 deficiency,NADH dehydrogenase alpha subcomplex subunit 10 deficiency (IEM0425),IEMbase,IEM0425,http://purl.bioontology.org/ontology/OMIM/IEM0425,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase alpha subcomplex subunit 11 deficiency,NADH dehydrogenase alpha subcomplex subunit 11 deficiency (IEM1140),IEMbase,IEM1140,http://purl.bioontology.org/ontology/OMIM/IEM1140,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase alpha subcomplex subunit 13 deficiency,NADH dehydrogenase alpha subcomplex subunit 13 deficiency (IEM1141),IEMbase,IEM1141,http://purl.bioontology.org/ontology/OMIM/IEM1141,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase beta subcomplex subunit 3 deficiency,NADH dehydrogenase beta subcomplex subunit 3 deficiency (IEM0427),IEMbase,IEM0427,http://purl.bioontology.org/ontology/OMIM/IEM0427,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase beta subcomplex subunit 9 deficiency,NADH dehydrogenase beta subcomplex subunit 9 deficiency (IEM1142),IEMbase,IEM1142,http://purl.bioontology.org/ontology/OMIM/IEM1142,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase beta subcomplex subunit 11 deficiency,NADH dehydrogenase beta subcomplex subunit 11 deficiency (IEM0429),IEMbase,IEM0429,http://purl.bioontology.org/ontology/OMIM/IEM0429,Disorders of complex I subunits and assembly factors
+UQCRB deficiency,UQCRB deficiency (IEM0456),IEMbase,IEM0456,http://purl.bioontology.org/ontology/OMIM/IEM0456,Disorders of complex III subunits and assembly factors
+UQCRQ deficiency,UQCRQ deficiency (IEM1143),IEMbase,IEM1143,http://purl.bioontology.org/ontology/OMIM/IEM1143,Disorders of complex III subunits and assembly factors
+Cytochrome c oxidase subunit 6B1 deficiency,Cytochrome c oxidase subunit 6B1 deficiency (IEM0467),IEMbase,IEM0467,http://purl.bioontology.org/ontology/OMIM/IEM0467,Disorders of complex IV subunits and assembly factors
+Mitochondrial ATP synthase F1 subunit alpha deficiency,Mitochondrial ATP synthase F1 subunit alpha deficiency (IEM0481),IEMbase,IEM0481,http://purl.bioontology.org/ontology/OMIM/IEM0481,Disorders of complex V subunits and assembly factors
+Mitochondrial ATP synthase F1 subunit epsilon deficiency,Mitochondrial ATP synthase F1 subunit epsilon deficiency (IEM0483),IEMbase,IEM0483,http://purl.bioontology.org/ontology/OMIM/IEM0483,Disorders of complex V subunits and assembly factors
+Mitochondrial cytochrome c1 deficiency,Mitochondrial cytochrome c1 deficiency (IEM0488),IEMbase,IEM0488,http://purl.bioontology.org/ontology/OMIM/IEM0488,Disorders of complex III subunits and assembly factors
+Urate transporter 1 deficiency,Urate transporter 1 deficiency (IEM0024),IEMbase,IEM0024,http://purl.bioontology.org/ontology/OMIM/IEM0024,Disorders of purine metabolism
+Urate voltage-driven efflux transporter 1 deficiency,Urate voltage-driven efflux transporter 1 deficiency (IEM0025),IEMbase,IEM0025,http://purl.bioontology.org/ontology/OMIM/IEM0025,Disorders of purine metabolism
+Glutathione reductase deficiency,Glutathione reductase deficiency (IEM0053),IEMbase,IEM0053,http://purl.bioontology.org/ontology/OMIM/IEM0053,Disorders of glutathione metabolism
+Hyperglycinuria,Hyperglycinuria (IEM0067),IEMbase,IEM0067,http://purl.bioontology.org/ontology/OMIM/IEM0067,Disorders of amino acid transport
+Aminoacylase 1 deficiency,Aminoacylase 1 deficiency (IEM0075),IEMbase,IEM0075,http://purl.bioontology.org/ontology/OMIM/IEM0075,Other disorders of amino acid metabolism
+Maleylacetoacetate isomerase deficiency,Maleylacetoacetate isomerase deficiency (IEM0095),IEMbase,IEM0095,http://purl.bioontology.org/ontology/OMIM/IEM0095,Disorders of phenylalanine and tyrosine metabolism
+Hydroxyproline dehydrogenase deficiency,Hydroxyproline dehydrogenase deficiency (IEM0143),IEMbase,IEM0143,http://purl.bioontology.org/ontology/OMIM/IEM0143,"Disorders of ornithine, proline and hydroxyproline metabolism"
+Asparagine synthetase deficiency,Asparagine synthetase deficiency (IEM0180),IEMbase,IEM0180,http://purl.bioontology.org/ontology/OMIM/IEM0180,Disorders of glutamate/glutamine and aspartate/asparagine metabolism
+Glycine transporter 1 deficiency,Glycine transporter 1 deficiency (IEM0187),IEMbase,IEM0187,http://purl.bioontology.org/ontology/OMIM/IEM0187,Glycine neurotransmitter disorders
+Lipoyltransferase 2 deficiency,Lipoyltransferase 2 deficiency (IEM0192),IEMbase,IEM0192,http://purl.bioontology.org/ontology/OMIM/IEM0192,Disorders of lipoic acid and iron-sulfur metabolism
+Lipoic acid synthase deficiency,Lipoic acid synthase deficiency (IEM0193),IEMbase,IEM0193,http://purl.bioontology.org/ontology/OMIM/IEM0193,Disorders of lipoic acid and iron-sulfur metabolism
+Lipoyltransferase 1 deficiency,Lipoyltransferase 1 deficiency (IEM0194),IEMbase,IEM0194,http://purl.bioontology.org/ontology/OMIM/IEM0194,Disorders of lipoic acid and iron-sulfur metabolism
+Riboflavin transporter 1 deficiency,Riboflavin transporter 1 deficiency (IEM0233),IEMbase,IEM0233,http://purl.bioontology.org/ontology/OMIM/IEM0233,Disorders of riboflavin metabolism
+Flavin adenine dinucleotide synthetase deficiency (late onset),Flavin adenine dinucleotide synthetase deficiency (late onset) (IEM0236),IEMbase,IEM0236,http://purl.bioontology.org/ontology/OMIM/IEM0236,Disorders of riboflavin metabolism
+Mitochondrial NAD kinase 2 deficiency,Mitochondrial NAD kinase 2 deficiency (IEM0242),IEMbase,IEM0242,http://purl.bioontology.org/ontology/OMIM/IEM0242,Disorders of niacin and NAD metabolism
+Nicotinamide nucleotide transhydrogenase¬†deficiency,Nicotinamide nucleotide transhydrogenase¬†deficiency (IEM0245),IEMbase,IEM0245,http://purl.bioontology.org/ontology/OMIM/IEM0245,Disorders of niacin and NAD metabolism
+Transketolase deficiency,Transketolase deficiency (IEM0330),IEMbase,IEM0330,http://purl.bioontology.org/ontology/OMIM/IEM0330,Disorders of pentose metabolism
+Sedoheptulose kinase deficiency,Sedoheptulose kinase deficiency (IEM0331),IEMbase,IEM0331,http://purl.bioontology.org/ontology/OMIM/IEM0331,Disorders of pentose metabolism
+L-xylulose reductase deficiency,L-xylulose reductase deficiency (IEM0332),IEMbase,IEM0332,http://purl.bioontology.org/ontology/OMIM/IEM0332,Disorders of pentose metabolism
+Cytosolic phosphoenolpyruvate carboxykinase deficiency,Cytosolic phosphoenolpyruvate carboxykinase deficiency (IEM0373),IEMbase,IEM0373,http://purl.bioontology.org/ontology/OMIM/IEM0373,Disorders of gluconeogenesis
+Mitochondrial pyruvate carrier deficiency,Mitochondrial pyruvate carrier deficiency (IEM0394),IEMbase,IEM0394,http://purl.bioontology.org/ontology/OMIM/IEM0394,Disorders of pyruvate metabolism
+Mitochondrial aconitase deficiency,Mitochondrial aconitase deficiency (IEM0396),IEMbase,IEM0396,http://purl.bioontology.org/ontology/OMIM/IEM0396,Disorders of the Krebs cycle
+Mitochondrial malate dehydrogenase deficiency,Mitochondrial malate dehydrogenase deficiency (IEM0403),IEMbase,IEM0403,http://purl.bioontology.org/ontology/OMIM/IEM0403,Disorders of the Krebs cycle
+Adenine nucleotide translocator deficiency AR,Adenine nucleotide translocator deficiency AR (IEM0406),IEMbase,IEM0406,http://purl.bioontology.org/ontology/OMIM/IEM0406,Disorders of mitochondrial shuttles and carriers
+Cytosolic glycerol-3-phosphate dehydrogenase deficiency,Cytosolic glycerol-3-phosphate dehydrogenase deficiency (IEM0409),IEMbase,IEM0409,http://purl.bioontology.org/ontology/OMIM/IEM0409,Disorders of mitochondrial shuttles and carriers
+Mitochondrial citrate carrier deficiency,Mitochondrial citrate carrier deficiency (IEM0411),IEMbase,IEM0411,http://purl.bioontology.org/ontology/OMIM/IEM0411,Disorders of mitochondrial shuttles and carriers
+NADH dehydrogenase Œ≤ subcomplex subunit 8 deficiency,NADH dehydrogenase Œ≤ subcomplex subunit 8 deficiency (IEM0428),IEMbase,IEM0428,http://purl.bioontology.org/ontology/OMIM/IEM0428,Disorders of complex I subunits and assembly factors
+Succinate dehydrogenase subunit B deficiency,Succinate dehydrogenase subunit B deficiency (IEM0450),IEMbase,IEM0450,http://purl.bioontology.org/ontology/OMIM/IEM0450,Disorders of complex II subunits and assembly factors
+Succinate dehydrogenase subunit D deficiency,Succinate dehydrogenase subunit D deficiency (IEM0452),IEMbase,IEM0452,http://purl.bioontology.org/ontology/OMIM/IEM0452,Disorders of complex II subunits and assembly factors
+"Succinate dehydrogenase subunit D deficiency, tumoral phenotype","Succinate dehydrogenase subunit D deficiency, tumoral phenotype (IEM0453)",IEMbase,IEM0453,http://purl.bioontology.org/ontology/OMIM/IEM0453,Disorders of complex II subunits and assembly factors
+Mitochondrial ATP synthase F1 subunit Œ¥ deficiency,Mitochondrial ATP synthase F1 subunit Œ¥ deficiency (IEM0482),IEMbase,IEM0482,http://purl.bioontology.org/ontology/OMIM/IEM0482,Disorders of complex V subunits and assembly factors
+Mitochondrial arginyl-tRNA synthetase deficiency,Mitochondrial arginyl-tRNA synthetase deficiency (IEM0553),IEMbase,IEM0553,http://purl.bioontology.org/ontology/OMIM/IEM0553,Disorders of mitochondrial aminoacyl-tRNA synthetases
+Mitochondrial asparaginyl-tRNA synthetase deficiency,Mitochondrial asparaginyl-tRNA synthetase deficiency (IEM0554),IEMbase,IEM0554,http://purl.bioontology.org/ontology/OMIM/IEM0554,Disorders of mitochondrial aminoacyl-tRNA synthetases
+Mitochondrial cysteinyl-tRNA synthetase deficiency,Mitochondrial cysteinyl-tRNA synthetase deficiency (IEM0556),IEMbase,IEM0556,http://purl.bioontology.org/ontology/OMIM/IEM0556,Disorders of mitochondrial aminoacyl-tRNA synthetases
+Mitochondrial glutamyl-tRNA synthetase deficiency,Mitochondrial glutamyl-tRNA synthetase deficiency (IEM0557),IEMbase,IEM0557,http://purl.bioontology.org/ontology/OMIM/IEM0557,Disorders of mitochondrial aminoacyl-tRNA synthetases
+Mitochondrial leucyl-tRNA synthetase deficiency,Mitochondrial leucyl-tRNA synthetase deficiency (IEM0560),IEMbase,IEM0560,http://purl.bioontology.org/ontology/OMIM/IEM0560,Disorders of mitochondrial aminoacyl-tRNA synthetases
+Mitochondrial phenylalanyl-tRNA synthetase deficiency,Mitochondrial phenylalanyl-tRNA synthetase deficiency (IEM0562),IEMbase,IEM0562,http://purl.bioontology.org/ontology/OMIM/IEM0562,Disorders of mitochondrial aminoacyl-tRNA synthetases
+Mitochondrial seryl-tRNA synthetase deficiency,Mitochondrial seryl-tRNA synthetase deficiency (IEM0563),IEMbase,IEM0563,http://purl.bioontology.org/ontology/OMIM/IEM0563,Disorders of mitochondrial aminoacyl-tRNA synthetases
+Mitochondrial tryptophanyl-tRNA synthetase deficiency,Mitochondrial tryptophanyl-tRNA synthetase deficiency (IEM0566),IEMbase,IEM0566,http://purl.bioontology.org/ontology/OMIM/IEM0566,Disorders of mitochondrial aminoacyl-tRNA synthetases
+Acylglycerol kinase deficiency,Acylglycerol kinase deficiency (IEM0581),IEMbase,IEM0581,http://purl.bioontology.org/ontology/OMIM/IEM0581,Disorders of mitochondrial protein import
+PNPLA8 deficiency,PNPLA8 deficiency (IEM0584),IEMbase,IEM0584,http://purl.bioontology.org/ontology/OMIM/IEM0584,Disorders of mitochondrial membrane biogenesis and remodeling
+Coenzyme Q7 hydroxylase deficiency,Coenzyme Q7 hydroxylase deficiency (IEM0623),IEMbase,IEM0623,http://purl.bioontology.org/ontology/OMIM/IEM0623,Disorders of coenzyme Q10 biosynthesis
+Œµ-N-trimethyllysine hydroxylase deficiency,Œµ-N-trimethyllysine hydroxylase deficiency (IEM0631),IEMbase,IEM0631,http://purl.bioontology.org/ontology/OMIM/IEM0631,Disorders of carnitine metabolism
+Synaptojanin 1 deficiency,Synaptojanin 1 deficiency (IEM0693),IEMbase,IEM0693,http://purl.bioontology.org/ontology/OMIM/IEM0693,Disorders of phosphatidylinositol metabolism
+Oxalate transporter deficiency,Oxalate transporter deficiency (IEM0907),IEMbase,IEM0907,http://purl.bioontology.org/ontology/OMIM/IEM0907,Disorders of glyoxylate and oxalate metabolism
+Cationic amino acid transporter 2 deficiency,Cationic amino acid transporter 2 deficiency (IEM1107),IEMbase,IEM1107,http://purl.bioontology.org/ontology/OMIM/IEM1107,Disorders of amino acid transport
+Kynurenine-3-hydroxylase deficiency,Kynurenine-3-hydroxylase deficiency (IEM1116),IEMbase,IEM1116,http://purl.bioontology.org/ontology/OMIM/IEM1116,"Disorders of lysine, hydroxylysine, and tryptophan metabolism"
+Sorbitol dehydrogenase deficiency,Sorbitol dehydrogenase deficiency (IEM1133),IEMbase,IEM1133,http://purl.bioontology.org/ontology/OMIM/IEM1133,Disorders of galactose and fructose metabolism
+Mitochondrial phosphoenolpyruvate carboxykinase deficiency,Mitochondrial phosphoenolpyruvate carboxykinase deficiency (IEM1136),IEMbase,IEM1136,http://purl.bioontology.org/ontology/OMIM/IEM1136,Disorders of gluconeogenesis
+Mitochondrial threonyl-tRNA synthetase deficiency,Mitochondrial threonyl-tRNA synthetase deficiency (IEM1158),IEMbase,IEM1158,http://purl.bioontology.org/ontology/OMIM/IEM1158,Disorders of mitochondrial aminoacyl-tRNA synthetases
+Mitochondrial thioredoxin 2 deficiency,Mitochondrial thioredoxin 2 deficiency (IEM1162),IEMbase,IEM1162,http://purl.bioontology.org/ontology/OMIM/IEM1162,Miscellaneous disorders associated with mitochondrial dysfunction
+Mitochondrial acetyl-CoA carboxylase 2 deficiency,Mitochondrial acetyl-CoA carboxylase 2 deficiency (IEM1171),IEMbase,IEM1171,http://purl.bioontology.org/ontology/OMIM/IEM1171,"Disorders of fatty acyl synthesis, elongation, and recycling"
+Arginine:glycine amidinotransferase aggregation syndrome,Arginine:glycine amidinotransferase aggregation syndrome (IEM0043),IEMbase,IEM0043,http://purl.bioontology.org/ontology/OMIM/IEM0043,Disorders of creatine metabolism
+Phosphopantothenoylcysteine synthetase deficiency,Phosphopantothenoylcysteine synthetase deficiency (IEM0247),IEMbase,IEM0247,http://purl.bioontology.org/ontology/OMIM/IEM0247,Disorders of pantothenate and CoA metabolism
+Very long-chain fatty acid elongase 5 deficiency,Very long-chain fatty acid elongase 5 deficiency (IEM0650),IEMbase,IEM0650,http://purl.bioontology.org/ontology/OMIM/IEM0650,"Disorders of fatty acyl synthesis, elongation, and recycling"
+Cystinuria type B,Cystinuria type B (IEM0069),IEMbase,IEM0069,http://purl.bioontology.org/ontology/OMIM/IEM0069,Disorders of amino acid transport
+Branched-chain ketoacid dehydrogenase E1 beta deficiency,Branched-chain ketoacid dehydrogenase E1 beta deficiency (IEM0109),IEMbase,IEM0109,http://purl.bioontology.org/ontology/OMIM/IEM0109,Disorders of branched-chain amino acid metabolism
+Dihydrolipoyl transacylase deficiency,Dihydrolipoyl transacylase deficiency (IEM0110),IEMbase,IEM0110,http://purl.bioontology.org/ontology/OMIM/IEM0110,Disorders of branched-chain amino acid metabolism
+Propionic acidemia due to propionyl-CoA carboxylase subunit beta deficiency,Propionic acidemia due to propionyl-CoA carboxylase subunit beta deficiency (IEM0125),IEMbase,IEM0125,http://purl.bioontology.org/ontology/OMIM/IEM0125,Organic acidurias
+Nonketotic hyperglycinemia due to aminomethyltransferase deficiency,Nonketotic hyperglycinemia due to aminomethyltransferase deficiency (IEM0186),IEMbase,IEM0186,http://purl.bioontology.org/ontology/OMIM/IEM0186,Disorders of glycine and serine metabolism
+Riboflavin transporter 3 deficiency,Riboflavin transporter 3 deficiency (IEM0235),IEMbase,IEM0235,http://purl.bioontology.org/ontology/OMIM/IEM0235,Disorders of riboflavin metabolism
+Electron transfer flavoprotein Œ≤ subunit deficiency,Electron transfer flavoprotein Œ≤ subunit deficiency (IEM0239),IEMbase,IEM0239,http://purl.bioontology.org/ontology/OMIM/IEM0239,Disorders of mitochondrial fatty acid oxidation
+Phosphorylase kinase Œ≤ subunit deficiency,Phosphorylase kinase Œ≤ subunit deficiency (IEM0362),IEMbase,IEM0362,http://purl.bioontology.org/ontology/OMIM/IEM0362,Disorders of glycogen metabolism
+Hepatic phosphorylase kinase Œ≥2 subunit deficiency,Hepatic phosphorylase kinase Œ≥2 subunit deficiency (IEM0363),IEMbase,IEM0363,http://purl.bioontology.org/ontology/OMIM/IEM0363,Disorders of glycogen metabolism
+"Fumarate hydratase deficiency, tumoral phenotype","Fumarate hydratase deficiency, tumoral phenotype (IEM0402)",IEMbase,IEM0402,http://purl.bioontology.org/ontology/OMIM/IEM0402,Disorders of the Krebs cycle
+"Succinate dehydrogenase subunit A deficiency, tumoral phenotype","Succinate dehydrogenase subunit A deficiency, tumoral phenotype (IEM0448)",IEMbase,IEM0448,http://purl.bioontology.org/ontology/OMIM/IEM0448,Disorders of complex II subunits and assembly factors
+Mitochondrial tyrosyl-tRNA synthetase deficiency,Mitochondrial tyrosyl-tRNA synthetase deficiency (IEM0564),IEMbase,IEM0564,http://purl.bioontology.org/ontology/OMIM/IEM0564,Disorders of mitochondrial aminoacyl-tRNA synthetases
+Trifunctional protein subunit Œ≤ deficiency,Trifunctional protein subunit Œ≤ deficiency (IEM0637),IEMbase,IEM0637,http://purl.bioontology.org/ontology/OMIM/IEM0637,Disorders of mitochondrial fatty acid oxidation
+Methionine adenosyltransferase I/III deficiency (dominant),Methionine adenosyltransferase I/III deficiency (dominant) (IEM0098),IEMbase,IEM0098,http://purl.bioontology.org/ontology/OMIM/IEM0098,Disorders of the metabolism of sulfur-containing amino acids and hydrogen sulfide
+3-Methylcrotonyl-CoA carboxylase 2 deficiency,3-Methylcrotonyl-CoA carboxylase 2 deficiency (IEM0117),IEMbase,IEM0117,http://purl.bioontology.org/ontology/OMIM/IEM0117,Organic acidurias
+"Delta-1-pyrroline-5-carboxylate synthase deficiency, spastic paraplegia phenotype","Delta-1-pyrroline-5-carboxylate synthase deficiency, spastic paraplegia phenotype (IEM0138)",IEMbase,IEM0138,http://purl.bioontology.org/ontology/OMIM/IEM0138,"Disorders of ornithine, proline and hydroxyproline metabolism"
+Hereditary coproporphyria,Hereditary coproporphyria (IEM0793),IEMbase,IEM0793,http://purl.bioontology.org/ontology/OMIM/IEM0793,Disorders of heme synthesis and porphyrias
+GNE-CDG(ad),GNE-CDG(ad) (IEM1000),IEMbase,IEM1000,http://purl.bioontology.org/ontology/OMIM/IEM1000,Disorders of multiple glycosylation pathways
+Sodium dicarboxylate cotransporter 3 deficiency,Sodium dicarboxylate cotransporter 3 deficiency (IEM1051),IEMbase,IEM1051,http://purl.bioontology.org/ontology/OMIM/IEM1051,Disorders of the Krebs cycle
+NADH dehydrogenase alpha subcomplex subunit 6 deficiency,NADH dehydrogenase alpha subcomplex subunit 6 deficiency (IEM1056),IEMbase,IEM1056,http://purl.bioontology.org/ontology/OMIM/IEM1056,Disorders of complex I subunits and assembly factors
+Glutamate pyruvate transaminase 2 deficiency,Glutamate pyruvate transaminase 2 deficiency (IEM1061),IEMbase,IEM1061,http://purl.bioontology.org/ontology/OMIM/IEM1061,Disorders of glutamate/glutamine and aspartate/asparagine metabolism
+Mitochondrial prolyl-tRNA synthetase deficiency,Mitochondrial prolyl-tRNA synthetase deficiency (IEM1078),IEMbase,IEM1078,http://purl.bioontology.org/ontology/OMIM/IEM1078,Disorders of mitochondrial aminoacyl-tRNA synthetases
+Mitochondrial oxodicarboxylate carrier deficiency,Mitochondrial oxodicarboxylate carrier deficiency (IEM1209),IEMbase,IEM1209,http://purl.bioontology.org/ontology/OMIM/IEM1209,Disorders of mitochondrial shuttles and carriers
+NADH dehydrogenase beta subcomplex subunit 10 deficiency,NADH dehydrogenase beta subcomplex subunit 10 deficiency (IEM1215),IEMbase,IEM1215,http://purl.bioontology.org/ontology/OMIM/IEM1215,Disorders of complex I subunits and assembly factors
+Cytochrome c oxidase subunit 5A deficiency,Cytochrome c oxidase subunit 5A deficiency (IEM1218),IEMbase,IEM1218,http://purl.bioontology.org/ontology/OMIM/IEM1218,Disorders of complex IV subunits and assembly factors
+Glutaminase deficiency,Glutaminase deficiency (IEM1083),IEMbase,IEM1083,http://purl.bioontology.org/ontology/OMIM/IEM1083,Disorders of glutamate/glutamine and aspartate/asparagine metabolism
+Sialin deficiency (milder),Sialin deficiency (milder) (IEM0874),IEMbase,IEM0874,http://purl.bioontology.org/ontology/OMIM/IEM0874,Disorders of carbohydrate transmembrane transport and absorption
+Adenine nucleotide translocator deficiency,Adenine nucleotide translocator deficiency (IEM0406),IEMbase,IEM0406,http://purl.bioontology.org/ontology/OMIM/IEM0406,Disorders of mitochondrial shuttles and carriers
+PIGB-CDG,PIGB-CDG (IEM1092),IEMbase,IEM1092,http://purl.bioontology.org/ontology/OMIM/IEM1092,Disorders of glycosylphosphatidylinositol biosynthesis
+Cytosolic NADP+-dependent isocitrate dehydrogenase 1 superactivity,Cytosolic NADP+-dependent isocitrate dehydrogenase 1 superactivity (IEM1090),IEMbase,IEM1090,http://purl.bioontology.org/ontology/OMIM/IEM1090,Disorders of the Krebs cycle
+Pyrimidine nucleoside transporter deficiency,Pyrimidine nucleoside transporter deficiency (IEM1089),IEMbase,IEM1089,http://purl.bioontology.org/ontology/OMIM/IEM1089,Disorders of pyrimidine metabolism
+D-lactate dehydrogenase deficiency,D-lactate dehydrogenase deficiency (IEM1087),IEMbase,IEM1087,http://purl.bioontology.org/ontology/OMIM/IEM1087,Disorders of glycolysis
+HS6ST2-CDG,HS6ST2-CDG (IEM1223),IEMbase,IEM1223,http://purl.bioontology.org/ontology/OMIM/IEM1223,Disorders of glycosaminoglycan synthesis and O-xylosylation
+Phosphatidylinositol 4‚Äêkinase type 2‚Äêalpha deficiency,Phosphatidylinositol 4‚Äêkinase type 2‚Äêalpha deficiency (IEM1253),IEMbase,IEM1253,http://purl.bioontology.org/ontology/OMIM/IEM1253,Disorders of phosphatidylinositol metabolism
+Deoxythymidylate kinase deficiency,Deoxythymidylate kinase deficiency (IEM1271),IEMbase,IEM1271,http://purl.bioontology.org/ontology/OMIM/IEM1271,Disorders of pyrimidine metabolism
+Leucyl-tRNA synthetase 1 deficiency,Leucyl-tRNA synthetase 1 deficiency (IEM1310),IEMbase,IEM1310,http://purl.bioontology.org/ontology/OMIM/IEM1310,Disorders of non-mitochondrial tRNA processing and aminoacyl-tRNA synthetases
+UQCRFS1 deficiency,UQCRFS1 deficiency (IEM1483),IEMbase,IEM1483,http://purl.bioontology.org/ontology/OMIM/IEM1483,Disorders of complex III subunits and assembly factors
+Flavin adenine dinucleotide synthetase deficiency (early onset),Flavin adenine dinucleotide synthetase deficiency (early onset) (IEM0236),IEMbase,IEM0236,http://purl.bioontology.org/ontology/OMIM/IEM0236,Disorders of riboflavin metabolism
+Taurine transporter deficiency,Taurine transporter deficiency (IEM1520),IEMbase,IEM1520,http://purl.bioontology.org/ontology/OMIM/IEM1520,Disorders of amino acid transport
+Triokinase/FMN cyclase deficiency,Triokinase/FMN cyclase deficiency (IEM1523),IEMbase,IEM1523,http://purl.bioontology.org/ontology/OMIM/IEM1523,Disorders of galactose and fructose metabolism
+NADH dehydrogenase alpha subcomplex subunit 8 deficiency,NADH dehydrogenase alpha subcomplex subunit 8 deficiency (IEM1528),IEMbase,IEM1528,http://purl.bioontology.org/ontology/OMIM/IEM1528,Disorders of complex I subunits and assembly factors
+NADH dehydrogenase subunit C2 deficiency,NADH dehydrogenase subunit C2 deficiency (IEM1529),IEMbase,IEM1529,http://purl.bioontology.org/ontology/OMIM/IEM1529,Disorders of complex I subunits and assembly factors
+Mitochondrial RNA polymerase deficiency,Mitochondrial RNA polymerase deficiency (IEM1534),IEMbase,IEM1534,http://purl.bioontology.org/ontology/OMIM/IEM1534,Disorders of mitochondrial transcript processing and modification
+Cytosolic malate dehydrogenase deficiency,Cytosolic malate dehydrogenase deficiency (IEM1541),IEMbase,IEM1541,http://purl.bioontology.org/ontology/OMIM/IEM1541,Disorders of mitochondrial shuttles and carriers
