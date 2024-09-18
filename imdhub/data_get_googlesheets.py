@@ -118,7 +118,8 @@ if __name__ == "__main__":
 
     # retrieve files
     # get_imdhub_ids(service=service)
-    # get_imdhub_site(service=service)
+    get_imdhub_site(service=service)
+    system("mv imdhub-site.xlsx files/")
     # system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-site/')
-    get_imdhub_staging(service=service)
+    # get_imdhub_staging(service=service)
     # system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-staging/')
