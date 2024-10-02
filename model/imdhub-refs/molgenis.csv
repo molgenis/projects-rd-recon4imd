@@ -1,6 +1,7 @@
 tableName,tableType,columnName,columnType,description,refSchema,refTable,semantics
 Affected statuses,ONTOLOGIES,,,Statuses for indicating if a participant is clinically affected as determined by sequencing,,,http://purl.obolibrary.org/obo/NCIT_C64917
 Aliquots,ONTOLOGIES,,,Reference values for aliquots defined in the study protocol,,,http://semanticscience.org/resource/SIO_010425
+Ancestry,ONTOLOGIES,,,Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data,,,http://purl.obolibrary.org/obo/HANCESTRO_0004
 Assigned gender at birth,ONTOLOGIES,,,Reference values for sex at birth,,,http://purl.obolibrary.org/obo/GSSO_009418
 Biospecimen types,ONTOLOGIES,,,Reference list of biospecimens collected,,,http://purl.obolibrary.org/obo/NCIT_C70713
 Biospecimen types,ONTOLOGIES,idPrefix,string,String used to prefix biospecimen identifiers,,,http://purl.obolibrary.org/obo/NCIT_C54066
@@ -11,6 +12,7 @@ Diseases,ONTOLOGIES,,,A diagnosis made from a study of the signs and symptoms of
 Data storage owner types,ONTOLOGIES,,,Categorisations on where data can be storaged,,,http://purl.obolibrary.org/obo/NGBO_6000399
 Future use of data,ONTOLOGIES,,,Indications of how data can be used in the future,,,http://purl.obolibrary.org/obo/ICO_0000304
 Future use of samples,ONTOLOGIES,,,Indications of how samples can be used in the future,,,http://purl.obolibrary.org/obo/ICO_0000278
+Genotypic sex,ONTOLOGIES,,,,,,http://purl.obolibrary.org/obo/NCIT_C168871
 IEMbase diagnoses,ONTOLOGIES,,,List of codes and terms from the IEMbase,,,http://purl.obolibrary.org/obo/DOID_655
 Identifier status,ONTOLOGIES,,,Reference values for classifying identifiers,,,http://purl.obolibrary.org/obo/NCIT_C25688
 Months of the year,ONTOLOGIES,,,Reference values for the months of the year in the Gregorian calendar,,,http://purl.obolibrary.org/obo/NCIT_C106179
