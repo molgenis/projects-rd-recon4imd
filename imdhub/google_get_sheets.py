@@ -37,7 +37,7 @@ def get_imdhub_site(service):
         sheet = service.spreadsheets()
         result = (
             sheet.values()
-            .get(spreadsheetId=environ['IMDHUB_SITE_FILE'], range='molgenis!A2:R')
+            .get(spreadsheetId=environ['IMDHUB_SITE_FILE'], range='molgenis!A2:Q')
             .execute()
         )
         values = result.get("values", [])
@@ -128,7 +128,10 @@ if __name__ == "__main__":
     service = build("sheets", "v4", credentials=creds)
 
     # retrieve files
-    # get_imdhub_ids(service=service)
+    get_imdhub_ids(service=service)
+    system('xlsx2csv --sheet 0 imdhub-ids.xlsx model/imdhub-ids/')
+    system('mv imdhub-ids.xlsx files/')
+
     get_imdhub_site(service=service)
     system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-site/')
     system("mv imdhub-site.xlsx files/")
