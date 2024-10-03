@@ -62,8 +62,10 @@ with Client(url=HOST, token=TOKEN) as client:
         table='Participant identifiers',
         data=pids_dt.to_pandas().to_dict('records')
     )
+
+with Client(url=HOST, token=TOKEN) as client:
     client.save_schema(
-        name='DE4',
+        name='DE5',
         table='Participant identifiers',
         data=site_id_dt.to_pandas().to_dict('records')
     )
