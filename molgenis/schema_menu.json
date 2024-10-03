@@ -13,37 +13,37 @@
       "submenu": [
         {
           "label": "Patient registration",
-          "href": "/NL4/tables/#/ParticipantRegistration",
+          "href": "tables/#/ParticipantRegistration",
           "key": "oihhl",
           "role": "Viewer"
         },
         {
           "label": "Visit registration",
-          "href": "/NL4/tables/#/ParticipantVisits",
+          "href": "tables/#/ParticipantVisits",
           "key": "7qfuai",
           "role": "Viewer"
         },
         {
           "label": "Biospecimen log",
-          "href": "/NL4/tables/#/BiospecimenLog",
+          "href": "tables/#/BiospecimenLog",
           "key": "mtm47r",
           "role": "Viewer"
         },
         {
           "label": "Shipment tracking",
-          "href": "/NL4/tables/#/BiospecimenTracking",
+          "href": "tables/#/BiospecimenTracking",
           "key": "ajc06",
           "role": "Viewer"
         },
         {
           "label": "Clinical Recruitment strategy",
-          "href": "/NL4/tables/#/ClinicalRecruitmentStrategy",
+          "href": "tables/#/ClinicalRecruitmentStrategy",
           "key": "7wokx8",
           "role": "Viewer"
         },
         {
           "label": "View tables",
-          "href": "/NL4/tables",
+          "href": "tables",
           "key": "vulyy6",
           "role": "Viewer"
         }
@@ -51,16 +51,27 @@
       "role": "Viewer"
     },
     {
-      "label": "Databases",
+        "label": "Manage my site",
+        "href": "",
+        "key": "oOeWuY",
+        "submenu": [
+            {
+                "label": "Batch import data",
+                "href": "updownload",
+                "key": "oOeWuY"
+            },
+            {
+                "label": "Print shipment forms",
+                "href": "tables/#/BiospecimenTracking?_view=table&_limit=1&_col=dateShipmentCreated,biospecimensShipped,courier,courierTrackingNumber,shipmentPreparedBy,dateOfShipment,fromLocation,toLocation",
+                "key": "jjgwcB"
+            }
+        ]
+    },
+    {
+      "label": "View databases",
       "href": "",
       "key": "b93w8",
       "submenu": [
-        {
-          "label": "Identifier Lists",
-          "href": "/IMDHub%20Site%20Identifiers/tables",
-          "key": "c9ictg",
-          "role": "Viewer"
-        },
         {
           "label": "Ontologies",
           "href": "/IMDHub%20Refs/tables",
@@ -116,9 +127,22 @@
     },
     {
       "label": "Help",
-      "href": "docs",
+      "href": "",
       "role": "Viewer",
       "key": "q7561",
-      "submenu": []
+      "submenu": [
+            {
+              "label": "IMDHub user guide",
+              "href": "https://docs.google.com/document/d/19FUE1xCenILj0Y-yLNzCZOXzBqYp80xvVsuE1GswYOw/edit?usp=sharing",
+              "role": "Viewer",
+              "key": "TulxZi" 
+            },
+          {
+              "label": "About MOLGENIS",
+              "href": "docs",
+              "role": "Viewer",
+              "key": "YGfQgw"
+        }
+      ]
     }
   ]
