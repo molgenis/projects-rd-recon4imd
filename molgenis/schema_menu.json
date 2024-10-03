@@ -61,9 +61,19 @@
                 "key": "oOeWuY"
             },
             {
+                "label": "Manage investigator site files",
+                "href": "tables/#/InvestigatorSiteFile",
+                "key": "hHrdrS"
+            },
+            {
                 "label": "Print shipment forms",
-                "href": "tables/#/BiospecimenTracking?_view=table&_limit=1&_col=dateShipmentCreated,biospecimensShipped,courier,courierTrackingNumber,shipmentPreparedBy,dateOfShipment,fromLocation,toLocation",
+                "href": "tables/#/BiospecimenTracking?_view=record&_limit=1&_col=dateShipmentCreated,biospecimensShipped,courier,courierTrackingNumber,shipmentPreparedBy,dateOfShipment,fromLocation,toLocation",
                 "key": "jjgwcB"
+            },
+            {
+                "label": "View participant data queries",
+                "href": "tables/#/ParticipantDataQueries",
+                "key": "YJHHkF"
             }
         ]
     },
