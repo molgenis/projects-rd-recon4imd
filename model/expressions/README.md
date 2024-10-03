@@ -65,16 +65,17 @@ We would like to be able to auto fill the clinical site column so that users do 
     const schemaMetaResponse = simplePostClient(`query { _schema { name }}`, {});
     const siteId = schemaMetaResponse._schema?.name;
     const siteMetaResponse = simplePostClient(
-      `query Organisations ($filter:OrganisationsFilter){ Organisations(filter:$filter) { name }}`,
-      {"filter": {"alternativeIdentifier": { "equals": siteId }}},
+      `query Organisations($filter:OrganisationsFilter){Organisations(filter:$filter){name}}`,
+      {"filter": {"alternativeIdentifier": {"equals": siteId}}},
       "IMDHub Refs"
     );
-    const siteName = siteMetaResponse.Organisations[0].name;
-    return {
-      name: siteName
-    }
+    const currentSite = siteMetaResponse?.Organisations[0];
+    const currentSiteName = currentSite.name;
+    console.log(siteId, currentSite, currentSiteName)
+    return { name : currentSiteName }
+  } else {
+    return clinicalSite;
   }
-  return clinicalSite;
 })();
 ```
 
@@ -146,6 +147,28 @@ To automate and standardize the generation of the visit identifier, the followin
 
 ## Biospecimen log
 
+### Biospecimen ID
+
+The following function sets the biospecimen ID based on the date of collection and speciment type. This will allow us to link the pregenerated identifiers with the data that is submitted. This should be placed in `computed` field.
+
+```js
+(function() {
+  const id = participantCollectionDate?.participant?.participantId?.identifier;
+  if (id && specimenType !== null) {
+    const response = simplePostClient(
+      `query BiospecimenTypes($filter:BiospecimenTypesFilter){ BiospecimenTypes(filter:$filter){ idPrefix } }`,
+      { filter: { name: { equals: specimenType.name } }},
+      "IMDHub Refs"
+    );
+    const prefix = response.BiospecimenTypes[0].idPrefix;
+    return [id, prefix].join('-');
+  }
+  if (biospecimenId !== null) {
+    return biospecimenId;
+  }
+})();
+```
+
 ### Weight
 
 ```js
@@ -205,6 +228,22 @@ wasCollected && specimenType !== null ? (["EDTA-Tube/Plasma", "Urine"].indexOf(s
     }
   }
 })();
+```
+
+### Aliquot identifiers
+
+```js
+(function () {
+  if (aliquots !== null) {
+    if (["EDTA-Tube/Plasma", "Urine"].indexOf(specimenType.name) > -1) {
+      return aliquots.map(value => biospecimenId + 'a' + value.name);
+    }
+    if (specimenType.name === "Fibroblast cell pellet") {
+      return aliquots.map(value => biospecimenId + value.name);
+    }
+  }
+})();
+
 ```
 
 ### Shipment Registration
