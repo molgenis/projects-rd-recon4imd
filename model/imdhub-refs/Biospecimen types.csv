@@ -1,8 +1,8 @@
-name,label,codesystem,code,ontologyTermURI,definition,idPrefix
-EDTA-Tube/Plasma,EDTA-Tube/Plasma sample for metabolomic analysis,NCIT,C178916,http://purl.obolibrary.org/obo/NCIT_C178916,A sample of plasma from a collection tube containing EDTA.,P
-PAXgene-RNA,PAXgene-RNA for transcriptomic analysis,NCIT,C126394,http://purl.obolibrary.org/obo/NCIT_C126394,A blood collection tube that uses proprietary reagents for whole blood collection and stabilization prior to isolation of cellular RNA.,Pax
-EDTA-Blood/DNA,EDTA-Blood/DNA for genomic analysis,NCIT,C158462,http://purl.obolibrary.org/obo/NCIT_C158462,A sample of blood from a collection tube containing EDTA.,BG
-Urine,Urine for metabolomic analysis,NCIT,C189126,http://purl.obolibrary.org/obo/NCIT_C189126,A biospecimen obtained from urine.,U
-Fibroblast cell pellet,"Fibroblast sample, cell pellet",NCIT,C113745,http://purl.obolibrary.org/obo/NCIT_C113745,,FP
-Fibroblast live cell culture,"Fibroblast sample, live cell culture",CLO,CLO:0037302,http://purl.obolibrary.org/obo/CLO_0037302,,FP
-Stool ,Stool for metagenomics analysis,SNOMED,SNOMED:119339001,http://snomed.info/id/119339001,A sample of stool collected for Avatar partner study,S
+order,name,label,codesystem,code,ontologyTermURI,definition,idPrefix
+1,Urine,Urine for metabolomic analysis,NCIT,C189126,http://purl.obolibrary.org/obo/NCIT_C189126,A biospecimen obtained from urine.,U
+2,EDTA-Tube/Plasma,EDTA-Tube/Plasma sample for metabolomic analysis,NCIT,C178916,http://purl.obolibrary.org/obo/NCIT_C178916,A sample of plasma from a collection tube containing EDTA.,P
+3,PAXgene-RNA,PAXgene-RNA for transcriptomic analysis,NCIT,C126394,http://purl.obolibrary.org/obo/NCIT_C126394,A blood collection tube that uses proprietary reagents for whole blood collection and stabilization prior to isolation of cellular RNA.,Pax
+4,EDTA-Blood/DNA,EDTA-Blood/DNA for genomic analysis,NCIT,C158462,http://purl.obolibrary.org/obo/NCIT_C158462,A sample of blood from a collection tube containing EDTA.,BG
+5,Fibroblast cell pellet,"Fibroblast sample, cell pellet",NCIT,C113745,http://purl.obolibrary.org/obo/NCIT_C113745,,FP
+6,Fibroblast live cell culture,"Fibroblast sample, live cell culture",CLO,CLO:0037302,http://purl.obolibrary.org/obo/CLO_0037302,,FP
+7,Stool ,Stool for metagenomics analysis,SNOMED,SNOMED:119339001,http://snomed.info/id/119339001,A sample of stool collected for Avatar partner study,S

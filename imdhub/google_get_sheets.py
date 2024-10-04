@@ -1,5 +1,19 @@
-import os.path
+"""Download google sheets
+# FILE: google_get_sheets.py
+# AUTHOR: David Ruvolo
+# CREATED: 2024-10-02
+# MODIFIED: 2024-10-02
+# PURPOSE: Retrieve google sheet files
+# STATUS: stable
+# PACKAGES: **see below**
+# COMMENTS: NA
+"""
 
+import os.path
+import pandas as pd
+from os import environ, system
+from dotenv import load_dotenv
+from pandas.io.formats import excel
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -7,10 +21,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
-import pandas as pd
-from os import environ, system
-from dotenv import load_dotenv
-from pandas.io.formats import excel
+
 excel.ExcelFormatter.header_style = None
 
 load_dotenv()
@@ -117,8 +128,12 @@ if __name__ == "__main__":
     service = build("sheets", "v4", credentials=creds)
 
     # retrieve files
-    # get_imdhub_ids(service=service)
-    # get_imdhub_site(service=service)
-    # system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-site/')
-    get_imdhub_staging(service=service)
+    get_imdhub_ids(service=service)
+    system('xlsx2csv --sheet 0 imdhub-ids.xlsx model/imdhub-ids/')
+    system('mv imdhub-ids.xlsx files/')
+
+    get_imdhub_site(service=service)
+    system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-site/')
+    system("mv imdhub-site.xlsx files/")
+    # get_imdhub_staging(service=service)
     # system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-staging/')

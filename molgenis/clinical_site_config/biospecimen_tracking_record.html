@@ -1,0 +1,39 @@
+<table class="table table-sm bg-white table-bordered table-hover">
+  <caption style="caption-side:top;font-weight: bold;color:black">Shipment: {{ row.dateShipmentCreated }} </caption>
+  <thead class="display: none;">
+    <tr>
+      <th class="mb-0 align-text-bottom text-nowrap">Information</th>
+      <th class="mb-0 align-text-bottom text-nowrap">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Biospecimens included</td>
+      <td>{{ row.biospecimensShipped.map(biospecimen => biospecimen.biospecimenId).join(', ') }}</td>
+    </tr>
+    <tr>
+      <td>Courier</td>
+      <td>{{ row.courier }}</td>
+    </tr>
+    <tr>
+      <td>Courier tracking number</td>
+      <td>{{ row.courierTrackingNumber }}</td>
+    </tr>
+    <tr>
+      <td>Shipment Prepared By</td>
+      <td>{{ row.shipmentPreparedBy }}</td>
+    </tr>
+    <tr>
+      <td>Date of shipment</td>
+      <td>{{ row.dateOfShipment }}</td>
+    </tr>
+    <tr>
+      <td>Shipment origin</td>
+      <td>{{ row.fromLocation.name }}</td>
+    </tr>
+    <tr>
+      <td>Shipment destination</td>
+      <td>{{ row.toLocation.name }}</td>
+    </tr>
+  </tbody>
+</table>

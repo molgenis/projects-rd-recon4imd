@@ -1,13 +1,4 @@
-"""Build ontology from URL
-# FILE: create_ontology.py
-# AUTHOR: David Ruvolo
-# CREATED: 2024-10-02
-# MODIFIED: 2024-10-02
-# PURPOSE: Retrieve ontology terms from OLS4
-# STATUS: experimental
-# PACKAGES: **see below**
-# COMMENTS: NA
-"""
+"""Build ontology from URL"""
 
 import requests
 from datatable import dt

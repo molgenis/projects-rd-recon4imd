@@ -17,8 +17,9 @@ iem_raw = fread("./data/modellableMeasurableIMDs.csv")
 # select columns of interest and rename into molgenis ontology format
 iem_dt = iem_raw[:, {
     'name': f.IEMbaseDiseaseName,
-    'code': f.OMIM,
-    'parent': f.ICIMDNosologyGroup
+    'code': f.IEMNosologyCode,
+    'parent': f.ICIMDNosologyGroup,
+    'ontologyTermURI': f.OMIM
 }]
 
 # create definition
@@ -43,11 +44,12 @@ iem_parents.names = {'parent': 'name'}
 iem_dt = dt.rbind(iem_parents, iem_dt, force=True)
 
 # set codesystem
-iem_dt['code'] = dt.Frame([
-    f"OMIM:{code}" if bool(code) else code
-    for code in iem_dt['code'].to_list()[0]
-])
-iem_dt['codesystem'] = 'OMIM'
+# iem_dt['code'] = dt.Frame([
+#     code.replace('IEM','IEM:') if bool(code) and 'IEM' in code else code
+#     for code in iem_dt['code'].to_list()[0]
+# ])
+
+iem_dt['codesystem'] = 'IEMbase'
 
 # set column order
 iem_dt = iem_dt[:, (f.name, f.label, f.codesystem,

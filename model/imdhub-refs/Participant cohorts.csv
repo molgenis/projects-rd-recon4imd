@@ -1,6 +1,5 @@
-name,definition,codesystem,code,ontologyTermURI
-Positive control group,Patient has a molecular diagnosis of IMD (positive control cohort),NCIT,NCIT:C64356,http://purl.obolibrary.org/obo/NCIT_C64356
-Test cohort,Patient is suspected of having an IMD based on HPO terms and/or a genomic variant of uncertain significance in a metabolic disease-associated gene (test cohort).,NCIT,NCIT:C19781,http://purl.obolibrary.org/obo/NCIT_C19781
-Negative control group (diseased),Genetic diagnosis that is not an IMD and without secondary metabolic dysfunction (negative control cohort),NCIT,NCIT:C64357,http://purl.obolibrary.org/obo/NCIT_C64357
-Negative control group (healthy),Healthy participant (negative control group),NCIT,NCIT:C94342,http://purl.obolibrary.org/obo/NCIT_C94342
-Gaucher disease,Gaucher disease for cohort personsalised patient management).,NCIT,NCIT:C61268,http://purl.obolibrary.org/obo/NCIT_C61268
+order,name,definition,codesystem,code,ontologyTermURI
+1,Diagnosed IMD (positive control cohort),positive control cohort,NCIT,NCIT:C64356,http://purl.obolibrary.org/obo/NCIT_C64356
+2,Suspected IMD (test cohort),test cohort,NCIT,NCIT:C19781,http://purl.obolibrary.org/obo/NCIT_C19781
+3,Diagnosed with no IMD or healthy participants (negative control cohort),negative control cohort,NCIT,NCIT:C94342,http://purl.obolibrary.org/obo/NCIT_C94342
+4,Gaucher disease cohort (personalised patient management),personalised patient management,NCIT,NCIT:C61268,http://purl.obolibrary.org/obo/NCIT_C61268

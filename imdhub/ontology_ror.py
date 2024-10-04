@@ -1,4 +1,13 @@
-"""Ror Client"""
+"""Compile the organisations ontology table using ROR API
+# FILE: ontology_ror.py
+# AUTHOR: David Ruvolo
+# CREATED: 2024-10-02
+# MODIFIED: 2024-10-02
+# PURPOSE: geocode organisations from list of insitutions and ROR codes
+# STATUS: stable
+# PACKAGES: **see below**
+# COMMENTS: NA
+"""
 
 import requests
 from datatable import dt, fread, f
