@@ -442,3 +442,29 @@ When integrated into an auto date column, check to see if the value is null. Thi
 ```
 
 \*Note: change `date` to the name of the column you wish to use
+
+## Harmonised data table
+
+### date record was created
+
+```js
+(function() {
+  if (dateRecordWasCreated !== null) {
+    const today = new Date();
+    const earliestDate = new Date("2015-01-01");
+    const input = new Date(dateRecordWasCreated);
+    
+    const todayParsed = Date.parse(today);
+    const inputParsed = Date.parse(input);
+    const earliestParsed = Date.parse(earliestDate);
+
+    if (inputParsed < earliestParsed) {
+      return "The date the record was created cannot be earlier than 01 January 2015";
+    }
+    
+    if (inputParsed > todayParsed) {
+      return "The date the record was created cannot be greater than today";
+    }
+  }
+})();
+```
