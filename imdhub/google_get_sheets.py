@@ -87,7 +87,7 @@ def get_imdhub_staging(service):
         sheet = service.spreadsheets()
         result = (
             sheet.values()
-            .get(spreadsheetId=environ['IMDHUB_STAGING_FILE'], range='molgenis!A2:J')
+            .get(spreadsheetId=environ['IMDHUB_STAGING_FILE'], range='molgenis!A2:K')
             .execute()
         )
         values = result.get("values", [])
@@ -127,13 +127,19 @@ if __name__ == "__main__":
 
     service = build("sheets", "v4", credentials=creds)
 
-    # retrieve files
+    # ///////////////////////////////////////
+
+    # get imdhub-ids.xlsx
     get_imdhub_ids(service=service)
     system('xlsx2csv --sheet 0 imdhub-ids.xlsx model/imdhub-ids/')
     system('mv imdhub-ids.xlsx files/')
 
+    # get imdhub-site.xlsx
     get_imdhub_site(service=service)
     system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-site/')
     system("mv imdhub-site.xlsx files/")
-    # get_imdhub_staging(service=service)
-    # system('xlsx2csv --sheet 0 imdhub-site.xlsx model/imdhub-staging/')
+
+    # get imdhub-staging.xlsx
+    get_imdhub_staging(service=service)
+    system('xlsx2csv --sheet 0 imdhub-staging.xlsx model/imdhub-staging/')
+    system('mv imdhub-staging.xlsx files/')
