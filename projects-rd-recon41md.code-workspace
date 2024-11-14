@@ -38,6 +38,7 @@
     },
     "markdownlint.config": {
       "MD041": false
-    }
+    },
+    "r.rterm.mac": "./venv/lib/python3.10/site-packages/radian"
   }
 }
