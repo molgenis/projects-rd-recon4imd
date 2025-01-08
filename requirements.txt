@@ -39,7 +39,7 @@ importlib_metadata==8.5.0
 inflection==0.3.1
 itsdangerous==2.2.0
 itypes==1.2.0
-Jinja2==3.1.4
+Jinja2==3.1.5
 kiwisolver==1.4.7
 MarkupSafe==2.1.5
 matplotlib==3.9.2
